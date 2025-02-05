@@ -1,0 +1,93 @@
+﻿namespace EnergyUsageTracker
+{
+    partial class About
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.labelAbout = new System.Windows.Forms.Label();
+            this.btnHistory = new System.Windows.Forms.Button();
+            this.btnRationale = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // labelAbout
+            // 
+            this.labelAbout.AutoSize = true;
+            this.labelAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.labelAbout.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.labelAbout.Location = new System.Drawing.Point(353, 9);
+            this.labelAbout.Name = "labelAbout";
+            this.labelAbout.Size = new System.Drawing.Size(69, 26);
+            this.labelAbout.TabIndex = 1;
+            this.labelAbout.Text = "About";
+            // 
+            // btnHistory
+            // 
+            this.btnHistory.BackColor = System.Drawing.Color.Coral;
+            this.btnHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnHistory.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnHistory.Location = new System.Drawing.Point(531, 186);
+            this.btnHistory.Name = "btnHistory";
+            this.btnHistory.Size = new System.Drawing.Size(174, 52);
+            this.btnHistory.TabIndex = 4;
+            this.btnHistory.Text = "History";
+            this.btnHistory.UseVisualStyleBackColor = false;
+            // 
+            // btnRationale
+            // 
+            this.btnRationale.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnRationale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnRationale.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.btnRationale.Location = new System.Drawing.Point(95, 186);
+            this.btnRationale.Name = "btnRationale";
+            this.btnRationale.Size = new System.Drawing.Size(174, 52);
+            this.btnRationale.TabIndex = 3;
+            this.btnRationale.Text = "Rationale";
+            this.btnRationale.UseVisualStyleBackColor = false;
+            // 
+            // About
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aqua;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnHistory);
+            this.Controls.Add(this.btnRationale);
+            this.Controls.Add(this.labelAbout);
+            this.Name = "About";
+            this.Text = "About";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label labelAbout;
+        private System.Windows.Forms.Button btnHistory;
+        private System.Windows.Forms.Button btnRationale;
+    }
+}

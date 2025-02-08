@@ -57,6 +57,7 @@
             this.btnAbout.TabIndex = 1;
             this.btnAbout.Text = "About";
             this.btnAbout.UseVisualStyleBackColor = false;
+            this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click_1);
             // 
             // btnEnergyTracker
             // 
@@ -69,6 +70,7 @@
             this.btnEnergyTracker.TabIndex = 2;
             this.btnEnergyTracker.Text = "Energy Tracker";
             this.btnEnergyTracker.UseVisualStyleBackColor = false;
+            this.btnEnergyTracker.Click += new System.EventHandler(this.btnEnergyTracker_Click_1);
             // 
             // btnRecommendations
             // 
@@ -81,6 +83,7 @@
             this.btnRecommendations.TabIndex = 3;
             this.btnRecommendations.Text = "Recommendations";
             this.btnRecommendations.UseVisualStyleBackColor = false;
+            this.btnRecommendations.Click += new System.EventHandler(this.btnRecommendations_Click_1);
             // 
             // btnSettings
             // 
@@ -93,6 +96,7 @@
             this.btnSettings.TabIndex = 4;
             this.btnSettings.Text = "Settings";
             this.btnSettings.UseVisualStyleBackColor = false;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click_1);
             // 
             // HomePage
             // 

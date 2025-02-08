@@ -19,7 +19,7 @@ namespace EnergyUsageTracker
             CenterToScreen();
         }
 
-        private void btnAbout_Click(object sender, EventArgs e)
+        private void btnAbout_Click_1(object sender, EventArgs e)
         {
             this.Close();
             Thread t = new Thread(new ThreadStart(ThreadAbout));
@@ -31,7 +31,7 @@ namespace EnergyUsageTracker
             Application.Run(new About());
         }
 
-        private void btnEnergyTracker_Click(object sender, EventArgs e)
+        private void btnEnergyTracker_Click_1(object sender, EventArgs e)
         {
             this.Close();
             Thread t = new Thread(new ThreadStart(ThreadbtnEnergyTracker));
@@ -42,7 +42,8 @@ namespace EnergyUsageTracker
         {
             Application.Run(new EnergyTracker());
         }
-        private void btnRecommendations_Click(object sender, EventArgs e)
+
+        private void btnRecommendations_Click_1(object sender, EventArgs e)
         {
             this.Close();
             Thread t = new Thread(new ThreadStart(ThreadbtnRecommendations));
@@ -54,7 +55,7 @@ namespace EnergyUsageTracker
             Application.Run(new Recommendations());
         }
 
-        private void btnSettings_Click(object sender, EventArgs e)
+        private void btnSettings_Click_1(object sender, EventArgs e)
         {
             this.Close();
             Thread t = new Thread(new ThreadStart(ThreadbtnSettings));
@@ -65,5 +66,6 @@ namespace EnergyUsageTracker
         {
             Application.Run(new Settings());
         }
+
     }
 }

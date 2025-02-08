@@ -16,6 +16,7 @@ namespace EnergyUsageTracker
         public HomePage()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void btnAbout_Click(object sender, EventArgs e)

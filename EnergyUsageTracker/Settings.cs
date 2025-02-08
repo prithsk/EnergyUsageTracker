@@ -15,6 +15,7 @@ namespace EnergyUsageTracker
         public Settings()
         {
             InitializeComponent();
+            CenterToScreen();
         }
     }
 }

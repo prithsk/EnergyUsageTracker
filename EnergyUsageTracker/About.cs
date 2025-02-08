@@ -16,6 +16,7 @@ namespace EnergyUsageTracker
         public About()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void btnRationale_Click(object sender, EventArgs e)

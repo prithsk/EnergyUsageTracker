@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EnergyUsageTracker
 {
-    public partial class Rationale : Form
+    public partial class PlanFutureEnergyUsage : Form
     {
-        public Rationale()
+        public PlanFutureEnergyUsage()
         {
             InitializeComponent();
             CenterToScreen();

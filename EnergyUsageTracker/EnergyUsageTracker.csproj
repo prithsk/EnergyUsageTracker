@@ -52,6 +52,18 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddGoals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddGoals.Designer.cs">
+      <DependentUpon>AddGoals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompletedGoalLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompletedGoalLog.Designer.cs">
+      <DependentUpon>CompletedGoalLog.cs</DependentUpon>
+    </Compile>
     <Compile Include="EnergyTracker.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,11 +76,29 @@
     <Compile Include="History.Designer.cs">
       <DependentUpon>History.cs</DependentUpon>
     </Compile>
+    <Compile Include="LogAppliances.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogAppliances.Designer.cs">
+      <DependentUpon>LogAppliances.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlanFutureEnergyUsage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlanFutureEnergyUsage.Designer.cs">
+      <DependentUpon>PlanFutureEnergyUsage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rationale.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Rationale.Designer.cs">
       <DependentUpon>Rationale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetGoals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetGoals.Designer.cs">
+      <DependentUpon>SetGoals.cs</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs">
       <SubType>Form</SubType>
@@ -116,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Recommendations.resx">
       <DependentUpon>Recommendations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetGoals.resx">
+      <DependentUpon>SetGoals.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.cs</DependentUpon>

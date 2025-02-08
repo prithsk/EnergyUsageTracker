@@ -22,6 +22,19 @@ namespace EnergyUsageTracker
         private void btnPlanFutureEnergyUsage_Click(object sender, EventArgs e)
         {
             this.Close();
+            Thread t = new Thread(new ThreadStart(ThreadbtnPlanFutureEnergyUsage));
+            t.Start();
+        }
+
+        private void ThreadbtnPlanFutureEnergyUsage()
+        {
+            Application.Run(new PlanFutureEnergyUsage());
+        }
+
+        private void btnSetGoals_Click_1(object sender, EventArgs e)
+        {
+          
+            this.Close();
             Thread t = new Thread(new ThreadStart(ThreadbtnSetGoals));
             t.Start();
         }
@@ -29,19 +42,6 @@ namespace EnergyUsageTracker
         private void ThreadbtnSetGoals()
         {
             Application.Run(new SetGoals());
-        }
-
-        private void btnSetGoals_Click_1(object sender, EventArgs e)
-        {
-          
-            this.Close();
-            Thread t = new Thread(new ThreadStart(ThreadPlanFutureEnergyUsage));
-            t.Start();
-        }
-
-        private void ThreadPlanFutureEnergyUsage()
-        {
-            Application.Run(new PlanFutureEnergyUsage());
 
         }
     

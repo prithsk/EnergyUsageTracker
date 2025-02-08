@@ -18,7 +18,9 @@ namespace EnergyUsageTracker
             InitializeComponent();
             CenterToScreen();
         }
+
         private void btnAddGoals_Click(object sender, EventArgs e)
+        
         {
             this.Close();
             Thread t = new Thread(new ThreadStart(ThreadbtnAddGoals));
@@ -30,18 +32,19 @@ namespace EnergyUsageTracker
             Application.Run(new AddGoals());
         }
 
-        private void btnCompletedGoalLog_Click_1(object sender, EventArgs e)
+        private void btnCompletedGoalLog_Click(object sender, EventArgs e)
         {
 
             this.Close();
-            Thread t = new Thread(new ThreadStart(ThreadCompletedGoalLog));
+            Thread t = new Thread(new ThreadStart(ThreadbtnCompletedGoalLog));
             t.Start();
         }
-        private void ThreadCompletedGoalLog()
+
+        private void ThreadbtnCompletedGoalLog()
         {
             Application.Run(new CompletedGoalLog());
 
 
         }
     }
-    }
+}

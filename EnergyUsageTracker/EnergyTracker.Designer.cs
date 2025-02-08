@@ -54,6 +54,7 @@
             this.btnLogAppliances.TabIndex = 5;
             this.btnLogAppliances.Text = "Log Appliances";
             this.btnLogAppliances.UseVisualStyleBackColor = false;
+            this.btnLogAppliances.Click += new System.EventHandler(this.btnLogAppliances_Click_1);
             // 
             // EnergyTracker
             // 

@@ -18,7 +18,8 @@ namespace EnergyUsageTracker
             InitializeComponent();
             CenterToScreen();
         }
-        private void btnLogAppliances_Click(object sender, EventArgs e)
+
+        private void btnLogAppliances_Click_1(object sender, EventArgs e)
         {
             this.Close();
             Thread t = new Thread(new ThreadStart(ThreadLogAppliances));
@@ -29,6 +30,6 @@ namespace EnergyUsageTracker
         {
             Application.Run(new LogAppliances());
         }
-
+    
     }
 }

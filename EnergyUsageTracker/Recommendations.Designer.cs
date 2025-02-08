@@ -58,6 +58,7 @@
             this.btnSetGoals.TabIndex = 6;
             this.btnSetGoals.Text = "Set Goals";
             this.btnSetGoals.UseVisualStyleBackColor = false;
+            this.btnSetGoals.Click += new System.EventHandler(this.btnSetGoals_Click_1);
             // 
             // btnPlanFutureEnergyUsage
             // 
@@ -70,6 +71,7 @@
             this.btnPlanFutureEnergyUsage.TabIndex = 5;
             this.btnPlanFutureEnergyUsage.Text = "Plan Future Energy Usage";
             this.btnPlanFutureEnergyUsage.UseVisualStyleBackColor = false;
+            this.btnPlanFutureEnergyUsage.Click += new System.EventHandler(this.btnPlanFutureEnergyUsage_Click);
             // 
             // pictureBox1
             // 

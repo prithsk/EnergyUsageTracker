@@ -55,6 +55,7 @@
             this.btnHistory.TabIndex = 4;
             this.btnHistory.Text = "History";
             this.btnHistory.UseVisualStyleBackColor = false;
+            this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click_1);
             // 
             // btnRationale
             // 
@@ -67,6 +68,7 @@
             this.btnRationale.TabIndex = 3;
             this.btnRationale.Text = "Rationale";
             this.btnRationale.UseVisualStyleBackColor = false;
+            this.btnRationale.Click += new System.EventHandler(this.btnRationale_Click_1);
             // 
             // About
             // 

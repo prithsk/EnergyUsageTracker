@@ -35,6 +35,10 @@
             this.labelClearAppData = new System.Windows.Forms.Label();
             this.btnClearAppData = new System.Windows.Forms.Button();
             this.txtBoxTotalEnergyUsageStored = new System.Windows.Forms.TextBox();
+            this.buttonOn1 = new System.Windows.Forms.Button();
+            this.btnOff1 = new System.Windows.Forms.Button();
+            this.btnOff = new System.Windows.Forms.Button();
+            this.btnOn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelSettings
@@ -53,7 +57,7 @@
             this.labelDarkMode.AutoSize = true;
             this.labelDarkMode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.labelDarkMode.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.labelDarkMode.Location = new System.Drawing.Point(110, 144);
+            this.labelDarkMode.Location = new System.Drawing.Point(73, 142);
             this.labelDarkMode.Name = "labelDarkMode";
             this.labelDarkMode.Size = new System.Drawing.Size(91, 20);
             this.labelDarkMode.TabIndex = 4;
@@ -64,7 +68,7 @@
             this.labelNotifications.AutoSize = true;
             this.labelNotifications.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.labelNotifications.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.labelNotifications.Location = new System.Drawing.Point(529, 144);
+            this.labelNotifications.Location = new System.Drawing.Point(478, 142);
             this.labelNotifications.Name = "labelNotifications";
             this.labelNotifications.Size = new System.Drawing.Size(100, 20);
             this.labelNotifications.TabIndex = 5;
@@ -75,7 +79,7 @@
             this.labelTotalEnergyUsageStored.AutoSize = true;
             this.labelTotalEnergyUsageStored.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.labelTotalEnergyUsageStored.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.labelTotalEnergyUsageStored.Location = new System.Drawing.Point(110, 270);
+            this.labelTotalEnergyUsageStored.Location = new System.Drawing.Point(73, 268);
             this.labelTotalEnergyUsageStored.Name = "labelTotalEnergyUsageStored";
             this.labelTotalEnergyUsageStored.Size = new System.Drawing.Size(265, 20);
             this.labelTotalEnergyUsageStored.TabIndex = 6;
@@ -86,7 +90,7 @@
             this.labelClearAppData.AutoSize = true;
             this.labelClearAppData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.labelClearAppData.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.labelClearAppData.Location = new System.Drawing.Point(529, 272);
+            this.labelClearAppData.Location = new System.Drawing.Point(478, 270);
             this.labelClearAppData.Name = "labelClearAppData";
             this.labelClearAppData.Size = new System.Drawing.Size(122, 20);
             this.labelClearAppData.TabIndex = 7;
@@ -97,7 +101,7 @@
             this.btnClearAppData.BackColor = System.Drawing.Color.Coral;
             this.btnClearAppData.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnClearAppData.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnClearAppData.Location = new System.Drawing.Point(657, 256);
+            this.btnClearAppData.Location = new System.Drawing.Point(620, 254);
             this.btnClearAppData.Name = "btnClearAppData";
             this.btnClearAppData.Size = new System.Drawing.Size(101, 52);
             this.btnClearAppData.TabIndex = 8;
@@ -106,10 +110,50 @@
             // 
             // txtBoxTotalEnergyUsageStored
             // 
-            this.txtBoxTotalEnergyUsageStored.Location = new System.Drawing.Point(381, 272);
+            this.txtBoxTotalEnergyUsageStored.Location = new System.Drawing.Point(344, 270);
             this.txtBoxTotalEnergyUsageStored.Name = "txtBoxTotalEnergyUsageStored";
             this.txtBoxTotalEnergyUsageStored.Size = new System.Drawing.Size(106, 20);
             this.txtBoxTotalEnergyUsageStored.TabIndex = 9;
+            // 
+            // buttonOn1
+            // 
+            this.buttonOn1.BackColor = System.Drawing.Color.DarkOrange;
+            this.buttonOn1.Location = new System.Drawing.Point(171, 142);
+            this.buttonOn1.Name = "buttonOn1";
+            this.buttonOn1.Size = new System.Drawing.Size(75, 23);
+            this.buttonOn1.TabIndex = 10;
+            this.buttonOn1.Text = "On";
+            this.buttonOn1.UseVisualStyleBackColor = false;
+            // 
+            // btnOff1
+            // 
+            this.btnOff1.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnOff1.Location = new System.Drawing.Point(263, 142);
+            this.btnOff1.Name = "btnOff1";
+            this.btnOff1.Size = new System.Drawing.Size(75, 23);
+            this.btnOff1.TabIndex = 11;
+            this.btnOff1.Text = "Off";
+            this.btnOff1.UseVisualStyleBackColor = false;
+            // 
+            // btnOff
+            // 
+            this.btnOff.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnOff.Location = new System.Drawing.Point(676, 142);
+            this.btnOff.Name = "btnOff";
+            this.btnOff.Size = new System.Drawing.Size(75, 23);
+            this.btnOff.TabIndex = 13;
+            this.btnOff.Text = "Off";
+            this.btnOff.UseVisualStyleBackColor = false;
+            // 
+            // btnOn
+            // 
+            this.btnOn.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnOn.Location = new System.Drawing.Point(584, 142);
+            this.btnOn.Name = "btnOn";
+            this.btnOn.Size = new System.Drawing.Size(75, 23);
+            this.btnOn.TabIndex = 12;
+            this.btnOn.Text = "On";
+            this.btnOn.UseVisualStyleBackColor = false;
             // 
             // Settings
             // 
@@ -117,6 +161,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnOff);
+            this.Controls.Add(this.btnOn);
+            this.Controls.Add(this.btnOff1);
+            this.Controls.Add(this.buttonOn1);
             this.Controls.Add(this.txtBoxTotalEnergyUsageStored);
             this.Controls.Add(this.btnClearAppData);
             this.Controls.Add(this.labelClearAppData);
@@ -140,5 +188,9 @@
         private System.Windows.Forms.Label labelClearAppData;
         private System.Windows.Forms.Button btnClearAppData;
         private System.Windows.Forms.TextBox txtBoxTotalEnergyUsageStored;
+        private System.Windows.Forms.Button buttonOn1;
+        private System.Windows.Forms.Button btnOff1;
+        private System.Windows.Forms.Button btnOff;
+        private System.Windows.Forms.Button btnOn;
     }
 }

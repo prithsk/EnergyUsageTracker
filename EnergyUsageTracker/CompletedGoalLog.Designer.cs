@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.labelCompGoalLog = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // labelCompGoalLog
+            // 
+            this.labelCompGoalLog.AutoSize = true;
+            this.labelCompGoalLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.labelCompGoalLog.Location = new System.Drawing.Point(279, 9);
+            this.labelCompGoalLog.Name = "labelCompGoalLog";
+            this.labelCompGoalLog.Size = new System.Drawing.Size(212, 26);
+            this.labelCompGoalLog.TabIndex = 0;
+            this.labelCompGoalLog.Text = "Completed Goal Log";
+            // 
+            // CompletedGoalLog
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelCompGoalLog);
+            this.Name = "CompletedGoalLog";
             this.Text = "CompletedGoalLog";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label labelCompGoalLog;
     }
 }

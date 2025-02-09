@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(History));
             this.labelHistory = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnback4 = new System.Windows.Forms.Button();
+            this.btnback6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,11 +50,33 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 67);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 81);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(776, 301);
+            this.pictureBox1.Size = new System.Drawing.Size(776, 304);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            // 
+            // btnback4
+            // 
+            this.btnback4.BackColor = System.Drawing.Color.Coral;
+            this.btnback4.Image = ((System.Drawing.Image)(resources.GetObject("btnback4.Image")));
+            this.btnback4.Location = new System.Drawing.Point(601, 9);
+            this.btnback4.Name = "btnback4";
+            this.btnback4.Size = new System.Drawing.Size(187, 64);
+            this.btnback4.TabIndex = 7;
+            this.btnback4.UseVisualStyleBackColor = false;
+            this.btnback4.Click += new System.EventHandler(this.btnback4_Click);
+            // 
+            // btnback6
+            // 
+            this.btnback6.BackColor = System.Drawing.Color.Coral;
+            this.btnback6.Image = ((System.Drawing.Image)(resources.GetObject("btnback6.Image")));
+            this.btnback6.Location = new System.Drawing.Point(12, 9);
+            this.btnback6.Name = "btnback6";
+            this.btnback6.Size = new System.Drawing.Size(187, 64);
+            this.btnback6.TabIndex = 8;
+            this.btnback6.UseVisualStyleBackColor = false;
+            this.btnback6.Click += new System.EventHandler(this.btnback6_Click);
             // 
             // History
             // 
@@ -60,6 +84,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnback6);
+            this.Controls.Add(this.btnback4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelHistory);
             this.Name = "History";
@@ -74,5 +100,7 @@
 
         private System.Windows.Forms.Label labelHistory;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnback4;
+        private System.Windows.Forms.Button btnback6;
     }
 }

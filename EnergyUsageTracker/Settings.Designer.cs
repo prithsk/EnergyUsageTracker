@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
             this.labelSettings = new System.Windows.Forms.Label();
             this.labelDarkMode = new System.Windows.Forms.Label();
             this.labelNotifications = new System.Windows.Forms.Label();
@@ -39,6 +40,7 @@
             this.btnOff1 = new System.Windows.Forms.Button();
             this.btnOff = new System.Windows.Forms.Button();
             this.btnOn = new System.Windows.Forms.Button();
+            this.btnback3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelSettings
@@ -155,12 +157,24 @@
             this.btnOn.Text = "On";
             this.btnOn.UseVisualStyleBackColor = false;
             // 
+            // btnback3
+            // 
+            this.btnback3.BackColor = System.Drawing.Color.Coral;
+            this.btnback3.Image = ((System.Drawing.Image)(resources.GetObject("btnback3.Image")));
+            this.btnback3.Location = new System.Drawing.Point(601, 9);
+            this.btnback3.Name = "btnback3";
+            this.btnback3.Size = new System.Drawing.Size(187, 64);
+            this.btnback3.TabIndex = 14;
+            this.btnback3.UseVisualStyleBackColor = false;
+            this.btnback3.Click += new System.EventHandler(this.btnback3_Click);
+            // 
             // Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnback3);
             this.Controls.Add(this.btnOff);
             this.Controls.Add(this.btnOn);
             this.Controls.Add(this.btnOff1);
@@ -192,5 +206,6 @@
         private System.Windows.Forms.Button btnOff1;
         private System.Windows.Forms.Button btnOff;
         private System.Windows.Forms.Button btnOn;
+        private System.Windows.Forms.Button btnback3;
     }
 }

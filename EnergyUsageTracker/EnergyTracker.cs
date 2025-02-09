@@ -30,6 +30,16 @@ namespace EnergyUsageTracker
         {
             Application.Run(new LogAppliances());
         }
-    
+
+        private void btnback1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Thread t = new Thread(new ThreadStart(Threadbtnback1));
+            t.Start();
+        }
+        private void Threadbtnback1()
+        {
+            Application.Run(new HomePage());
+        }
     }
 }

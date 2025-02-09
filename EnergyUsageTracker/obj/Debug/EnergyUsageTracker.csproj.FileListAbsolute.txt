@@ -15,3 +15,7 @@ C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\Energ
 C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\EnergyUsageTracker\bin\Debug\EnergyUsageTracker.pdb
 C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.exe
 C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.pdb
+C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.AddGoals.resources
+C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.CompletedGoalLog.resources
+C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.LogAppliances.resources
+C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.PlanFutureEnergyUsage.resources

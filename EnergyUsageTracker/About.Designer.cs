@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.labelAbout = new System.Windows.Forms.Label();
             this.btnHistory = new System.Windows.Forms.Button();
             this.btnRationale = new System.Windows.Forms.Button();
+            this.btnback = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelAbout
@@ -70,12 +72,24 @@
             this.btnRationale.UseVisualStyleBackColor = false;
             this.btnRationale.Click += new System.EventHandler(this.btnRationale_Click_1);
             // 
+            // btnback
+            // 
+            this.btnback.BackColor = System.Drawing.Color.Coral;
+            this.btnback.Image = ((System.Drawing.Image)(resources.GetObject("btnback.Image")));
+            this.btnback.Location = new System.Drawing.Point(601, 9);
+            this.btnback.Name = "btnback";
+            this.btnback.Size = new System.Drawing.Size(187, 64);
+            this.btnback.TabIndex = 5;
+            this.btnback.UseVisualStyleBackColor = false;
+            this.btnback.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnback);
             this.Controls.Add(this.btnHistory);
             this.Controls.Add(this.btnRationale);
             this.Controls.Add(this.labelAbout);
@@ -91,5 +105,6 @@
         private System.Windows.Forms.Label labelAbout;
         private System.Windows.Forms.Button btnHistory;
         private System.Windows.Forms.Button btnRationale;
+        private System.Windows.Forms.Button btnback;
     }
 }

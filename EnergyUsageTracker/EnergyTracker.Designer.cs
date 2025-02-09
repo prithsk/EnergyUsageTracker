@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EnergyTracker));
             this.labelEnergyTracker = new System.Windows.Forms.Label();
             this.btnLogAppliances = new System.Windows.Forms.Button();
+            this.btnback1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelEnergyTracker
@@ -56,12 +58,24 @@
             this.btnLogAppliances.UseVisualStyleBackColor = false;
             this.btnLogAppliances.Click += new System.EventHandler(this.btnLogAppliances_Click_1);
             // 
+            // btnback1
+            // 
+            this.btnback1.BackColor = System.Drawing.Color.Coral;
+            this.btnback1.Image = ((System.Drawing.Image)(resources.GetObject("btnback1.Image")));
+            this.btnback1.Location = new System.Drawing.Point(601, 9);
+            this.btnback1.Name = "btnback1";
+            this.btnback1.Size = new System.Drawing.Size(187, 64);
+            this.btnback1.TabIndex = 6;
+            this.btnback1.UseVisualStyleBackColor = false;
+            this.btnback1.Click += new System.EventHandler(this.btnback1_Click);
+            // 
             // EnergyTracker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnback1);
             this.Controls.Add(this.btnLogAppliances);
             this.Controls.Add(this.labelEnergyTracker);
             this.Name = "EnergyTracker";
@@ -75,5 +89,6 @@
 
         private System.Windows.Forms.Label labelEnergyTracker;
         private System.Windows.Forms.Button btnLogAppliances;
+        private System.Windows.Forms.Button btnback1;
     }
 }

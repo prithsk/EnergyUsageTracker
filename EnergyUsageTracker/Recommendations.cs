@@ -44,6 +44,17 @@ namespace EnergyUsageTracker
             Application.Run(new SetGoals());
 
         }
-    
+
+        private void btnback2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Thread t = new Thread(new ThreadStart(Threadbtnback2));
+            t.Start();
+        }
+
+        private void Threadbtnback2()
+        {
+            Application.Run(new HomePage());
+        }
     }
 }

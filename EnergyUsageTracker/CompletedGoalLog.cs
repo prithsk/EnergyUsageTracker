@@ -38,7 +38,7 @@ namespace EnergyUsageTracker
         }
         private void Threadbtnback15()
         {
-            Application.Run(new Recommendations());
+            Application.Run(new SetGoals());
         }
     }
 }

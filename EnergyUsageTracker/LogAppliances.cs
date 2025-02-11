@@ -1,23 +1,58 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EnergyUsageTracker
 {
     public partial class LogAppliances : Form
     {
+        private List<string> applianceHistory = new List<string>();
+
         public LogAppliances()
         {
             InitializeComponent();
             CenterToScreen();
+            LoadHistory();
         }
+
+        private void LoadHistory()
+        {
+
+            applianceHistory.Add("Fridge - 200W - 5 hrs");
+            applianceHistory.Add("Microwave - 1000W - 10 mins");
+            UpdateHistoryDisplay();
+        }
+
+        private void UpdateHistoryDisplay()
+        {
+            listBoxHistory.DataSource = null;
+            listBoxHistory.DataSource = applianceHistory;
+        }
+
+        private void btnAddAppliance_Click(object sender, EventArgs e)
+        {
+
+            string applianceName = txtAppName.Text;
+            string usageDuration = txtUseDur.Text;
+            string wattage = txtEnergyUse.Text;
+
+            if (string.IsNullOrWhiteSpace(applianceName) || string.IsNullOrWhiteSpace(usageDuration) || string.IsNullOrWhiteSpace(wattage))
+            {
+                MessageBox.Show("Please fill in all fields.");
+                return;
+            }
+
+
+            string newEntry = $"{applianceName} - {wattage}W - {usageDuration} hrs";
+
+
+            applianceHistory.Add(newEntry);
+            UpdateHistoryDisplay();
+
+
+        }
+
 
         private void btnback8_Click(object sender, EventArgs e)
         {
@@ -30,6 +65,7 @@ namespace EnergyUsageTracker
             Application.Run(new HomePage());
         }
 
+
         private void btnback9_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -41,4 +77,5 @@ namespace EnergyUsageTracker
             Application.Run(new EnergyTracker());
         }
     }
-}
+ }
+

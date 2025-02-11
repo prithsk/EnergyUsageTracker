@@ -40,7 +40,7 @@
             // 
             this.labelHistory.AutoSize = true;
             this.labelHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.labelHistory.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.labelHistory.ForeColor = System.Drawing.SystemColors.ControlText;
             this.labelHistory.Location = new System.Drawing.Point(351, 9);
             this.labelHistory.Name = "labelHistory";
             this.labelHistory.Size = new System.Drawing.Size(80, 26);

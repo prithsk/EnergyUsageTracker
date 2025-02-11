@@ -30,16 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LogAppliances));
             this.labelLogAppliances = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtAppName = new System.Windows.Forms.TextBox();
+            this.txtEnergyUse = new System.Windows.Forms.TextBox();
+            this.txtUseDur = new System.Windows.Forms.TextBox();
+            this.txtHis = new System.Windows.Forms.TextBox();
             this.labelHist = new System.Windows.Forms.Label();
             this.labelEnergyUsageDesc = new System.Windows.Forms.Label();
             this.labelUsageDuration = new System.Windows.Forms.Label();
             this.labelApplianceName = new System.Windows.Forms.Label();
             this.btnback8 = new System.Windows.Forms.Button();
             this.btnback9 = new System.Windows.Forms.Button();
+            this.listBoxHistory = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // labelLogAppliances
@@ -52,37 +53,37 @@
             this.labelLogAppliances.TabIndex = 0;
             this.labelLogAppliances.Text = "Log Appliances";
             // 
-            // textBox3
+            // txtAppName
             // 
-            this.textBox3.Location = new System.Drawing.Point(116, 117);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(158, 53);
-            this.textBox3.TabIndex = 21;
+            this.txtAppName.Location = new System.Drawing.Point(116, 117);
+            this.txtAppName.Multiline = true;
+            this.txtAppName.Name = "txtAppName";
+            this.txtAppName.Size = new System.Drawing.Size(158, 53);
+            this.txtAppName.TabIndex = 21;
             // 
-            // textBox2
+            // txtEnergyUse
             // 
-            this.textBox2.Location = new System.Drawing.Point(116, 323);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(213, 79);
-            this.textBox2.TabIndex = 20;
+            this.txtEnergyUse.Location = new System.Drawing.Point(116, 323);
+            this.txtEnergyUse.Multiline = true;
+            this.txtEnergyUse.Name = "txtEnergyUse";
+            this.txtEnergyUse.Size = new System.Drawing.Size(213, 79);
+            this.txtEnergyUse.TabIndex = 20;
             // 
-            // textBox5
+            // txtUseDur
             // 
-            this.textBox5.Location = new System.Drawing.Point(116, 216);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(158, 57);
-            this.textBox5.TabIndex = 19;
+            this.txtUseDur.Location = new System.Drawing.Point(116, 216);
+            this.txtUseDur.Multiline = true;
+            this.txtUseDur.Name = "txtUseDur";
+            this.txtUseDur.Size = new System.Drawing.Size(158, 57);
+            this.txtUseDur.TabIndex = 19;
             // 
-            // textBox4
+            // txtHis
             // 
-            this.textBox4.Location = new System.Drawing.Point(483, 117);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(201, 285);
-            this.textBox4.TabIndex = 17;
+            this.txtHis.Location = new System.Drawing.Point(483, 117);
+            this.txtHis.Multiline = true;
+            this.txtHis.Name = "txtHis";
+            this.txtHis.Size = new System.Drawing.Size(201, 285);
+            this.txtHis.TabIndex = 17;
             // 
             // labelHist
             // 
@@ -146,18 +147,27 @@
             this.btnback9.UseVisualStyleBackColor = false;
             this.btnback9.Click += new System.EventHandler(this.btnback9_Click);
             // 
+            // listBoxHistory
+            // 
+            this.listBoxHistory.FormattingEnabled = true;
+            this.listBoxHistory.Location = new System.Drawing.Point(483, 117);
+            this.listBoxHistory.Name = "listBoxHistory";
+            this.listBoxHistory.Size = new System.Drawing.Size(201, 290);
+            this.listBoxHistory.TabIndex = 24;
+            // 
             // LogAppliances
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listBoxHistory);
             this.Controls.Add(this.btnback9);
             this.Controls.Add(this.btnback8);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtAppName);
+            this.Controls.Add(this.txtEnergyUse);
+            this.Controls.Add(this.txtUseDur);
+            this.Controls.Add(this.txtHis);
             this.Controls.Add(this.labelHist);
             this.Controls.Add(this.labelEnergyUsageDesc);
             this.Controls.Add(this.labelUsageDuration);
@@ -173,15 +183,16 @@
         #endregion
 
         private System.Windows.Forms.Label labelLogAppliances;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtAppName;
+        private System.Windows.Forms.TextBox txtEnergyUse;
+        private System.Windows.Forms.TextBox txtUseDur;
+        private System.Windows.Forms.TextBox txtHis;
         private System.Windows.Forms.Label labelHist;
         private System.Windows.Forms.Label labelEnergyUsageDesc;
         private System.Windows.Forms.Label labelUsageDuration;
         private System.Windows.Forms.Label labelApplianceName;
         private System.Windows.Forms.Button btnback8;
         private System.Windows.Forms.Button btnback9;
+        private System.Windows.Forms.ListBox listBoxHistory;
     }
 }

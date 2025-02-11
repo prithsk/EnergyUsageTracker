@@ -39,7 +39,7 @@
             // 
             this.labelHome.AutoSize = true;
             this.labelHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.labelHome.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.labelHome.ForeColor = System.Drawing.SystemColors.ControlText;
             this.labelHome.Location = new System.Drawing.Point(369, 9);
             this.labelHome.Name = "labelHome";
             this.labelHome.Size = new System.Drawing.Size(71, 26);

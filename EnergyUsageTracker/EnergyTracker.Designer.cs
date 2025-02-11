@@ -38,7 +38,7 @@
             // 
             this.labelEnergyTracker.AutoSize = true;
             this.labelEnergyTracker.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.labelEnergyTracker.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.labelEnergyTracker.ForeColor = System.Drawing.SystemColors.Desktop;
             this.labelEnergyTracker.Location = new System.Drawing.Point(324, 9);
             this.labelEnergyTracker.Name = "labelEnergyTracker";
             this.labelEnergyTracker.Size = new System.Drawing.Size(159, 26);

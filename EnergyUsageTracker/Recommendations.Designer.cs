@@ -41,7 +41,7 @@
             // 
             this.labelRecommendations.AutoSize = true;
             this.labelRecommendations.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.labelRecommendations.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.labelRecommendations.ForeColor = System.Drawing.SystemColors.ControlText;
             this.labelRecommendations.Location = new System.Drawing.Point(295, 9);
             this.labelRecommendations.Name = "labelRecommendations";
             this.labelRecommendations.Size = new System.Drawing.Size(195, 26);

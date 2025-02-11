@@ -34,11 +34,11 @@
             this.labelWeakness = new System.Windows.Forms.Label();
             this.labelEnergySavingGoal = new System.Windows.Forms.Label();
             this.labelRec = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtRecommendations = new System.Windows.Forms.TextBox();
             this.btnGenerate = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtWeakness = new System.Windows.Forms.TextBox();
+            this.txtGoal = new System.Windows.Forms.TextBox();
+            this.txtStrength = new System.Windows.Forms.TextBox();
             this.btnback17 = new System.Windows.Forms.Button();
             this.btnback16 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -93,13 +93,13 @@
             this.labelRec.TabIndex = 4;
             this.labelRec.Text = "Recommendations:";
             // 
-            // textBox4
+            // txtRecommendations
             // 
-            this.textBox4.Location = new System.Drawing.Point(525, 121);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(186, 267);
-            this.textBox4.TabIndex = 8;
+            this.txtRecommendations.Location = new System.Drawing.Point(525, 121);
+            this.txtRecommendations.Multiline = true;
+            this.txtRecommendations.Name = "txtRecommendations";
+            this.txtRecommendations.Size = new System.Drawing.Size(186, 267);
+            this.txtRecommendations.TabIndex = 8;
             // 
             // btnGenerate
             // 
@@ -112,29 +112,29 @@
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = false;
             // 
-            // textBox5
+            // txtWeakness
             // 
-            this.textBox5.Location = new System.Drawing.Point(143, 220);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(158, 57);
-            this.textBox5.TabIndex = 10;
+            this.txtWeakness.Location = new System.Drawing.Point(143, 220);
+            this.txtWeakness.Multiline = true;
+            this.txtWeakness.Name = "txtWeakness";
+            this.txtWeakness.Size = new System.Drawing.Size(158, 57);
+            this.txtWeakness.TabIndex = 10;
             // 
-            // textBox2
+            // txtGoal
             // 
-            this.textBox2.Location = new System.Drawing.Point(143, 327);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(158, 61);
-            this.textBox2.TabIndex = 11;
+            this.txtGoal.Location = new System.Drawing.Point(143, 327);
+            this.txtGoal.Multiline = true;
+            this.txtGoal.Name = "txtGoal";
+            this.txtGoal.Size = new System.Drawing.Size(158, 61);
+            this.txtGoal.TabIndex = 11;
             // 
-            // textBox3
+            // txtStrength
             // 
-            this.textBox3.Location = new System.Drawing.Point(143, 121);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(158, 53);
-            this.textBox3.TabIndex = 12;
+            this.txtStrength.Location = new System.Drawing.Point(143, 121);
+            this.txtStrength.Multiline = true;
+            this.txtStrength.Name = "txtStrength";
+            this.txtStrength.Size = new System.Drawing.Size(158, 53);
+            this.txtStrength.TabIndex = 12;
             // 
             // btnback17
             // 
@@ -166,11 +166,11 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnback17);
             this.Controls.Add(this.btnback16);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtStrength);
+            this.Controls.Add(this.txtGoal);
+            this.Controls.Add(this.txtWeakness);
             this.Controls.Add(this.btnGenerate);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtRecommendations);
             this.Controls.Add(this.labelRec);
             this.Controls.Add(this.labelEnergySavingGoal);
             this.Controls.Add(this.labelWeakness);
@@ -190,11 +190,11 @@
         private System.Windows.Forms.Label labelWeakness;
         private System.Windows.Forms.Label labelEnergySavingGoal;
         private System.Windows.Forms.Label labelRec;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtRecommendations;
         private System.Windows.Forms.Button btnGenerate;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtWeakness;
+        private System.Windows.Forms.TextBox txtGoal;
+        private System.Windows.Forms.TextBox txtStrength;
         private System.Windows.Forms.Button btnback17;
         private System.Windows.Forms.Button btnback16;
     }

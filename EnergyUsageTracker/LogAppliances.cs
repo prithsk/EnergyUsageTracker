@@ -76,6 +76,11 @@ namespace EnergyUsageTracker
         {
             Application.Run(new EnergyTracker());
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
  }
 

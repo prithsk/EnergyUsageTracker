@@ -44,6 +44,7 @@
             this.btnGenerate = new System.Windows.Forms.Button();
             this.laEnergyTracker = new System.Windows.Forms.Label();
             this.labHome = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // labelLogAppliances
@@ -58,7 +59,7 @@
             // 
             // txtAppName
             // 
-            this.txtAppName.Location = new System.Drawing.Point(115, 137);
+            this.txtAppName.Location = new System.Drawing.Point(151, 139);
             this.txtAppName.Multiline = true;
             this.txtAppName.Name = "txtAppName";
             this.txtAppName.Size = new System.Drawing.Size(158, 53);
@@ -66,7 +67,7 @@
             // 
             // txtEnergyUse
             // 
-            this.txtEnergyUse.Location = new System.Drawing.Point(115, 343);
+            this.txtEnergyUse.Location = new System.Drawing.Point(151, 345);
             this.txtEnergyUse.Multiline = true;
             this.txtEnergyUse.Name = "txtEnergyUse";
             this.txtEnergyUse.Size = new System.Drawing.Size(213, 79);
@@ -74,7 +75,7 @@
             // 
             // txtUseDur
             // 
-            this.txtUseDur.Location = new System.Drawing.Point(115, 236);
+            this.txtUseDur.Location = new System.Drawing.Point(151, 238);
             this.txtUseDur.Multiline = true;
             this.txtUseDur.Name = "txtUseDur";
             this.txtUseDur.Size = new System.Drawing.Size(158, 57);
@@ -82,7 +83,7 @@
             // 
             // txtHis
             // 
-            this.txtHis.Location = new System.Drawing.Point(482, 137);
+            this.txtHis.Location = new System.Drawing.Point(518, 139);
             this.txtHis.Multiline = true;
             this.txtHis.Name = "txtHis";
             this.txtHis.Size = new System.Drawing.Size(201, 285);
@@ -92,7 +93,7 @@
             // 
             this.labelHist.AutoSize = true;
             this.labelHist.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelHist.Location = new System.Drawing.Point(478, 114);
+            this.labelHist.Location = new System.Drawing.Point(514, 116);
             this.labelHist.Name = "labelHist";
             this.labelHist.Size = new System.Drawing.Size(62, 20);
             this.labelHist.TabIndex = 16;
@@ -102,7 +103,7 @@
             // 
             this.labelEnergyUsageDesc.AutoSize = true;
             this.labelEnergyUsageDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(111, 320);
+            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(147, 322);
             this.labelEnergyUsageDesc.Name = "labelEnergyUsageDesc";
             this.labelEnergyUsageDesc.Size = new System.Drawing.Size(226, 20);
             this.labelEnergyUsageDesc.TabIndex = 15;
@@ -112,7 +113,7 @@
             // 
             this.labelUsageDuration.AutoSize = true;
             this.labelUsageDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelUsageDuration.Location = new System.Drawing.Point(111, 213);
+            this.labelUsageDuration.Location = new System.Drawing.Point(147, 215);
             this.labelUsageDuration.Name = "labelUsageDuration";
             this.labelUsageDuration.Size = new System.Drawing.Size(125, 20);
             this.labelUsageDuration.TabIndex = 14;
@@ -122,7 +123,7 @@
             // 
             this.labelApplianceName.AutoSize = true;
             this.labelApplianceName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelApplianceName.Location = new System.Drawing.Point(111, 114);
+            this.labelApplianceName.Location = new System.Drawing.Point(147, 116);
             this.labelApplianceName.Name = "labelApplianceName";
             this.labelApplianceName.Size = new System.Drawing.Size(129, 20);
             this.labelApplianceName.TabIndex = 13;
@@ -153,7 +154,7 @@
             // listBoxHistory
             // 
             this.listBoxHistory.FormattingEnabled = true;
-            this.listBoxHistory.Location = new System.Drawing.Point(482, 137);
+            this.listBoxHistory.Location = new System.Drawing.Point(518, 139);
             this.listBoxHistory.Name = "listBoxHistory";
             this.listBoxHistory.Size = new System.Drawing.Size(201, 290);
             this.listBoxHistory.TabIndex = 24;
@@ -162,7 +163,7 @@
             // 
             this.btnGenerate.BackColor = System.Drawing.Color.Coral;
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnGenerate.Location = new System.Drawing.Point(338, 194);
+            this.btnGenerate.Location = new System.Drawing.Point(374, 196);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(123, 102);
             this.btnGenerate.TabIndex = 25;
@@ -189,12 +190,22 @@
             this.labHome.TabIndex = 28;
             this.labHome.Text = "Home";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(374, 76);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 30;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // LogAppliances
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.laEnergyTracker);
             this.Controls.Add(this.labHome);
             this.Controls.Add(this.btnGenerate);
@@ -234,5 +245,6 @@
         private System.Windows.Forms.Button btnGenerate;
         private System.Windows.Forms.Label laEnergyTracker;
         private System.Windows.Forms.Label labHome;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

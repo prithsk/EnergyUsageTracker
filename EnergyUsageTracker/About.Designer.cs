@@ -33,6 +33,7 @@
             this.btnHistory = new System.Windows.Forms.Button();
             this.btnRationale = new System.Windows.Forms.Button();
             this.btnback = new System.Windows.Forms.Button();
+            this.labellHome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelAbout
@@ -83,12 +84,23 @@
             this.btnback.UseVisualStyleBackColor = false;
             this.btnback.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // labellHome
+            // 
+            this.labellHome.AutoSize = true;
+            this.labellHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labellHome.Location = new System.Drawing.Point(669, 76);
+            this.labellHome.Name = "labellHome";
+            this.labellHome.Size = new System.Drawing.Size(52, 20);
+            this.labellHome.TabIndex = 6;
+            this.labellHome.Text = "Home";
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labellHome);
             this.Controls.Add(this.btnback);
             this.Controls.Add(this.btnHistory);
             this.Controls.Add(this.btnRationale);
@@ -106,5 +118,6 @@
         private System.Windows.Forms.Button btnHistory;
         private System.Windows.Forms.Button btnRationale;
         private System.Windows.Forms.Button btnback;
+        private System.Windows.Forms.Label labellHome;
     }
 }

@@ -33,6 +33,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnback4 = new System.Windows.Forms.Button();
             this.btnback6 = new System.Windows.Forms.Button();
+            this.laHome = new System.Windows.Forms.Label();
+            this.laAbout = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +52,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 81);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 117);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(776, 304);
             this.pictureBox1.TabIndex = 6;
@@ -78,12 +80,34 @@
             this.btnback6.UseVisualStyleBackColor = false;
             this.btnback6.Click += new System.EventHandler(this.btnback6_Click);
             // 
+            // laHome
+            // 
+            this.laHome.AutoSize = true;
+            this.laHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.laHome.Location = new System.Drawing.Point(671, 76);
+            this.laHome.Name = "laHome";
+            this.laHome.Size = new System.Drawing.Size(52, 20);
+            this.laHome.TabIndex = 9;
+            this.laHome.Text = "Home";
+            // 
+            // laAbout
+            // 
+            this.laAbout.AutoSize = true;
+            this.laAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.laAbout.Location = new System.Drawing.Point(79, 76);
+            this.laAbout.Name = "laAbout";
+            this.laAbout.Size = new System.Drawing.Size(52, 20);
+            this.laAbout.TabIndex = 10;
+            this.laAbout.Text = "About";
+            // 
             // History
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.laAbout);
+            this.Controls.Add(this.laHome);
             this.Controls.Add(this.btnback6);
             this.Controls.Add(this.btnback4);
             this.Controls.Add(this.pictureBox1);
@@ -102,5 +126,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnback4;
         private System.Windows.Forms.Button btnback6;
+        private System.Windows.Forms.Label laHome;
+        private System.Windows.Forms.Label laAbout;
     }
 }

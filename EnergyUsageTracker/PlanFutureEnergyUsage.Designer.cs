@@ -41,6 +41,8 @@
             this.txtStrength = new System.Windows.Forms.TextBox();
             this.btnback17 = new System.Windows.Forms.Button();
             this.btnback16 = new System.Windows.Forms.Button();
+            this.laRecommendations = new System.Windows.Forms.Label();
+            this.labHome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelPlanFutureEnergyUsage
@@ -57,7 +59,7 @@
             // 
             this.labelStrength.AutoSize = true;
             this.labelStrength.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelStrength.Location = new System.Drawing.Point(148, 98);
+            this.labelStrength.Location = new System.Drawing.Point(147, 124);
             this.labelStrength.Name = "labelStrength";
             this.labelStrength.Size = new System.Drawing.Size(118, 20);
             this.labelStrength.TabIndex = 1;
@@ -67,7 +69,7 @@
             // 
             this.labelWeakness.AutoSize = true;
             this.labelWeakness.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelWeakness.Location = new System.Drawing.Point(148, 197);
+            this.labelWeakness.Location = new System.Drawing.Point(147, 223);
             this.labelWeakness.Name = "labelWeakness";
             this.labelWeakness.Size = new System.Drawing.Size(131, 20);
             this.labelWeakness.TabIndex = 2;
@@ -77,7 +79,7 @@
             // 
             this.labelEnergySavingGoal.AutoSize = true;
             this.labelEnergySavingGoal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelEnergySavingGoal.Location = new System.Drawing.Point(148, 304);
+            this.labelEnergySavingGoal.Location = new System.Drawing.Point(147, 330);
             this.labelEnergySavingGoal.Name = "labelEnergySavingGoal";
             this.labelEnergySavingGoal.Size = new System.Drawing.Size(153, 20);
             this.labelEnergySavingGoal.TabIndex = 3;
@@ -87,7 +89,7 @@
             // 
             this.labelRec.AutoSize = true;
             this.labelRec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelRec.Location = new System.Drawing.Point(521, 98);
+            this.labelRec.Location = new System.Drawing.Point(520, 124);
             this.labelRec.Name = "labelRec";
             this.labelRec.Size = new System.Drawing.Size(147, 20);
             this.labelRec.TabIndex = 4;
@@ -95,7 +97,7 @@
             // 
             // txtRecommendations
             // 
-            this.txtRecommendations.Location = new System.Drawing.Point(525, 121);
+            this.txtRecommendations.Location = new System.Drawing.Point(524, 147);
             this.txtRecommendations.Multiline = true;
             this.txtRecommendations.Name = "txtRecommendations";
             this.txtRecommendations.Size = new System.Drawing.Size(186, 267);
@@ -105,7 +107,7 @@
             // 
             this.btnGenerate.BackColor = System.Drawing.Color.Coral;
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnGenerate.Location = new System.Drawing.Point(360, 177);
+            this.btnGenerate.Location = new System.Drawing.Point(359, 203);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(123, 102);
             this.btnGenerate.TabIndex = 9;
@@ -115,7 +117,7 @@
             // 
             // txtWeakness
             // 
-            this.txtWeakness.Location = new System.Drawing.Point(143, 220);
+            this.txtWeakness.Location = new System.Drawing.Point(142, 246);
             this.txtWeakness.Multiline = true;
             this.txtWeakness.Name = "txtWeakness";
             this.txtWeakness.Size = new System.Drawing.Size(158, 57);
@@ -123,7 +125,7 @@
             // 
             // txtGoal
             // 
-            this.txtGoal.Location = new System.Drawing.Point(143, 327);
+            this.txtGoal.Location = new System.Drawing.Point(142, 353);
             this.txtGoal.Multiline = true;
             this.txtGoal.Name = "txtGoal";
             this.txtGoal.Size = new System.Drawing.Size(158, 61);
@@ -131,7 +133,7 @@
             // 
             // txtStrength
             // 
-            this.txtStrength.Location = new System.Drawing.Point(143, 121);
+            this.txtStrength.Location = new System.Drawing.Point(142, 147);
             this.txtStrength.Multiline = true;
             this.txtStrength.Name = "txtStrength";
             this.txtStrength.Size = new System.Drawing.Size(158, 53);
@@ -159,12 +161,34 @@
             this.btnback16.UseVisualStyleBackColor = false;
             this.btnback16.Click += new System.EventHandler(this.btnback16_Click);
             // 
+            // laRecommendations
+            // 
+            this.laRecommendations.AutoSize = true;
+            this.laRecommendations.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.laRecommendations.Location = new System.Drawing.Point(33, 76);
+            this.laRecommendations.Name = "laRecommendations";
+            this.laRecommendations.Size = new System.Drawing.Size(143, 20);
+            this.laRecommendations.TabIndex = 29;
+            this.laRecommendations.Text = "Recommendations";
+            // 
+            // labHome
+            // 
+            this.labHome.AutoSize = true;
+            this.labHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labHome.Location = new System.Drawing.Point(672, 76);
+            this.labHome.Name = "labHome";
+            this.labHome.Size = new System.Drawing.Size(52, 20);
+            this.labHome.TabIndex = 28;
+            this.labHome.Text = "Home";
+            // 
             // PlanFutureEnergyUsage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.laRecommendations);
+            this.Controls.Add(this.labHome);
             this.Controls.Add(this.btnback17);
             this.Controls.Add(this.btnback16);
             this.Controls.Add(this.txtStrength);
@@ -198,5 +222,7 @@
         private System.Windows.Forms.TextBox txtStrength;
         private System.Windows.Forms.Button btnback17;
         private System.Windows.Forms.Button btnback16;
+        private System.Windows.Forms.Label laRecommendations;
+        private System.Windows.Forms.Label labHome;
     }
 }

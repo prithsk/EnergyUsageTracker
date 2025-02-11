@@ -34,13 +34,15 @@
             this.btnAddGoals = new System.Windows.Forms.Button();
             this.btnback11 = new System.Windows.Forms.Button();
             this.btnback10 = new System.Windows.Forms.Button();
+            this.laRecommendations = new System.Windows.Forms.Label();
+            this.labHome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelSetGoals
             // 
             this.labelSetGoals.AutoSize = true;
             this.labelSetGoals.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.labelSetGoals.Location = new System.Drawing.Point(360, 9);
+            this.labelSetGoals.Location = new System.Drawing.Point(350, 9);
             this.labelSetGoals.Name = "labelSetGoals";
             this.labelSetGoals.Size = new System.Drawing.Size(108, 26);
             this.labelSetGoals.TabIndex = 0;
@@ -94,12 +96,34 @@
             this.btnback10.UseVisualStyleBackColor = false;
             this.btnback10.Click += new System.EventHandler(this.btnback10_Click);
             // 
+            // laRecommendations
+            // 
+            this.laRecommendations.AutoSize = true;
+            this.laRecommendations.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.laRecommendations.Location = new System.Drawing.Point(28, 76);
+            this.laRecommendations.Name = "laRecommendations";
+            this.laRecommendations.Size = new System.Drawing.Size(143, 20);
+            this.laRecommendations.TabIndex = 31;
+            this.laRecommendations.Text = "Recommendations";
+            // 
+            // labHome
+            // 
+            this.labHome.AutoSize = true;
+            this.labHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labHome.Location = new System.Drawing.Point(667, 76);
+            this.labHome.Name = "labHome";
+            this.labHome.Size = new System.Drawing.Size(52, 20);
+            this.labHome.TabIndex = 30;
+            this.labHome.Text = "Home";
+            // 
             // SetGoals
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.laRecommendations);
+            this.Controls.Add(this.labHome);
             this.Controls.Add(this.btnback11);
             this.Controls.Add(this.btnback10);
             this.Controls.Add(this.btnCompletedGoalLog);
@@ -119,5 +143,7 @@
         private System.Windows.Forms.Button btnAddGoals;
         private System.Windows.Forms.Button btnback11;
         private System.Windows.Forms.Button btnback10;
+        private System.Windows.Forms.Label laRecommendations;
+        private System.Windows.Forms.Label labHome;
     }
 }

@@ -37,6 +37,7 @@
             this.btnback3 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.laellHome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelSettings
@@ -55,7 +56,7 @@
             this.labelDarkMode.AutoSize = true;
             this.labelDarkMode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.labelDarkMode.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelDarkMode.Location = new System.Drawing.Point(73, 142);
+            this.labelDarkMode.Location = new System.Drawing.Point(124, 144);
             this.labelDarkMode.Name = "labelDarkMode";
             this.labelDarkMode.Size = new System.Drawing.Size(91, 20);
             this.labelDarkMode.TabIndex = 4;
@@ -66,7 +67,7 @@
             this.labelNotifications.AutoSize = true;
             this.labelNotifications.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.labelNotifications.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelNotifications.Location = new System.Drawing.Point(478, 142);
+            this.labelNotifications.Location = new System.Drawing.Point(529, 144);
             this.labelNotifications.Name = "labelNotifications";
             this.labelNotifications.Size = new System.Drawing.Size(100, 20);
             this.labelNotifications.TabIndex = 5;
@@ -77,7 +78,7 @@
             this.labelTotalEnergyUsageStored.AutoSize = true;
             this.labelTotalEnergyUsageStored.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.labelTotalEnergyUsageStored.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.labelTotalEnergyUsageStored.Location = new System.Drawing.Point(177, 266);
+            this.labelTotalEnergyUsageStored.Location = new System.Drawing.Point(228, 268);
             this.labelTotalEnergyUsageStored.Name = "labelTotalEnergyUsageStored";
             this.labelTotalEnergyUsageStored.Size = new System.Drawing.Size(265, 20);
             this.labelTotalEnergyUsageStored.TabIndex = 6;
@@ -85,7 +86,7 @@
             // 
             // txtBoxTotalEnergyUsageStored
             // 
-            this.txtBoxTotalEnergyUsageStored.Location = new System.Drawing.Point(448, 268);
+            this.txtBoxTotalEnergyUsageStored.Location = new System.Drawing.Point(499, 270);
             this.txtBoxTotalEnergyUsageStored.Name = "txtBoxTotalEnergyUsageStored";
             this.txtBoxTotalEnergyUsageStored.Size = new System.Drawing.Size(106, 20);
             this.txtBoxTotalEnergyUsageStored.TabIndex = 9;
@@ -104,7 +105,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(170, 146);
+            this.checkBox1.Location = new System.Drawing.Point(221, 148);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 15;
@@ -113,11 +114,21 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(584, 148);
+            this.checkBox2.Location = new System.Drawing.Point(635, 150);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(15, 14);
             this.checkBox2.TabIndex = 16;
             this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // laellHome
+            // 
+            this.laellHome.AutoSize = true;
+            this.laellHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.laellHome.Location = new System.Drawing.Point(668, 76);
+            this.laellHome.Name = "laellHome";
+            this.laellHome.Size = new System.Drawing.Size(52, 20);
+            this.laellHome.TabIndex = 17;
+            this.laellHome.Text = "Home";
             // 
             // Settings
             // 
@@ -125,6 +136,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.laellHome);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.btnback3);
@@ -150,5 +162,6 @@
         private System.Windows.Forms.Button btnback3;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Label laellHome;
     }
 }

@@ -34,6 +34,7 @@
             this.btnPlanFutureEnergyUsage = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnback2 = new System.Windows.Forms.Button();
+            this.labHome = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,12 +95,23 @@
             this.btnback2.UseVisualStyleBackColor = false;
             this.btnback2.Click += new System.EventHandler(this.btnback2_Click);
             // 
+            // labHome
+            // 
+            this.labHome.AutoSize = true;
+            this.labHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labHome.Location = new System.Drawing.Point(670, 76);
+            this.labHome.Name = "labHome";
+            this.labHome.Size = new System.Drawing.Size(52, 20);
+            this.labHome.TabIndex = 29;
+            this.labHome.Text = "Home";
+            // 
             // Recommendations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labHome);
             this.Controls.Add(this.btnback2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSetGoals);
@@ -120,5 +132,6 @@
         private System.Windows.Forms.Button btnPlanFutureEnergyUsage;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnback2;
+        private System.Windows.Forms.Label labHome;
     }
 }

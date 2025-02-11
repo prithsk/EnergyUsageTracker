@@ -32,6 +32,8 @@
             this.labelCompGoalLog = new System.Windows.Forms.Label();
             this.btnback15 = new System.Windows.Forms.Button();
             this.btnback14 = new System.Windows.Forms.Button();
+            this.laSetGoals = new System.Windows.Forms.Label();
+            this.labHome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelCompGoalLog
@@ -66,12 +68,34 @@
             this.btnback14.UseVisualStyleBackColor = false;
             this.btnback14.Click += new System.EventHandler(this.btnback14_Click);
             // 
+            // laSetGoals
+            // 
+            this.laSetGoals.AutoSize = true;
+            this.laSetGoals.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.laSetGoals.Location = new System.Drawing.Point(70, 76);
+            this.laSetGoals.Name = "laSetGoals";
+            this.laSetGoals.Size = new System.Drawing.Size(80, 20);
+            this.laSetGoals.TabIndex = 29;
+            this.laSetGoals.Text = "Set Goals";
+            // 
+            // labHome
+            // 
+            this.labHome.AutoSize = true;
+            this.labHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labHome.Location = new System.Drawing.Point(673, 76);
+            this.labHome.Name = "labHome";
+            this.labHome.Size = new System.Drawing.Size(52, 20);
+            this.labHome.TabIndex = 28;
+            this.labHome.Text = "Home";
+            // 
             // CompletedGoalLog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.laSetGoals);
+            this.Controls.Add(this.labHome);
             this.Controls.Add(this.btnback15);
             this.Controls.Add(this.btnback14);
             this.Controls.Add(this.labelCompGoalLog);
@@ -87,5 +111,7 @@
         private System.Windows.Forms.Label labelCompGoalLog;
         private System.Windows.Forms.Button btnback15;
         private System.Windows.Forms.Button btnback14;
+        private System.Windows.Forms.Label laSetGoals;
+        private System.Windows.Forms.Label labHome;
     }
 }

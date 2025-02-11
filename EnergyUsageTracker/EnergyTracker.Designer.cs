@@ -32,6 +32,7 @@
             this.labelEnergyTracker = new System.Windows.Forms.Label();
             this.btnLogAppliances = new System.Windows.Forms.Button();
             this.btnback1 = new System.Windows.Forms.Button();
+            this.labllHome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelEnergyTracker
@@ -69,12 +70,23 @@
             this.btnback1.UseVisualStyleBackColor = false;
             this.btnback1.Click += new System.EventHandler(this.btnback1_Click);
             // 
+            // labllHome
+            // 
+            this.labllHome.AutoSize = true;
+            this.labllHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labllHome.Location = new System.Drawing.Point(667, 76);
+            this.labllHome.Name = "labllHome";
+            this.labllHome.Size = new System.Drawing.Size(52, 20);
+            this.labllHome.TabIndex = 7;
+            this.labllHome.Text = "Home";
+            // 
             // EnergyTracker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labllHome);
             this.Controls.Add(this.btnback1);
             this.Controls.Add(this.btnLogAppliances);
             this.Controls.Add(this.labelEnergyTracker);
@@ -90,5 +102,6 @@
         private System.Windows.Forms.Label labelEnergyTracker;
         private System.Windows.Forms.Button btnLogAppliances;
         private System.Windows.Forms.Button btnback1;
+        private System.Windows.Forms.Label labllHome;
     }
 }

@@ -42,6 +42,8 @@
             this.btnback9 = new System.Windows.Forms.Button();
             this.listBoxHistory = new System.Windows.Forms.ListBox();
             this.btnGenerate = new System.Windows.Forms.Button();
+            this.laEnergyTracker = new System.Windows.Forms.Label();
+            this.labHome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelLogAppliances
@@ -56,7 +58,7 @@
             // 
             // txtAppName
             // 
-            this.txtAppName.Location = new System.Drawing.Point(116, 117);
+            this.txtAppName.Location = new System.Drawing.Point(115, 137);
             this.txtAppName.Multiline = true;
             this.txtAppName.Name = "txtAppName";
             this.txtAppName.Size = new System.Drawing.Size(158, 53);
@@ -64,7 +66,7 @@
             // 
             // txtEnergyUse
             // 
-            this.txtEnergyUse.Location = new System.Drawing.Point(116, 323);
+            this.txtEnergyUse.Location = new System.Drawing.Point(115, 343);
             this.txtEnergyUse.Multiline = true;
             this.txtEnergyUse.Name = "txtEnergyUse";
             this.txtEnergyUse.Size = new System.Drawing.Size(213, 79);
@@ -72,7 +74,7 @@
             // 
             // txtUseDur
             // 
-            this.txtUseDur.Location = new System.Drawing.Point(116, 216);
+            this.txtUseDur.Location = new System.Drawing.Point(115, 236);
             this.txtUseDur.Multiline = true;
             this.txtUseDur.Name = "txtUseDur";
             this.txtUseDur.Size = new System.Drawing.Size(158, 57);
@@ -80,7 +82,7 @@
             // 
             // txtHis
             // 
-            this.txtHis.Location = new System.Drawing.Point(483, 117);
+            this.txtHis.Location = new System.Drawing.Point(482, 137);
             this.txtHis.Multiline = true;
             this.txtHis.Name = "txtHis";
             this.txtHis.Size = new System.Drawing.Size(201, 285);
@@ -90,7 +92,7 @@
             // 
             this.labelHist.AutoSize = true;
             this.labelHist.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelHist.Location = new System.Drawing.Point(479, 94);
+            this.labelHist.Location = new System.Drawing.Point(478, 114);
             this.labelHist.Name = "labelHist";
             this.labelHist.Size = new System.Drawing.Size(62, 20);
             this.labelHist.TabIndex = 16;
@@ -100,7 +102,7 @@
             // 
             this.labelEnergyUsageDesc.AutoSize = true;
             this.labelEnergyUsageDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(112, 300);
+            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(111, 320);
             this.labelEnergyUsageDesc.Name = "labelEnergyUsageDesc";
             this.labelEnergyUsageDesc.Size = new System.Drawing.Size(226, 20);
             this.labelEnergyUsageDesc.TabIndex = 15;
@@ -110,7 +112,7 @@
             // 
             this.labelUsageDuration.AutoSize = true;
             this.labelUsageDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelUsageDuration.Location = new System.Drawing.Point(112, 193);
+            this.labelUsageDuration.Location = new System.Drawing.Point(111, 213);
             this.labelUsageDuration.Name = "labelUsageDuration";
             this.labelUsageDuration.Size = new System.Drawing.Size(125, 20);
             this.labelUsageDuration.TabIndex = 14;
@@ -120,7 +122,7 @@
             // 
             this.labelApplianceName.AutoSize = true;
             this.labelApplianceName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelApplianceName.Location = new System.Drawing.Point(112, 94);
+            this.labelApplianceName.Location = new System.Drawing.Point(111, 114);
             this.labelApplianceName.Name = "labelApplianceName";
             this.labelApplianceName.Size = new System.Drawing.Size(129, 20);
             this.labelApplianceName.TabIndex = 13;
@@ -151,7 +153,7 @@
             // listBoxHistory
             // 
             this.listBoxHistory.FormattingEnabled = true;
-            this.listBoxHistory.Location = new System.Drawing.Point(483, 117);
+            this.listBoxHistory.Location = new System.Drawing.Point(482, 137);
             this.listBoxHistory.Name = "listBoxHistory";
             this.listBoxHistory.Size = new System.Drawing.Size(201, 290);
             this.listBoxHistory.TabIndex = 24;
@@ -160,12 +162,32 @@
             // 
             this.btnGenerate.BackColor = System.Drawing.Color.Coral;
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnGenerate.Location = new System.Drawing.Point(339, 174);
+            this.btnGenerate.Location = new System.Drawing.Point(338, 194);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(123, 102);
             this.btnGenerate.TabIndex = 25;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = false;
+            // 
+            // laEnergyTracker
+            // 
+            this.laEnergyTracker.AutoSize = true;
+            this.laEnergyTracker.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.laEnergyTracker.Location = new System.Drawing.Point(64, 76);
+            this.laEnergyTracker.Name = "laEnergyTracker";
+            this.laEnergyTracker.Size = new System.Drawing.Size(116, 20);
+            this.laEnergyTracker.TabIndex = 29;
+            this.laEnergyTracker.Text = "Energy Tracker";
+            // 
+            // labHome
+            // 
+            this.labHome.AutoSize = true;
+            this.labHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labHome.Location = new System.Drawing.Point(667, 76);
+            this.labHome.Name = "labHome";
+            this.labHome.Size = new System.Drawing.Size(52, 20);
+            this.labHome.TabIndex = 28;
+            this.labHome.Text = "Home";
             // 
             // LogAppliances
             // 
@@ -173,6 +195,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.laEnergyTracker);
+            this.Controls.Add(this.labHome);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.listBoxHistory);
             this.Controls.Add(this.btnback9);
@@ -208,5 +232,7 @@
         private System.Windows.Forms.Button btnback9;
         private System.Windows.Forms.ListBox listBoxHistory;
         private System.Windows.Forms.Button btnGenerate;
+        private System.Windows.Forms.Label laEnergyTracker;
+        private System.Windows.Forms.Label labHome;
     }
 }

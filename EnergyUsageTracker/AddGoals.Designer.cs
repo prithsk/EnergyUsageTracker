@@ -32,6 +32,8 @@
             this.labelAddGoals = new System.Windows.Forms.Label();
             this.btnback13 = new System.Windows.Forms.Button();
             this.btnback12 = new System.Windows.Forms.Button();
+            this.labeHome = new System.Windows.Forms.Label();
+            this.labSetGoals = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelAddGoals
@@ -66,12 +68,34 @@
             this.btnback12.UseVisualStyleBackColor = false;
             this.btnback12.Click += new System.EventHandler(this.btnback12_Click);
             // 
+            // labeHome
+            // 
+            this.labeHome.AutoSize = true;
+            this.labeHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labeHome.Location = new System.Drawing.Point(666, 76);
+            this.labeHome.Name = "labeHome";
+            this.labeHome.Size = new System.Drawing.Size(52, 20);
+            this.labeHome.TabIndex = 26;
+            this.labeHome.Text = "Home";
+            // 
+            // labSetGoals
+            // 
+            this.labSetGoals.AutoSize = true;
+            this.labSetGoals.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labSetGoals.Location = new System.Drawing.Point(63, 76);
+            this.labSetGoals.Name = "labSetGoals";
+            this.labSetGoals.Size = new System.Drawing.Size(80, 20);
+            this.labSetGoals.TabIndex = 27;
+            this.labSetGoals.Text = "Set Goals";
+            // 
             // AddGoals
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labSetGoals);
+            this.Controls.Add(this.labeHome);
             this.Controls.Add(this.btnback13);
             this.Controls.Add(this.btnback12);
             this.Controls.Add(this.labelAddGoals);
@@ -87,5 +111,7 @@
         private System.Windows.Forms.Label labelAddGoals;
         private System.Windows.Forms.Button btnback13;
         private System.Windows.Forms.Button btnback12;
+        private System.Windows.Forms.Label labeHome;
+        private System.Windows.Forms.Label labSetGoals;
     }
 }

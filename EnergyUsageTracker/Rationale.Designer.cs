@@ -33,6 +33,8 @@
             this.btnback5 = new System.Windows.Forms.Button();
             this.btnback7 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lHome = new System.Windows.Forms.Label();
+            this.lAbout = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,11 +75,31 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.MediumTurquoise;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(98, 119);
+            this.pictureBox1.Location = new System.Drawing.Point(116, 148);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(566, 221);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            // 
+            // lHome
+            // 
+            this.lHome.AutoSize = true;
+            this.lHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lHome.Location = new System.Drawing.Point(666, 75);
+            this.lHome.Name = "lHome";
+            this.lHome.Size = new System.Drawing.Size(52, 20);
+            this.lHome.TabIndex = 8;
+            this.lHome.Text = "Home";
+            // 
+            // lAbout
+            // 
+            this.lAbout.AutoSize = true;
+            this.lAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lAbout.Location = new System.Drawing.Point(79, 75);
+            this.lAbout.Name = "lAbout";
+            this.lAbout.Size = new System.Drawing.Size(52, 20);
+            this.lAbout.TabIndex = 9;
+            this.lAbout.Text = "About";
             // 
             // Rationale
             // 
@@ -85,6 +107,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lAbout);
+            this.Controls.Add(this.lHome);
             this.Controls.Add(this.btnback7);
             this.Controls.Add(this.btnback5);
             this.Controls.Add(this.pictureBox1);
@@ -103,5 +127,7 @@
         private System.Windows.Forms.Button btnback5;
         private System.Windows.Forms.Button btnback7;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lHome;
+        private System.Windows.Forms.Label lAbout;
     }
 }

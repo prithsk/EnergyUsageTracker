@@ -48,7 +48,7 @@
             // 
             // btnAbout
             // 
-            this.btnAbout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnAbout.BackColor = System.Drawing.Color.Coral;
             this.btnAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnAbout.ForeColor = System.Drawing.SystemColors.MenuText;
             this.btnAbout.Location = new System.Drawing.Point(85, 104);

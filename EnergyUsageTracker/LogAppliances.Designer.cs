@@ -41,6 +41,7 @@
             this.btnback8 = new System.Windows.Forms.Button();
             this.btnback9 = new System.Windows.Forms.Button();
             this.listBoxHistory = new System.Windows.Forms.ListBox();
+            this.btnGenerate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelLogAppliances
@@ -155,12 +156,24 @@
             this.listBoxHistory.Size = new System.Drawing.Size(201, 290);
             this.listBoxHistory.TabIndex = 24;
             // 
+            // btnGenerate
+            // 
+            this.btnGenerate.BackColor = System.Drawing.Color.Coral;
+            this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnGenerate.Location = new System.Drawing.Point(339, 174);
+            this.btnGenerate.Name = "btnGenerate";
+            this.btnGenerate.Size = new System.Drawing.Size(123, 102);
+            this.btnGenerate.TabIndex = 25;
+            this.btnGenerate.Text = "Generate";
+            this.btnGenerate.UseVisualStyleBackColor = false;
+            // 
             // LogAppliances
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.listBoxHistory);
             this.Controls.Add(this.btnback9);
             this.Controls.Add(this.btnback8);
@@ -194,5 +207,6 @@
         private System.Windows.Forms.Button btnback8;
         private System.Windows.Forms.Button btnback9;
         private System.Windows.Forms.ListBox listBoxHistory;
+        private System.Windows.Forms.Button btnGenerate;
     }
 }

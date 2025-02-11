@@ -40,17 +40,6 @@ namespace EnergyUsageTracker
         {
             Application.Run(new Recommendations());
         }
-        private void btnGenerate_Click(object sender, EventArgs e)
-        {
-            if (txtStrength.Text.Length > 0 && txtWeakness.Text.Length > 0 && txtGoal.Text.Length > 0)
-            {
-                string strength = txtStrength.Text;
-                string weakness = txtWeakness.Text;
-                string goal = txtGoal.Text;
-
-                txtRecommendations.Text = GenerateEnergySavingRoutine(strength, weakness, goal);
-            }
-        }
         private string GenerateEnergySavingRoutine(string strength, string weakness, string goal)
         {
             List<string> routines = new List<string>
@@ -66,6 +55,18 @@ namespace EnergyUsageTracker
             Random rand = new Random();
             int index = rand.Next(routines.Count);
             return routines[index];
+        }
+
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+            if (txtStrength.Text.Length > 0 && txtWeakness.Text.Length > 0 && txtGoal.Text.Length > 0)
+            {
+                string strength = txtStrength.Text;
+                string weakness = txtWeakness.Text;
+                string goal = txtGoal.Text;
+
+                txtRecommendations.Text = GenerateEnergySavingRoutine(strength, weakness, goal);
+            }
         }
     }
 }

@@ -61,7 +61,7 @@
             // 
             // btnAddGoals
             // 
-            this.btnAddGoals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnAddGoals.BackColor = System.Drawing.Color.Coral;
             this.btnAddGoals.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnAddGoals.ForeColor = System.Drawing.SystemColors.MenuText;
             this.btnAddGoals.Location = new System.Drawing.Point(83, 168);

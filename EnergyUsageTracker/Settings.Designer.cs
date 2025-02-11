@@ -54,7 +54,7 @@
             // 
             this.labelDarkMode.AutoSize = true;
             this.labelDarkMode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelDarkMode.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.labelDarkMode.ForeColor = System.Drawing.SystemColors.ControlText;
             this.labelDarkMode.Location = new System.Drawing.Point(73, 142);
             this.labelDarkMode.Name = "labelDarkMode";
             this.labelDarkMode.Size = new System.Drawing.Size(91, 20);
@@ -65,7 +65,7 @@
             // 
             this.labelNotifications.AutoSize = true;
             this.labelNotifications.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelNotifications.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.labelNotifications.ForeColor = System.Drawing.SystemColors.ControlText;
             this.labelNotifications.Location = new System.Drawing.Point(478, 142);
             this.labelNotifications.Name = "labelNotifications";
             this.labelNotifications.Size = new System.Drawing.Size(100, 20);
@@ -76,7 +76,7 @@
             // 
             this.labelTotalEnergyUsageStored.AutoSize = true;
             this.labelTotalEnergyUsageStored.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelTotalEnergyUsageStored.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.labelTotalEnergyUsageStored.ForeColor = System.Drawing.SystemColors.Desktop;
             this.labelTotalEnergyUsageStored.Location = new System.Drawing.Point(177, 266);
             this.labelTotalEnergyUsageStored.Name = "labelTotalEnergyUsageStored";
             this.labelTotalEnergyUsageStored.Size = new System.Drawing.Size(265, 20);

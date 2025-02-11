@@ -61,7 +61,7 @@
             // 
             // btnRationale
             // 
-            this.btnRationale.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnRationale.BackColor = System.Drawing.Color.Coral;
             this.btnRationale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnRationale.ForeColor = System.Drawing.SystemColors.MenuText;
             this.btnRationale.Location = new System.Drawing.Point(95, 186);

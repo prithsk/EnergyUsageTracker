@@ -63,7 +63,7 @@
             // 
             // btnPlanFutureEnergyUsage
             // 
-            this.btnPlanFutureEnergyUsage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnPlanFutureEnergyUsage.BackColor = System.Drawing.Color.Coral;
             this.btnPlanFutureEnergyUsage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnPlanFutureEnergyUsage.ForeColor = System.Drawing.SystemColors.MenuText;
             this.btnPlanFutureEnergyUsage.Location = new System.Drawing.Point(95, 199);

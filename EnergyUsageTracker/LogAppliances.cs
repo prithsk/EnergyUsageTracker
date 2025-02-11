@@ -50,7 +50,7 @@ namespace EnergyUsageTracker
             applianceHistory.Add(newEntry);
             UpdateHistoryDisplay();
 
-
+            //Need to Put a generate to make sure I can actually see the recommendations
         }
 
 

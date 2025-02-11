@@ -103,7 +103,7 @@
             // 
             // btnGenerate
             // 
-            this.btnGenerate.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnGenerate.BackColor = System.Drawing.Color.Coral;
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnGenerate.Location = new System.Drawing.Point(360, 177);
             this.btnGenerate.Name = "btnGenerate";
@@ -111,6 +111,7 @@
             this.btnGenerate.TabIndex = 9;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = false;
+            this.btnGenerate.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // txtWeakness
             // 

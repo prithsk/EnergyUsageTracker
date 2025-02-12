@@ -34,6 +34,18 @@
             this.btnback14 = new System.Windows.Forms.Button();
             this.laSetGoals = new System.Windows.Forms.Label();
             this.labHome = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnAddCompleteGoal = new System.Windows.Forms.Button();
+            this.txtDet = new System.Windows.Forms.TextBox();
+            this.txtGoalCompleName = new System.Windows.Forms.TextBox();
+            this.labeldat = new System.Windows.Forms.Label();
+            this.labeldetails = new System.Windows.Forms.Label();
+            this.lblNameCompletedGoal = new System.Windows.Forms.Label();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnPrev = new System.Windows.Forms.Button();
+            this.lblEntryCount = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // labelCompGoalLog
@@ -88,12 +100,127 @@
             this.labHome.TabIndex = 28;
             this.labHome.Text = "Home";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(218, 79);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(416, 321);
+            this.dataGridView1.TabIndex = 30;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // btnAddCompleteGoal
+            // 
+            this.btnAddCompleteGoal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnAddCompleteGoal.Location = new System.Drawing.Point(29, 345);
+            this.btnAddCompleteGoal.Name = "btnAddCompleteGoal";
+            this.btnAddCompleteGoal.Size = new System.Drawing.Size(170, 52);
+            this.btnAddCompleteGoal.TabIndex = 42;
+            this.btnAddCompleteGoal.Text = "Add Completed Goal";
+            this.btnAddCompleteGoal.UseVisualStyleBackColor = true;
+            this.btnAddCompleteGoal.Click += new System.EventHandler(this.btnAddCompleteGoal_Click);
+            // 
+            // txtDet
+            // 
+            this.txtDet.Location = new System.Drawing.Point(31, 224);
+            this.txtDet.Name = "txtDet";
+            this.txtDet.Size = new System.Drawing.Size(140, 20);
+            this.txtDet.TabIndex = 40;
+            // 
+            // txtGoalCompleName
+            // 
+            this.txtGoalCompleName.Location = new System.Drawing.Point(31, 157);
+            this.txtGoalCompleName.Name = "txtGoalCompleName";
+            this.txtGoalCompleName.Size = new System.Drawing.Size(140, 20);
+            this.txtGoalCompleName.TabIndex = 39;
+            // 
+            // labeldat
+            // 
+            this.labeldat.AutoSize = true;
+            this.labeldat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labeldat.Location = new System.Drawing.Point(53, 267);
+            this.labeldat.Name = "labeldat";
+            this.labeldat.Size = new System.Drawing.Size(48, 20);
+            this.labeldat.TabIndex = 38;
+            this.labeldat.Text = "Date:";
+            // 
+            // labeldetails
+            // 
+            this.labeldetails.AutoSize = true;
+            this.labeldetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labeldetails.Location = new System.Drawing.Point(50, 192);
+            this.labeldetails.Name = "labeldetails";
+            this.labeldetails.Size = new System.Drawing.Size(62, 20);
+            this.labeldetails.TabIndex = 37;
+            this.labeldetails.Text = "Details:";
+            // 
+            // lblNameCompletedGoal
+            // 
+            this.lblNameCompletedGoal.AutoSize = true;
+            this.lblNameCompletedGoal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblNameCompletedGoal.Location = new System.Drawing.Point(7, 124);
+            this.lblNameCompletedGoal.Name = "lblNameCompletedGoal";
+            this.lblNameCompletedGoal.Size = new System.Drawing.Size(192, 20);
+            this.lblNameCompletedGoal.TabIndex = 36;
+            this.lblNameCompletedGoal.Text = "Name of Completed Goal:";
+            // 
+            // btnNext
+            // 
+            this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnNext.Location = new System.Drawing.Point(660, 345);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(95, 34);
+            this.btnNext.TabIndex = 44;
+            this.btnNext.Text = "Next";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click_1);
+            // 
+            // btnPrev
+            // 
+            this.btnPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnPrev.Location = new System.Drawing.Point(660, 110);
+            this.btnPrev.Name = "btnPrev";
+            this.btnPrev.Size = new System.Drawing.Size(95, 34);
+            this.btnPrev.TabIndex = 43;
+            this.btnPrev.Text = "Previous";
+            this.btnPrev.UseVisualStyleBackColor = true;
+            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
+            // 
+            // lblEntryCount
+            // 
+            this.lblEntryCount.AutoSize = true;
+            this.lblEntryCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.lblEntryCount.Location = new System.Drawing.Point(329, 51);
+            this.lblEntryCount.Name = "lblEntryCount";
+            this.lblEntryCount.Size = new System.Drawing.Size(169, 22);
+            this.lblEntryCount.TabIndex = 45;
+            this.lblEntryCount.Text = "Displaying 5 Entries";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(12, 290);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 46;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
             // CompletedGoalLog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 418);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.lblEntryCount);
+            this.Controls.Add(this.btnNext);
+            this.Controls.Add(this.btnPrev);
+            this.Controls.Add(this.btnAddCompleteGoal);
+            this.Controls.Add(this.txtDet);
+            this.Controls.Add(this.txtGoalCompleName);
+            this.Controls.Add(this.labeldat);
+            this.Controls.Add(this.labeldetails);
+            this.Controls.Add(this.lblNameCompletedGoal);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.laSetGoals);
             this.Controls.Add(this.labHome);
             this.Controls.Add(this.btnback15);
@@ -101,6 +228,7 @@
             this.Controls.Add(this.labelCompGoalLog);
             this.Name = "CompletedGoalLog";
             this.Text = "CompletedGoalLog";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -113,5 +241,16 @@
         private System.Windows.Forms.Button btnback14;
         private System.Windows.Forms.Label laSetGoals;
         private System.Windows.Forms.Label labHome;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnAddCompleteGoal;
+        private System.Windows.Forms.TextBox txtDet;
+        private System.Windows.Forms.TextBox txtGoalCompleName;
+        private System.Windows.Forms.Label labeldat;
+        private System.Windows.Forms.Label labeldetails;
+        private System.Windows.Forms.Label lblNameCompletedGoal;
+        private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button btnPrev;
+        private System.Windows.Forms.Label lblEntryCount;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

@@ -8,9 +8,16 @@ namespace EnergyUsageTracker
 {
     public partial class AddGoals : Form
     {
-        private int currentPage = 1;
+        private int currentPage = 0;
         private const int EntriesPerPage = 5;
-        private List<GoalEntry> goalEntries = new List<GoalEntry>();
+        private List<GoalEntry> goalEntries = new List<GoalEntry>
+        {
+            new GoalEntry { PageNum = 0, Goal = "Reduce energy usage by 10%", Progress = "In Progress", Difficulty = "Medium" },
+            new GoalEntry { PageNum = 0, Goal = "Track appliance energy consumption", Progress = "Completed", Difficulty = "Easy" },
+            new GoalEntry { PageNum = 1, Goal = "Replace inefficient appliances", Progress = "Pending", Difficulty = "Hard" },
+            new GoalEntry { PageNum = 1, Goal = "Reduce peak-hour usage", Progress = "In Progress", Difficulty = "Medium" },
+            new GoalEntry { PageNum = 2, Goal = "Install energy-saving lighting", Progress = "Not Started", Difficulty = "Easy" }
+        };
 
         public AddGoals()
         {

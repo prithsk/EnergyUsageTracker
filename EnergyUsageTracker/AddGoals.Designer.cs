@@ -38,13 +38,13 @@
             this.lblNameGoal = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtGoalName = new System.Windows.Forms.TextBox();
+            this.txtProgress = new System.Windows.Forms.TextBox();
+            this.txtDifficulty = new System.Windows.Forms.TextBox();
             this.btnAddGoal = new System.Windows.Forms.Button();
             this.btnPrev = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
-            this.lblDisplay = new System.Windows.Forms.Label();
+            this.lblEntryCount = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,6 +107,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(418, 343);
             this.dataGridView1.TabIndex = 28;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // lblNameGoal
             // 
@@ -138,26 +139,26 @@
             this.label3.TabIndex = 31;
             this.label3.Text = "Difficulty:";
             // 
-            // textBox1
+            // txtGoalName
             // 
-            this.textBox1.Location = new System.Drawing.Point(28, 157);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 20);
-            this.textBox1.TabIndex = 32;
+            this.txtGoalName.Location = new System.Drawing.Point(28, 157);
+            this.txtGoalName.Name = "txtGoalName";
+            this.txtGoalName.Size = new System.Drawing.Size(140, 20);
+            this.txtGoalName.TabIndex = 32;
             // 
-            // textBox2
+            // txtProgress
             // 
-            this.textBox2.Location = new System.Drawing.Point(28, 224);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(140, 20);
-            this.textBox2.TabIndex = 33;
+            this.txtProgress.Location = new System.Drawing.Point(28, 224);
+            this.txtProgress.Name = "txtProgress";
+            this.txtProgress.Size = new System.Drawing.Size(140, 20);
+            this.txtProgress.TabIndex = 33;
             // 
-            // textBox3
+            // txtDifficulty
             // 
-            this.textBox3.Location = new System.Drawing.Point(28, 302);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(140, 20);
-            this.textBox3.TabIndex = 34;
+            this.txtDifficulty.Location = new System.Drawing.Point(28, 302);
+            this.txtDifficulty.Name = "txtDifficulty";
+            this.txtDifficulty.Size = new System.Drawing.Size(140, 20);
+            this.txtDifficulty.TabIndex = 34;
             // 
             // btnAddGoal
             // 
@@ -168,6 +169,7 @@
             this.btnAddGoal.TabIndex = 35;
             this.btnAddGoal.Text = "Add Goal";
             this.btnAddGoal.UseVisualStyleBackColor = true;
+            this.btnAddGoal.Click += new System.EventHandler(this.btnAddGoal_Click);
             // 
             // btnPrev
             // 
@@ -178,6 +180,7 @@
             this.btnPrev.TabIndex = 36;
             this.btnPrev.Text = "Previous";
             this.btnPrev.UseVisualStyleBackColor = true;
+            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click);
             // 
             // btnNext
             // 
@@ -188,16 +191,17 @@
             this.btnNext.TabIndex = 37;
             this.btnNext.Text = "Next";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
-            // lblDisplay
+            // lblEntryCount
             // 
-            this.lblDisplay.AutoSize = true;
-            this.lblDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.lblDisplay.Location = new System.Drawing.Point(313, 61);
-            this.lblDisplay.Name = "lblDisplay";
-            this.lblDisplay.Size = new System.Drawing.Size(169, 22);
-            this.lblDisplay.TabIndex = 38;
-            this.lblDisplay.Text = "Displaying 5 Entries";
+            this.lblEntryCount.AutoSize = true;
+            this.lblEntryCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.lblEntryCount.Location = new System.Drawing.Point(313, 61);
+            this.lblEntryCount.Name = "lblEntryCount";
+            this.lblEntryCount.Size = new System.Drawing.Size(169, 22);
+            this.lblEntryCount.TabIndex = 38;
+            this.lblEntryCount.Text = "Displaying 5 Entries";
             // 
             // AddGoals
             // 
@@ -205,13 +209,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblDisplay);
+            this.Controls.Add(this.lblEntryCount);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrev);
             this.Controls.Add(this.btnAddGoal);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDifficulty);
+            this.Controls.Add(this.txtProgress);
+            this.Controls.Add(this.txtGoalName);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblNameGoal);
@@ -240,12 +244,12 @@
         private System.Windows.Forms.Label lblNameGoal;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtGoalName;
+        private System.Windows.Forms.TextBox txtProgress;
+        private System.Windows.Forms.TextBox txtDifficulty;
         private System.Windows.Forms.Button btnAddGoal;
         private System.Windows.Forms.Button btnPrev;
         private System.Windows.Forms.Button btnNext;
-        private System.Windows.Forms.Label lblDisplay;
+        private System.Windows.Forms.Label lblEntryCount;
     }
 }

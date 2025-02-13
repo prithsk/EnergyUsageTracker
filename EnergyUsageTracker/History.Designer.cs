@@ -51,10 +51,12 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 117);
+            this.pictureBox1.InitialImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 112);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(776, 304);
+            this.pictureBox1.Size = new System.Drawing.Size(734, 303);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 

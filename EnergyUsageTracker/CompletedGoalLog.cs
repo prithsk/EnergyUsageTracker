@@ -38,31 +38,6 @@ namespace EnergyUsageTracker
             dataGridView1.DataSource = pageGoals;
         }
 
-        private void btnAddGoal_Click(object sender, EventArgs e)
-        {
-            string goalName = txtGoalCompleName.Text;
-            string details = txtDet.Text;
-            DateTime completionDate = dateTimePicker1.Value.Date;
-
-            if (string.IsNullOrWhiteSpace(goalName))
-            {
-                MessageBox.Show("Please enter a goal name.");
-                return;
-            }
-
-            completedGoals.Add(new CompletedEnergyGoal
-            {
-                Goal = goalName,
-                Details = details,
-                CompletionDate = completionDate
-            });
-
-            DisplayCurrentPage();
-            txtGoalCompleName.Clear();
-            txtDet.Clear();
-            dateTimePicker1.Value = DateTime.Today;
-        }
-
         private void btnback14_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -103,6 +78,43 @@ namespace EnergyUsageTracker
                 MessageBox.Show($"Goal: {selectedGoal.Goal}\nDetails: {selectedGoal.Details}\nDate: {selectedGoal.CompletionDate.ToShortDateString()}",
                                 "Completed Goal Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void btnAddCompleteGoal_Click(object sender, EventArgs e)
+        {
+            string goalName = txtGoalCompleName.Text;
+            string details = txtDet.Text;
+            DateTime completionDate = dateTimePicker1.Value.Date;
+
+            // Validate input
+            if (string.IsNullOrWhiteSpace(goalName))
+            {
+                MessageBox.Show("Please enter a goal name.");
+                return;
+            }
+
+            // Add new goal to the list
+            completedGoals.Add(new CompletedEnergyGoal
+            {
+                Goal = goalName,
+                Details = details,
+                CompletionDate = completionDate
+            });
+
+            // Refresh the displayed page
+            DisplayCurrentPage();
+
+            // Clear input fields after adding
+            txtGoalCompleName.Clear();
+            txtDet.Clear();
+            dateTimePicker1.Value = DateTime.Today;
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            // Custom behavior when date is changed
+            DateTime selectedDate = dateTimePicker1.Value.Date;
+
         }
     }
 

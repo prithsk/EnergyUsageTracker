@@ -137,6 +137,11 @@ namespace EnergyUsageTracker
                     "Goal Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class GoalEntry

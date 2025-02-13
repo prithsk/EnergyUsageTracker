@@ -127,6 +127,11 @@ namespace EnergyUsageTracker
         {
             DateTime selectedDate = dateTimePicker1.Value.Date;
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public class CompletedEnergyGoal

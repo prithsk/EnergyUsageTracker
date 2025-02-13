@@ -45,6 +45,7 @@
             this.btnPrev = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.lblEntryCount = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -103,9 +104,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(198, 95);
+            this.dataGridView1.Location = new System.Drawing.Point(197, 109);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(418, 343);
+            this.dataGridView1.Size = new System.Drawing.Size(418, 229);
             this.dataGridView1.TabIndex = 28;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -113,7 +114,7 @@
             // 
             this.lblNameGoal.AutoSize = true;
             this.lblNameGoal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblNameGoal.Location = new System.Drawing.Point(36, 124);
+            this.lblNameGoal.Location = new System.Drawing.Point(35, 109);
             this.lblNameGoal.Name = "lblNameGoal";
             this.lblNameGoal.Size = new System.Drawing.Size(111, 20);
             this.lblNameGoal.TabIndex = 29;
@@ -123,7 +124,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label2.Location = new System.Drawing.Point(47, 192);
+            this.label2.Location = new System.Drawing.Point(49, 180);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 20);
             this.label2.TabIndex = 30;
@@ -133,7 +134,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label3.Location = new System.Drawing.Point(50, 267);
+            this.label3.Location = new System.Drawing.Point(52, 246);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 20);
             this.label3.TabIndex = 31;
@@ -141,21 +142,21 @@
             // 
             // txtGoalName
             // 
-            this.txtGoalName.Location = new System.Drawing.Point(28, 157);
+            this.txtGoalName.Location = new System.Drawing.Point(27, 145);
             this.txtGoalName.Name = "txtGoalName";
             this.txtGoalName.Size = new System.Drawing.Size(140, 20);
             this.txtGoalName.TabIndex = 32;
             // 
             // txtProgress
             // 
-            this.txtProgress.Location = new System.Drawing.Point(28, 224);
+            this.txtProgress.Location = new System.Drawing.Point(27, 213);
             this.txtProgress.Name = "txtProgress";
             this.txtProgress.Size = new System.Drawing.Size(140, 20);
             this.txtProgress.TabIndex = 33;
             // 
             // txtDifficulty
             // 
-            this.txtDifficulty.Location = new System.Drawing.Point(28, 302);
+            this.txtDifficulty.Location = new System.Drawing.Point(27, 269);
             this.txtDifficulty.Name = "txtDifficulty";
             this.txtDifficulty.Size = new System.Drawing.Size(140, 20);
             this.txtDifficulty.TabIndex = 34;
@@ -163,7 +164,7 @@
             // btnAddGoal
             // 
             this.btnAddGoal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnAddGoal.Location = new System.Drawing.Point(40, 352);
+            this.btnAddGoal.Location = new System.Drawing.Point(39, 304);
             this.btnAddGoal.Name = "btnAddGoal";
             this.btnAddGoal.Size = new System.Drawing.Size(95, 34);
             this.btnAddGoal.TabIndex = 35;
@@ -174,7 +175,7 @@
             // btnPrev
             // 
             this.btnPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnPrev.Location = new System.Drawing.Point(656, 117);
+            this.btnPrev.Location = new System.Drawing.Point(656, 109);
             this.btnPrev.Name = "btnPrev";
             this.btnPrev.Size = new System.Drawing.Size(95, 34);
             this.btnPrev.TabIndex = 36;
@@ -185,7 +186,7 @@
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnNext.Location = new System.Drawing.Point(656, 352);
+            this.btnNext.Location = new System.Drawing.Point(656, 304);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(95, 34);
             this.btnNext.TabIndex = 37;
@@ -197,18 +198,28 @@
             // 
             this.lblEntryCount.AutoSize = true;
             this.lblEntryCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.lblEntryCount.Location = new System.Drawing.Point(313, 61);
+            this.lblEntryCount.Location = new System.Drawing.Point(313, 51);
             this.lblEntryCount.Name = "lblEntryCount";
             this.lblEntryCount.Size = new System.Drawing.Size(169, 22);
             this.lblEntryCount.TabIndex = 38;
             this.lblEntryCount.Text = "Displaying 5 Entries";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(361, 357);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 39;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // AddGoals
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 401);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lblEntryCount);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrev);
@@ -251,5 +262,6 @@
         private System.Windows.Forms.Button btnPrev;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Label lblEntryCount;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

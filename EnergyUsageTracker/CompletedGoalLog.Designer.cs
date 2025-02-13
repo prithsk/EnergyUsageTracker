@@ -45,6 +45,7 @@
             this.btnPrev = new System.Windows.Forms.Button();
             this.lblEntryCount = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +53,7 @@
             // 
             this.labelCompGoalLog.AutoSize = true;
             this.labelCompGoalLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.labelCompGoalLog.Location = new System.Drawing.Point(301, 9);
+            this.labelCompGoalLog.Location = new System.Drawing.Point(359, 9);
             this.labelCompGoalLog.Name = "labelCompGoalLog";
             this.labelCompGoalLog.Size = new System.Drawing.Size(212, 26);
             this.labelCompGoalLog.TabIndex = 0;
@@ -73,7 +74,7 @@
             // 
             this.btnback14.BackColor = System.Drawing.Color.Coral;
             this.btnback14.Image = ((System.Drawing.Image)(resources.GetObject("btnback14.Image")));
-            this.btnback14.Location = new System.Drawing.Point(601, 9);
+            this.btnback14.Location = new System.Drawing.Point(698, 9);
             this.btnback14.Name = "btnback14";
             this.btnback14.Size = new System.Drawing.Size(187, 64);
             this.btnback14.TabIndex = 24;
@@ -94,7 +95,7 @@
             // 
             this.labHome.AutoSize = true;
             this.labHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labHome.Location = new System.Drawing.Point(673, 76);
+            this.labHome.Location = new System.Drawing.Point(764, 76);
             this.labHome.Name = "labHome";
             this.labHome.Size = new System.Drawing.Size(52, 20);
             this.labHome.TabIndex = 28;
@@ -103,16 +104,16 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(218, 79);
+            this.dataGridView1.Location = new System.Drawing.Point(235, 96);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(416, 321);
+            this.dataGridView1.Size = new System.Drawing.Size(502, 312);
             this.dataGridView1.TabIndex = 30;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnAddCompleteGoal
             // 
             this.btnAddCompleteGoal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnAddCompleteGoal.Location = new System.Drawing.Point(29, 345);
+            this.btnAddCompleteGoal.Location = new System.Drawing.Point(30, 356);
             this.btnAddCompleteGoal.Name = "btnAddCompleteGoal";
             this.btnAddCompleteGoal.Size = new System.Drawing.Size(170, 52);
             this.btnAddCompleteGoal.TabIndex = 42;
@@ -122,14 +123,14 @@
             // 
             // txtDet
             // 
-            this.txtDet.Location = new System.Drawing.Point(31, 224);
+            this.txtDet.Location = new System.Drawing.Point(32, 244);
             this.txtDet.Name = "txtDet";
-            this.txtDet.Size = new System.Drawing.Size(140, 20);
+            this.txtDet.Size = new System.Drawing.Size(168, 20);
             this.txtDet.TabIndex = 40;
             // 
             // txtGoalCompleName
             // 
-            this.txtGoalCompleName.Location = new System.Drawing.Point(31, 157);
+            this.txtGoalCompleName.Location = new System.Drawing.Point(30, 160);
             this.txtGoalCompleName.Name = "txtGoalCompleName";
             this.txtGoalCompleName.Size = new System.Drawing.Size(140, 20);
             this.txtGoalCompleName.TabIndex = 39;
@@ -138,7 +139,7 @@
             // 
             this.labeldat.AutoSize = true;
             this.labeldat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labeldat.Location = new System.Drawing.Point(53, 267);
+            this.labeldat.Location = new System.Drawing.Point(51, 283);
             this.labeldat.Name = "labeldat";
             this.labeldat.Size = new System.Drawing.Size(48, 20);
             this.labeldat.TabIndex = 38;
@@ -148,7 +149,7 @@
             // 
             this.labeldetails.AutoSize = true;
             this.labeldetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labeldetails.Location = new System.Drawing.Point(50, 192);
+            this.labeldetails.Location = new System.Drawing.Point(51, 206);
             this.labeldetails.Name = "labeldetails";
             this.labeldetails.Size = new System.Drawing.Size(62, 20);
             this.labeldetails.TabIndex = 37;
@@ -158,7 +159,7 @@
             // 
             this.lblNameCompletedGoal.AutoSize = true;
             this.lblNameCompletedGoal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblNameCompletedGoal.Location = new System.Drawing.Point(7, 124);
+            this.lblNameCompletedGoal.Location = new System.Drawing.Point(8, 117);
             this.lblNameCompletedGoal.Name = "lblNameCompletedGoal";
             this.lblNameCompletedGoal.Size = new System.Drawing.Size(192, 20);
             this.lblNameCompletedGoal.TabIndex = 36;
@@ -167,7 +168,7 @@
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnNext.Location = new System.Drawing.Point(660, 345);
+            this.btnNext.Location = new System.Drawing.Point(768, 374);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(95, 34);
             this.btnNext.TabIndex = 44;
@@ -178,7 +179,7 @@
             // btnPrev
             // 
             this.btnPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnPrev.Location = new System.Drawing.Point(660, 110);
+            this.btnPrev.Location = new System.Drawing.Point(768, 117);
             this.btnPrev.Name = "btnPrev";
             this.btnPrev.Size = new System.Drawing.Size(95, 34);
             this.btnPrev.TabIndex = 43;
@@ -189,27 +190,37 @@
             // lblEntryCount
             // 
             this.lblEntryCount.AutoSize = true;
-            this.lblEntryCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.lblEntryCount.Location = new System.Drawing.Point(329, 51);
+            this.lblEntryCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.lblEntryCount.Location = new System.Drawing.Point(378, 59);
             this.lblEntryCount.Name = "lblEntryCount";
-            this.lblEntryCount.Size = new System.Drawing.Size(169, 22);
+            this.lblEntryCount.Size = new System.Drawing.Size(174, 24);
             this.lblEntryCount.TabIndex = 45;
             this.lblEntryCount.Text = "Displaying 5 Entries";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(12, 290);
+            this.dateTimePicker1.Location = new System.Drawing.Point(12, 321);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 46;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(410, 414);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 47;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // CompletedGoalLog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(800, 418);
+            this.ClientSize = new System.Drawing.Size(897, 476);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lblEntryCount);
             this.Controls.Add(this.btnNext);
@@ -252,5 +263,6 @@
         private System.Windows.Forms.Button btnPrev;
         private System.Windows.Forms.Label lblEntryCount;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

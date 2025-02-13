@@ -59,7 +59,7 @@
             // 
             // txtAppName
             // 
-            this.txtAppName.Location = new System.Drawing.Point(140, 138);
+            this.txtAppName.Location = new System.Drawing.Point(111, 138);
             this.txtAppName.Multiline = true;
             this.txtAppName.Name = "txtAppName";
             this.txtAppName.Size = new System.Drawing.Size(158, 53);
@@ -67,7 +67,7 @@
             // 
             // txtEnergyUse
             // 
-            this.txtEnergyUse.Location = new System.Drawing.Point(140, 344);
+            this.txtEnergyUse.Location = new System.Drawing.Point(111, 344);
             this.txtEnergyUse.Multiline = true;
             this.txtEnergyUse.Name = "txtEnergyUse";
             this.txtEnergyUse.Size = new System.Drawing.Size(213, 79);
@@ -75,7 +75,7 @@
             // 
             // txtUseDur
             // 
-            this.txtUseDur.Location = new System.Drawing.Point(140, 237);
+            this.txtUseDur.Location = new System.Drawing.Point(111, 237);
             this.txtUseDur.Multiline = true;
             this.txtUseDur.Name = "txtUseDur";
             this.txtUseDur.Size = new System.Drawing.Size(158, 57);
@@ -103,7 +103,7 @@
             // 
             this.labelEnergyUsageDesc.AutoSize = true;
             this.labelEnergyUsageDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(136, 321);
+            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(107, 321);
             this.labelEnergyUsageDesc.Name = "labelEnergyUsageDesc";
             this.labelEnergyUsageDesc.Size = new System.Drawing.Size(226, 20);
             this.labelEnergyUsageDesc.TabIndex = 15;
@@ -113,7 +113,7 @@
             // 
             this.labelUsageDuration.AutoSize = true;
             this.labelUsageDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelUsageDuration.Location = new System.Drawing.Point(136, 214);
+            this.labelUsageDuration.Location = new System.Drawing.Point(107, 214);
             this.labelUsageDuration.Name = "labelUsageDuration";
             this.labelUsageDuration.Size = new System.Drawing.Size(125, 20);
             this.labelUsageDuration.TabIndex = 14;
@@ -123,7 +123,7 @@
             // 
             this.labelApplianceName.AutoSize = true;
             this.labelApplianceName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelApplianceName.Location = new System.Drawing.Point(136, 115);
+            this.labelApplianceName.Location = new System.Drawing.Point(107, 115);
             this.labelApplianceName.Name = "labelApplianceName";
             this.labelApplianceName.Size = new System.Drawing.Size(129, 20);
             this.labelApplianceName.TabIndex = 13;
@@ -163,11 +163,11 @@
             // 
             this.btnAddAppliance.BackColor = System.Drawing.Color.Coral;
             this.btnAddAppliance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnAddAppliance.Location = new System.Drawing.Point(352, 190);
+            this.btnAddAppliance.Location = new System.Drawing.Point(360, 177);
             this.btnAddAppliance.Name = "btnAddAppliance";
-            this.btnAddAppliance.Size = new System.Drawing.Size(162, 95);
+            this.btnAddAppliance.Size = new System.Drawing.Size(108, 95);
             this.btnAddAppliance.TabIndex = 25;
-            this.btnAddAppliance.Text = "Generate";
+            this.btnAddAppliance.Text = "Log";
             this.btnAddAppliance.UseVisualStyleBackColor = false;
             this.btnAddAppliance.Click += new System.EventHandler(this.btnAddAppliance_Click_1);
             // 
@@ -194,7 +194,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(363, 78);
+            this.comboBox1.Location = new System.Drawing.Point(338, 78);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 30;

@@ -10,6 +10,7 @@ namespace EnergyUsageTracker
     {
         private int currentPage = 0;
         private const int maxEntriesPerPage = 5;
+        private Label lblCurrentPage = new Label();
 
         private List<CompletedEnergyGoal> completedGoals = new List<CompletedEnergyGoal>
         {
@@ -24,7 +25,23 @@ namespace EnergyUsageTracker
         {
             InitializeComponent();
             CenterToScreen();
+            InitializePageLabel();
+            currentPage = 0;
             DisplayCurrentPage();
+        }
+
+        private void InitializePageLabel()
+        {
+            lblCurrentPage.AutoSize = true;
+            lblCurrentPage.Location = new System.Drawing.Point(500, 300);
+            this.Controls.Add(lblCurrentPage);
+            UpdatePageLabel();
+        }
+
+        private void UpdatePageLabel()
+        {
+            int totalPages = (int)Math.Ceiling((double)completedGoals.Count / maxEntriesPerPage);
+            lblCurrentPage.Text = $"Page {currentPage + 1} of {totalPages}";
         }
 
         private void DisplayCurrentPage()
@@ -36,6 +53,7 @@ namespace EnergyUsageTracker
 
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = pageGoals;
+            UpdatePageLabel();
         }
 
         private void btnback14_Click(object sender, EventArgs e)
@@ -86,14 +104,12 @@ namespace EnergyUsageTracker
             string details = txtDet.Text;
             DateTime completionDate = dateTimePicker1.Value.Date;
 
-            // Validate input
             if (string.IsNullOrWhiteSpace(goalName))
             {
                 MessageBox.Show("Please enter a goal name.");
                 return;
             }
 
-            // Add new goal to the list
             completedGoals.Add(new CompletedEnergyGoal
             {
                 Goal = goalName,
@@ -101,10 +117,7 @@ namespace EnergyUsageTracker
                 CompletionDate = completionDate
             });
 
-            // Refresh the displayed page
             DisplayCurrentPage();
-
-            // Clear input fields after adding
             txtGoalCompleName.Clear();
             txtDet.Clear();
             dateTimePicker1.Value = DateTime.Today;
@@ -112,9 +125,7 @@ namespace EnergyUsageTracker
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            // Custom behavior when date is changed
             DateTime selectedDate = dateTimePicker1.Value.Date;
-
         }
     }
 

@@ -24,6 +24,7 @@ namespace EnergyUsageTracker
             InitializeComponent();
             CenterToScreen();
             LoadPageData();
+            PopulateComboBox();
         }
 
         private void LoadPageData()
@@ -137,10 +138,29 @@ namespace EnergyUsageTracker
                     "Goal Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+        private void PopulateComboBox()
+        {
+            comboBox1.Items.Add("Sort by Goal Name (A-Z)");
+            comboBox1.Items.Add("Sort by Goal Name (Z-A)");
 
+            comboBox1.SelectedIndex = 0;
+        }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (comboBox1.SelectedItem == null) return;
 
+            string selectedOption = comboBox1.SelectedItem.ToString();
+
+            if (selectedOption == "Sort by Goal Name (A-Z)")
+            {
+                goalEntries = goalEntries.OrderBy(g => g.Goal).ToList();
+            }
+            else if (selectedOption == "Sort by Goal Name (Z-A)")
+            {
+                goalEntries = goalEntries.OrderByDescending(g => g.Goal).ToList();
+            }
+
+            LoadPageData();
         }
     }
 

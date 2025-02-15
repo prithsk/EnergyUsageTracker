@@ -28,6 +28,7 @@ namespace EnergyUsageTracker
             InitializePageLabel();
             currentPage = 0;
             DisplayCurrentPage();
+            PopulateComboBox();
         }
 
         private void InitializePageLabel()
@@ -127,17 +128,49 @@ namespace EnergyUsageTracker
         {
             DateTime selectedDate = dateTimePicker1.Value.Date;
         }
+        private void PopulateComboBox()
+        {
+            comboBox1.Items.Add("Sort by Goal Name (A-Z)");
+            comboBox1.Items.Add("Sort by Goal Name (Z-A)");
+            comboBox1.Items.Add("Sort by Completion Date (Newest First)");
+            comboBox1.Items.Add("Sort by Completion Date (Oldest First)");
+
+            comboBox1.SelectedIndex = 0;
+        }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            {
+                if (comboBox1.SelectedItem == null) return;
 
+                string selectedOption = comboBox1.SelectedItem.ToString();
+
+                if (selectedOption == "Sort by Goal Name (A-Z)")
+                {
+                    completedGoals = completedGoals.OrderBy(g => g.Goal).ToList();
+                }
+                else if (selectedOption == "Sort by Goal Name (Z-A)")
+                {
+                    completedGoals = completedGoals.OrderByDescending(g => g.Goal).ToList();
+                }
+                else if (selectedOption == "Sort by Completion Date (Newest First)")
+                {
+                    completedGoals = completedGoals.OrderByDescending(g => g.CompletionDate).ToList();
+                }
+                else if (selectedOption == "Sort by Completion Date (Oldest First)")
+                {
+                    completedGoals = completedGoals.OrderBy(g => g.CompletionDate).ToList();
+                }
+
+                DisplayCurrentPage();
+            }
         }
-    }
 
-    public class CompletedEnergyGoal
-    {
-        public string Goal { get; set; }
-        public string Details { get; set; }
-        public DateTime CompletionDate { get; set; }
+        public class CompletedEnergyGoal
+        {
+            public string Goal { get; set; }
+            public string Details { get; set; }
+            public DateTime CompletionDate { get; set; }
+        }
     }
 }

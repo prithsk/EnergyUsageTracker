@@ -10,12 +10,16 @@ namespace EnergyUsageTracker
     public partial class LogAppliances : Form
     {
         private List<string> applianceHistory = new List<string>();
+        private int currentPage = 0;
+        private const int ItemsPerPage = 5;
+        private Label lblpanum = new Label(); 
 
         public LogAppliances()
         {
             InitializeComponent();
             CenterToScreen();
             LoadHistory();
+            InitializePageLabel();
 
             comboBox1.Items.Add("Sort A → Z");
             comboBox1.Items.Add("Sort Z → A");
@@ -27,18 +31,73 @@ namespace EnergyUsageTracker
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
         }
 
+        private void InitializePageLabel()
+        {
+            lblpanum.AutoSize = true;
+            lblpanum.Location = new System.Drawing.Point(370, 400);
+            Controls.Add(lblpanum);
+            UpdatePageLabel();
+        }
+
         private void LoadHistory()
         {
             applianceHistory.Add("Fridge - 200W - 5 hrs");
             applianceHistory.Add("Microwave - 1000W - 10 mins");
+            applianceHistory.Add("Dishwasher - 800W - 1.5 hrs");
+            applianceHistory.Add("Air Conditioner - 2000W - 3 hrs");
+            applianceHistory.Add("Heater - 1500W - 2 hrs");
+            applianceHistory.Add("Oven - 1800W - 45 mins");
+            applianceHistory.Add("Fan - 75W - 6 hrs");
+            applianceHistory.Add("Washing Machine - 500W - 1 hr");
+            applianceHistory.Add("Dryer - 1500W - 50 mins");
+            applianceHistory.Add("Vacuum - 1200W - 30 mins");
+
             UpdateHistoryDisplay();
         }
 
         private void UpdateHistoryDisplay()
         {
+            var paginatedHistory = applianceHistory
+                .Skip(currentPage * ItemsPerPage)
+                .Take(ItemsPerPage)
+                .ToList();
+
             listBoxHistory.DataSource = null;
-            listBoxHistory.DataSource = new List<string>(applianceHistory);
+            listBoxHistory.DataSource = paginatedHistory;
+            UpdateNavigationButtons();
+            UpdatePageLabel();
         }
+
+        private void UpdateNavigationButtons()
+        {
+            btnPrev.Enabled = currentPage > 0;
+            btnNext.Enabled = (currentPage + 1) * ItemsPerPage < applianceHistory.Count;
+        }
+
+        private void UpdatePageLabel()
+        {
+            int totalPages = (int)Math.Ceiling((double)applianceHistory.Count / ItemsPerPage);
+            lblpanum.Text = $"Page {currentPage + 1} of {totalPages}";
+        }
+
+        private void btnPrev_Click_1(object sender, EventArgs e)
+        {
+            if (currentPage > 0)
+            {
+                currentPage--;
+                UpdateHistoryDisplay();
+            }
+        }
+
+        private void btnNext_Click_1(object sender, EventArgs e)
+        {
+            if ((currentPage + 1) * ItemsPerPage < applianceHistory.Count)
+            {
+                currentPage++;
+                UpdateHistoryDisplay();
+            }
+        }
+
         private void btnback8_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -50,6 +109,7 @@ namespace EnergyUsageTracker
         {
             Application.Run(new HomePage());
         }
+
         private void btnback9_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -94,6 +154,7 @@ namespace EnergyUsageTracker
                 applianceHistory = applianceHistory.OrderByDescending(GetUsageTime).ToList();
             }
 
+            currentPage = 0;
             UpdateHistoryDisplay();
         }
 
@@ -125,8 +186,8 @@ namespace EnergyUsageTracker
             }
 
             string newEntry = $"{applianceName} - {wattage}W - {usageDuration} hrs";
-
             applianceHistory.Add(newEntry);
+            currentPage = (applianceHistory.Count - 1) / ItemsPerPage;
             UpdateHistoryDisplay();
         }
     }

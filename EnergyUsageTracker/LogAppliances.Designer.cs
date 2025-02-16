@@ -45,6 +45,8 @@
             this.laEnergyTracker = new System.Windows.Forms.Label();
             this.labHome = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnPrev = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelLogAppliances
@@ -59,7 +61,7 @@
             // 
             // txtAppName
             // 
-            this.txtAppName.Location = new System.Drawing.Point(111, 138);
+            this.txtAppName.Location = new System.Drawing.Point(68, 138);
             this.txtAppName.Multiline = true;
             this.txtAppName.Name = "txtAppName";
             this.txtAppName.Size = new System.Drawing.Size(158, 53);
@@ -67,7 +69,7 @@
             // 
             // txtEnergyUse
             // 
-            this.txtEnergyUse.Location = new System.Drawing.Point(111, 344);
+            this.txtEnergyUse.Location = new System.Drawing.Point(68, 344);
             this.txtEnergyUse.Multiline = true;
             this.txtEnergyUse.Name = "txtEnergyUse";
             this.txtEnergyUse.Size = new System.Drawing.Size(213, 79);
@@ -75,7 +77,7 @@
             // 
             // txtUseDur
             // 
-            this.txtUseDur.Location = new System.Drawing.Point(111, 237);
+            this.txtUseDur.Location = new System.Drawing.Point(68, 237);
             this.txtUseDur.Multiline = true;
             this.txtUseDur.Name = "txtUseDur";
             this.txtUseDur.Size = new System.Drawing.Size(158, 57);
@@ -103,7 +105,7 @@
             // 
             this.labelEnergyUsageDesc.AutoSize = true;
             this.labelEnergyUsageDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(107, 321);
+            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(64, 321);
             this.labelEnergyUsageDesc.Name = "labelEnergyUsageDesc";
             this.labelEnergyUsageDesc.Size = new System.Drawing.Size(226, 20);
             this.labelEnergyUsageDesc.TabIndex = 15;
@@ -113,7 +115,7 @@
             // 
             this.labelUsageDuration.AutoSize = true;
             this.labelUsageDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelUsageDuration.Location = new System.Drawing.Point(107, 214);
+            this.labelUsageDuration.Location = new System.Drawing.Point(64, 214);
             this.labelUsageDuration.Name = "labelUsageDuration";
             this.labelUsageDuration.Size = new System.Drawing.Size(125, 20);
             this.labelUsageDuration.TabIndex = 14;
@@ -123,7 +125,7 @@
             // 
             this.labelApplianceName.AutoSize = true;
             this.labelApplianceName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelApplianceName.Location = new System.Drawing.Point(107, 115);
+            this.labelApplianceName.Location = new System.Drawing.Point(64, 115);
             this.labelApplianceName.Name = "labelApplianceName";
             this.labelApplianceName.Size = new System.Drawing.Size(129, 20);
             this.labelApplianceName.TabIndex = 13;
@@ -200,12 +202,38 @@
             this.comboBox1.TabIndex = 30;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
+            // btnPrev
+            // 
+            this.btnPrev.BackColor = System.Drawing.Color.Coral;
+            this.btnPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnPrev.Location = new System.Drawing.Point(789, 138);
+            this.btnPrev.Name = "btnPrev";
+            this.btnPrev.Size = new System.Drawing.Size(80, 56);
+            this.btnPrev.TabIndex = 31;
+            this.btnPrev.Text = "Previous";
+            this.btnPrev.UseVisualStyleBackColor = false;
+            this.btnPrev.Click += new System.EventHandler(this.btnPrev_Click_1);
+            // 
+            // btnNext
+            // 
+            this.btnNext.BackColor = System.Drawing.Color.Coral;
+            this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnNext.Location = new System.Drawing.Point(789, 365);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(80, 63);
+            this.btnNext.TabIndex = 32;
+            this.btnNext.Text = "Next";
+            this.btnNext.UseVisualStyleBackColor = false;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click_1);
+            // 
             // LogAppliances
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(881, 450);
+            this.Controls.Add(this.btnNext);
+            this.Controls.Add(this.btnPrev);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.laEnergyTracker);
             this.Controls.Add(this.labHome);
@@ -247,5 +275,7 @@
         private System.Windows.Forms.Label laEnergyTracker;
         private System.Windows.Forms.Label labHome;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnPrev;
+        private System.Windows.Forms.Button btnNext;
     }
 }

@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace EnergyUsageTracker
 {
+    //see if in the settings for the stored textbox if you can make a database so when everytime the energy is stored in completed goal log, state the amount
     public partial class Settings : Form
     {
         public Settings()

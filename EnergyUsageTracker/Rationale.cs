@@ -41,5 +41,16 @@ namespace EnergyUsageTracker
         {
             Application.Run(new About());
         }
+
+        private void btnhi_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Thread t = new Thread(Threadbtnhi);
+            t.Start();
+        }
+        private void Threadbtnhi()
+        {
+            Application.Run(new History());
+        }
     }
 }

@@ -35,6 +35,8 @@
             this.btnback6 = new System.Windows.Forms.Button();
             this.laHome = new System.Windows.Forms.Label();
             this.laAbout = new System.Windows.Forms.Label();
+            this.btnra = new System.Windows.Forms.Button();
+            this.labeRat = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,7 +45,7 @@
             this.labelHistory.AutoSize = true;
             this.labelHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.labelHistory.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelHistory.Location = new System.Drawing.Point(351, 9);
+            this.labelHistory.Location = new System.Drawing.Point(381, 9);
             this.labelHistory.Name = "labelHistory";
             this.labelHistory.Size = new System.Drawing.Size(80, 26);
             this.labelHistory.TabIndex = 5;
@@ -54,9 +56,9 @@
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 112);
+            this.pictureBox1.Location = new System.Drawing.Point(54, 156);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(734, 303);
+            this.pictureBox1.Size = new System.Drawing.Size(734, 330);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
@@ -64,7 +66,7 @@
             // 
             this.btnback4.BackColor = System.Drawing.Color.Coral;
             this.btnback4.Image = ((System.Drawing.Image)(resources.GetObject("btnback4.Image")));
-            this.btnback4.Location = new System.Drawing.Point(601, 9);
+            this.btnback4.Location = new System.Drawing.Point(664, 9);
             this.btnback4.Name = "btnback4";
             this.btnback4.Size = new System.Drawing.Size(187, 64);
             this.btnback4.TabIndex = 7;
@@ -75,7 +77,7 @@
             // 
             this.btnback6.BackColor = System.Drawing.Color.Coral;
             this.btnback6.Image = ((System.Drawing.Image)(resources.GetObject("btnback6.Image")));
-            this.btnback6.Location = new System.Drawing.Point(12, 9);
+            this.btnback6.Location = new System.Drawing.Point(12, 12);
             this.btnback6.Name = "btnback6";
             this.btnback6.Size = new System.Drawing.Size(187, 64);
             this.btnback6.TabIndex = 8;
@@ -86,7 +88,7 @@
             // 
             this.laHome.AutoSize = true;
             this.laHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.laHome.Location = new System.Drawing.Point(671, 76);
+            this.laHome.Location = new System.Drawing.Point(736, 76);
             this.laHome.Name = "laHome";
             this.laHome.Size = new System.Drawing.Size(52, 20);
             this.laHome.TabIndex = 9;
@@ -96,18 +98,41 @@
             // 
             this.laAbout.AutoSize = true;
             this.laAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.laAbout.Location = new System.Drawing.Point(79, 76);
+            this.laAbout.Location = new System.Drawing.Point(71, 79);
             this.laAbout.Name = "laAbout";
             this.laAbout.Size = new System.Drawing.Size(52, 20);
             this.laAbout.TabIndex = 10;
             this.laAbout.Text = "About";
+            // 
+            // btnra
+            // 
+            this.btnra.BackColor = System.Drawing.Color.Coral;
+            this.btnra.Image = ((System.Drawing.Image)(resources.GetObject("btnra.Image")));
+            this.btnra.Location = new System.Drawing.Point(330, 55);
+            this.btnra.Name = "btnra";
+            this.btnra.Size = new System.Drawing.Size(187, 64);
+            this.btnra.TabIndex = 11;
+            this.btnra.UseVisualStyleBackColor = false;
+            this.btnra.Click += new System.EventHandler(this.btnra_Click);
+            // 
+            // labeRat
+            // 
+            this.labeRat.AutoSize = true;
+            this.labeRat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labeRat.Location = new System.Drawing.Point(384, 122);
+            this.labeRat.Name = "labeRat";
+            this.labeRat.Size = new System.Drawing.Size(77, 20);
+            this.labeRat.TabIndex = 12;
+            this.labeRat.Text = "Rationale";
             // 
             // History
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(863, 508);
+            this.Controls.Add(this.labeRat);
+            this.Controls.Add(this.btnra);
             this.Controls.Add(this.laAbout);
             this.Controls.Add(this.laHome);
             this.Controls.Add(this.btnback6);
@@ -130,5 +155,7 @@
         private System.Windows.Forms.Button btnback6;
         private System.Windows.Forms.Label laHome;
         private System.Windows.Forms.Label laAbout;
+        private System.Windows.Forms.Button btnra;
+        private System.Windows.Forms.Label labeRat;
     }
 }

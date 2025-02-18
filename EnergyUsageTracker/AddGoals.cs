@@ -162,13 +162,26 @@ namespace EnergyUsageTracker
 
             LoadPageData();
         }
-    }
 
-    public class GoalEntry
-    {
-        public int PageNum { get; set; }
-        public string Goal { get; set; }
-        public string Progress { get; set; }
-        public string Difficulty { get; set; }
+
+
+        public class GoalEntry
+        {
+            public int PageNum { get; set; }
+            public string Goal { get; set; }
+            public string Progress { get; set; }
+            public string Difficulty { get; set; }
+        }
+
+        private void btnback1212_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Thread t = new Thread(Threadbtnback1212);
+            t.Start();
+        }
+        private void Threadbtnback1212()
+        {
+            Application.Run(new Recommendations());
+        }
     }
 }

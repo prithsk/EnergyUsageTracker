@@ -46,6 +46,8 @@
             this.btnNext = new System.Windows.Forms.Button();
             this.lblEntryCount = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnback1212 = new System.Windows.Forms.Button();
+            this.lrec = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,7 +76,7 @@
             // 
             this.btnback12.BackColor = System.Drawing.Color.Coral;
             this.btnback12.Image = ((System.Drawing.Image)(resources.GetObject("btnback12.Image")));
-            this.btnback12.Location = new System.Drawing.Point(601, 9);
+            this.btnback12.Location = new System.Drawing.Point(631, 9);
             this.btnback12.Name = "btnback12";
             this.btnback12.Size = new System.Drawing.Size(187, 64);
             this.btnback12.TabIndex = 24;
@@ -85,7 +87,7 @@
             // 
             this.labeHome.AutoSize = true;
             this.labeHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labeHome.Location = new System.Drawing.Point(666, 76);
+            this.labeHome.Location = new System.Drawing.Point(699, 76);
             this.labeHome.Name = "labeHome";
             this.labeHome.Size = new System.Drawing.Size(52, 20);
             this.labeHome.TabIndex = 26;
@@ -175,7 +177,7 @@
             // btnPrev
             // 
             this.btnPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnPrev.Location = new System.Drawing.Point(656, 109);
+            this.btnPrev.Location = new System.Drawing.Point(678, 109);
             this.btnPrev.Name = "btnPrev";
             this.btnPrev.Size = new System.Drawing.Size(95, 34);
             this.btnPrev.TabIndex = 36;
@@ -186,7 +188,7 @@
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnNext.Location = new System.Drawing.Point(656, 304);
+            this.btnNext.Location = new System.Drawing.Point(678, 304);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(95, 34);
             this.btnNext.TabIndex = 37;
@@ -213,12 +215,35 @@
             this.comboBox1.TabIndex = 39;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
+            // btnback1212
+            // 
+            this.btnback1212.BackColor = System.Drawing.Color.Coral;
+            this.btnback1212.Image = ((System.Drawing.Image)(resources.GetObject("btnback1212.Image")));
+            this.btnback1212.Location = new System.Drawing.Point(631, 170);
+            this.btnback1212.Name = "btnback1212";
+            this.btnback1212.Size = new System.Drawing.Size(187, 75);
+            this.btnback1212.TabIndex = 40;
+            this.btnback1212.UseVisualStyleBackColor = false;
+            this.btnback1212.Click += new System.EventHandler(this.btnback1212_Click);
+            // 
+            // lrec
+            // 
+            this.lrec.AutoSize = true;
+            this.lrec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lrec.Location = new System.Drawing.Point(655, 248);
+            this.lrec.Name = "lrec";
+            this.lrec.Size = new System.Drawing.Size(143, 20);
+            this.lrec.TabIndex = 41;
+            this.lrec.Text = "Recommendations";
+            // 
             // AddGoals
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(800, 401);
+            this.ClientSize = new System.Drawing.Size(830, 401);
+            this.Controls.Add(this.lrec);
+            this.Controls.Add(this.btnback1212);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lblEntryCount);
             this.Controls.Add(this.btnNext);
@@ -263,5 +288,7 @@
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Label lblEntryCount;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnback1212;
+        private System.Windows.Forms.Label lrec;
     }
 }

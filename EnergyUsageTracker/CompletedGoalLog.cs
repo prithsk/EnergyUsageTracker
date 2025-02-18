@@ -172,5 +172,16 @@ namespace EnergyUsageTracker
             public string Details { get; set; }
             public DateTime CompletionDate { get; set; }
         }
+
+        private void btnback12123_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Thread t = new Thread(Threadbtnback12123);
+            t.Start();
+        }
+        private void Threadbtnback12123()
+        {
+            Application.Run(new Recommendations());
+        }
     }
 }

@@ -46,6 +46,8 @@
             this.lblEntryCount = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnback12123 = new System.Windows.Forms.Button();
+            this.lareco = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,7 +76,7 @@
             // 
             this.btnback14.BackColor = System.Drawing.Color.Coral;
             this.btnback14.Image = ((System.Drawing.Image)(resources.GetObject("btnback14.Image")));
-            this.btnback14.Location = new System.Drawing.Point(698, 9);
+            this.btnback14.Location = new System.Drawing.Point(742, 9);
             this.btnback14.Name = "btnback14";
             this.btnback14.Size = new System.Drawing.Size(187, 64);
             this.btnback14.TabIndex = 24;
@@ -95,7 +97,7 @@
             // 
             this.labHome.AutoSize = true;
             this.labHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labHome.Location = new System.Drawing.Point(764, 76);
+            this.labHome.Location = new System.Drawing.Point(811, 76);
             this.labHome.Name = "labHome";
             this.labHome.Size = new System.Drawing.Size(52, 20);
             this.labHome.TabIndex = 28;
@@ -168,7 +170,7 @@
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnNext.Location = new System.Drawing.Point(768, 374);
+            this.btnNext.Location = new System.Drawing.Point(792, 374);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(95, 34);
             this.btnNext.TabIndex = 44;
@@ -179,7 +181,7 @@
             // btnPrev
             // 
             this.btnPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnPrev.Location = new System.Drawing.Point(768, 117);
+            this.btnPrev.Location = new System.Drawing.Point(792, 110);
             this.btnPrev.Name = "btnPrev";
             this.btnPrev.Size = new System.Drawing.Size(95, 34);
             this.btnPrev.TabIndex = 43;
@@ -208,18 +210,41 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(410, 414);
+            this.comboBox1.Location = new System.Drawing.Point(407, 423);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 47;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // btnback12123
+            // 
+            this.btnback12123.BackColor = System.Drawing.Color.Coral;
+            this.btnback12123.Image = ((System.Drawing.Image)(resources.GetObject("btnback12123.Image")));
+            this.btnback12123.Location = new System.Drawing.Point(752, 212);
+            this.btnback12123.Name = "btnback12123";
+            this.btnback12123.Size = new System.Drawing.Size(166, 52);
+            this.btnback12123.TabIndex = 48;
+            this.btnback12123.UseVisualStyleBackColor = false;
+            this.btnback12123.Click += new System.EventHandler(this.btnback12123_Click);
+            // 
+            // lareco
+            // 
+            this.lareco.AutoSize = true;
+            this.lareco.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lareco.Location = new System.Drawing.Point(765, 267);
+            this.lareco.Name = "lareco";
+            this.lareco.Size = new System.Drawing.Size(143, 20);
+            this.lareco.TabIndex = 49;
+            this.lareco.Text = "Recommendations";
             // 
             // CompletedGoalLog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(897, 476);
+            this.ClientSize = new System.Drawing.Size(941, 476);
+            this.Controls.Add(this.lareco);
+            this.Controls.Add(this.btnback12123);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.lblEntryCount);
@@ -264,5 +289,7 @@
         private System.Windows.Forms.Label lblEntryCount;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnback12123;
+        private System.Windows.Forms.Label lareco;
     }
 }

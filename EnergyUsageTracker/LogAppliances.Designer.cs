@@ -61,7 +61,7 @@
             // 
             // txtAppName
             // 
-            this.txtAppName.Location = new System.Drawing.Point(68, 138);
+            this.txtAppName.Location = new System.Drawing.Point(81, 141);
             this.txtAppName.Multiline = true;
             this.txtAppName.Name = "txtAppName";
             this.txtAppName.Size = new System.Drawing.Size(158, 53);
@@ -69,7 +69,7 @@
             // 
             // txtEnergyUse
             // 
-            this.txtEnergyUse.Location = new System.Drawing.Point(68, 344);
+            this.txtEnergyUse.Location = new System.Drawing.Point(81, 347);
             this.txtEnergyUse.Multiline = true;
             this.txtEnergyUse.Name = "txtEnergyUse";
             this.txtEnergyUse.Size = new System.Drawing.Size(213, 79);
@@ -77,7 +77,7 @@
             // 
             // txtUseDur
             // 
-            this.txtUseDur.Location = new System.Drawing.Point(68, 237);
+            this.txtUseDur.Location = new System.Drawing.Point(81, 240);
             this.txtUseDur.Multiline = true;
             this.txtUseDur.Name = "txtUseDur";
             this.txtUseDur.Size = new System.Drawing.Size(158, 57);
@@ -105,7 +105,7 @@
             // 
             this.labelEnergyUsageDesc.AutoSize = true;
             this.labelEnergyUsageDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(64, 321);
+            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(77, 324);
             this.labelEnergyUsageDesc.Name = "labelEnergyUsageDesc";
             this.labelEnergyUsageDesc.Size = new System.Drawing.Size(226, 20);
             this.labelEnergyUsageDesc.TabIndex = 15;
@@ -115,7 +115,7 @@
             // 
             this.labelUsageDuration.AutoSize = true;
             this.labelUsageDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelUsageDuration.Location = new System.Drawing.Point(64, 214);
+            this.labelUsageDuration.Location = new System.Drawing.Point(77, 217);
             this.labelUsageDuration.Name = "labelUsageDuration";
             this.labelUsageDuration.Size = new System.Drawing.Size(125, 20);
             this.labelUsageDuration.TabIndex = 14;
@@ -125,7 +125,7 @@
             // 
             this.labelApplianceName.AutoSize = true;
             this.labelApplianceName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelApplianceName.Location = new System.Drawing.Point(64, 115);
+            this.labelApplianceName.Location = new System.Drawing.Point(77, 118);
             this.labelApplianceName.Name = "labelApplianceName";
             this.labelApplianceName.Size = new System.Drawing.Size(129, 20);
             this.labelApplianceName.TabIndex = 13;
@@ -135,7 +135,7 @@
             // 
             this.btnback8.BackColor = System.Drawing.Color.Coral;
             this.btnback8.Image = ((System.Drawing.Image)(resources.GetObject("btnback8.Image")));
-            this.btnback8.Location = new System.Drawing.Point(601, 9);
+            this.btnback8.Location = new System.Drawing.Point(682, 9);
             this.btnback8.Name = "btnback8";
             this.btnback8.Size = new System.Drawing.Size(187, 64);
             this.btnback8.TabIndex = 22;
@@ -146,7 +146,7 @@
             // 
             this.btnback9.BackColor = System.Drawing.Color.Coral;
             this.btnback9.Image = ((System.Drawing.Image)(resources.GetObject("btnback9.Image")));
-            this.btnback9.Location = new System.Drawing.Point(12, 9);
+            this.btnback9.Location = new System.Drawing.Point(25, 12);
             this.btnback9.Name = "btnback9";
             this.btnback9.Size = new System.Drawing.Size(187, 64);
             this.btnback9.TabIndex = 23;
@@ -164,8 +164,8 @@
             // btnAddAppliance
             // 
             this.btnAddAppliance.BackColor = System.Drawing.Color.Coral;
-            this.btnAddAppliance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnAddAppliance.Location = new System.Drawing.Point(360, 177);
+            this.btnAddAppliance.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.btnAddAppliance.Location = new System.Drawing.Point(347, 180);
             this.btnAddAppliance.Name = "btnAddAppliance";
             this.btnAddAppliance.Size = new System.Drawing.Size(108, 95);
             this.btnAddAppliance.TabIndex = 25;
@@ -177,7 +177,7 @@
             // 
             this.laEnergyTracker.AutoSize = true;
             this.laEnergyTracker.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.laEnergyTracker.Location = new System.Drawing.Point(64, 76);
+            this.laEnergyTracker.Location = new System.Drawing.Point(77, 79);
             this.laEnergyTracker.Name = "laEnergyTracker";
             this.laEnergyTracker.Size = new System.Drawing.Size(116, 20);
             this.laEnergyTracker.TabIndex = 29;
@@ -187,7 +187,7 @@
             // 
             this.labHome.AutoSize = true;
             this.labHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labHome.Location = new System.Drawing.Point(667, 76);
+            this.labHome.Location = new System.Drawing.Point(748, 76);
             this.labHome.Name = "labHome";
             this.labHome.Size = new System.Drawing.Size(52, 20);
             this.labHome.TabIndex = 28;
@@ -196,9 +196,9 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(338, 78);
+            this.comboBox1.Location = new System.Drawing.Point(328, 78);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(163, 21);
             this.comboBox1.TabIndex = 30;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 

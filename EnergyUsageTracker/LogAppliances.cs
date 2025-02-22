@@ -150,12 +150,11 @@ namespace EnergyUsageTracker
 
             if (selectedOption == "Sort A → Z")
             {
-                applianceHistory.Sort();
+                BubbleSortAppliances(true);  
             }
             else if (selectedOption == "Sort Z → A")
             {
-                applianceHistory.Sort();
-                applianceHistory.Reverse();
+                BubbleSortAppliances(false); 
             }
             else if (selectedOption == "Sort by Wattage (Low → High)")
             {
@@ -174,7 +173,7 @@ namespace EnergyUsageTracker
                 applianceHistory = applianceHistory.OrderByDescending(GetUsageTime).ToList();
             }
 
-            currentPage = 0;
+            currentPage = 0;  
             UpdateHistoryDisplay();
         }
 

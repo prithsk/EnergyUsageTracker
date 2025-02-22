@@ -9,7 +9,7 @@ namespace EnergyUsageTracker
     public partial class CompletedGoalLog : Form
     {
         private int currentPage = 0;
-        private const int maxEntriesPerPage = 5;
+        private const int maxEntriesPerPage = 10;
         private Label lblCurrentPage = new Label();
 
         private List<CompletedEnergyGoal> completedGoals = new List<CompletedEnergyGoal>
@@ -132,6 +132,8 @@ namespace EnergyUsageTracker
         {
             comboBox1.Items.Add("Sort by Goal Name (A-Z)");
             comboBox1.Items.Add("Sort by Goal Name (Z-A)");
+            comboBox1.Items.Add("Sort by Details (A-Z)");
+            comboBox1.Items.Add("Sort by Details (Z-A)");
             comboBox1.Items.Add("Sort by Completion Date (Newest First)");
             comboBox1.Items.Add("Sort by Completion Date (Oldest First)");
 
@@ -151,6 +153,14 @@ namespace EnergyUsageTracker
             else if (selectedOption == "Sort by Goal Name (Z-A)")
             {
                 BubbleSortCompletedGoals(false);
+            }
+            else if (selectedOption == "Sort by Details (A-Z)")
+            {
+                BubbleSortCompletedGoalsByDetails(true);
+            }
+            else if (selectedOption == "Sort by Details (Z-A)")
+            {
+                BubbleSortCompletedGoalsByDetails(false);
             }
             else if (selectedOption == "Sort by Completion Date (Newest First)")
             {
@@ -173,6 +183,26 @@ namespace EnergyUsageTracker
                     bool swapCondition = ascending
                         ? string.Compare(completedGoals[j].Goal, completedGoals[j + 1].Goal, StringComparison.OrdinalIgnoreCase) > 0
                         : string.Compare(completedGoals[j].Goal, completedGoals[j + 1].Goal, StringComparison.OrdinalIgnoreCase) < 0;
+
+                    if (swapCondition)
+                    {
+                        var temp = completedGoals[j];
+                        completedGoals[j] = completedGoals[j + 1];
+                        completedGoals[j + 1] = temp;
+                    }
+                }
+            }
+        }
+        private void BubbleSortCompletedGoalsByDetails(bool ascending)
+        {
+            int n = completedGoals.Count;
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    bool swapCondition = ascending
+                        ? string.Compare(completedGoals[j].Details, completedGoals[j + 1].Details, StringComparison.OrdinalIgnoreCase) > 0
+                        : string.Compare(completedGoals[j].Details, completedGoals[j + 1].Details, StringComparison.OrdinalIgnoreCase) < 0;
 
                     if (swapCondition)
                     {

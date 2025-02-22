@@ -9,7 +9,7 @@ namespace EnergyUsageTracker
     public partial class AddGoals : Form
     {
         private int currentPage = 0;
-        private const int EntriesPerPage = 5;
+        private const int EntriesPerPage = 10;
         private List<GoalEntry> goalEntries = new List<GoalEntry>
         {
             new GoalEntry { PageNum = 0, Goal = "Reduce energy usage by 10%", Progress = "In Progress", Difficulty = "Medium" },
@@ -158,10 +158,55 @@ namespace EnergyUsageTracker
                 }
             }
         }
+        private void BubbleSortGoalsByProgress(bool ascending)
+        {
+            int n = goalEntries.Count;
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    bool swapCondition = ascending
+                        ? string.Compare(goalEntries[j].Progress, goalEntries[j + 1].Progress, StringComparison.OrdinalIgnoreCase) > 0
+                        : string.Compare(goalEntries[j].Progress, goalEntries[j + 1].Progress, StringComparison.OrdinalIgnoreCase) < 0;
+
+                    if (swapCondition)
+                    {
+                        var temp = goalEntries[j];
+                        goalEntries[j] = goalEntries[j + 1];
+                        goalEntries[j + 1] = temp;
+                    }
+                }
+            }
+        }
+
+        private void BubbleSortGoalsByDifficulty(bool ascending)
+        {
+            int n = goalEntries.Count;
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    bool swapCondition = ascending
+                        ? string.Compare(goalEntries[j].Difficulty, goalEntries[j + 1].Difficulty, StringComparison.OrdinalIgnoreCase) > 0
+                        : string.Compare(goalEntries[j].Difficulty, goalEntries[j + 1].Difficulty, StringComparison.OrdinalIgnoreCase) < 0;
+
+                    if (swapCondition)
+                    {
+                        var temp = goalEntries[j];
+                        goalEntries[j] = goalEntries[j + 1];
+                        goalEntries[j + 1] = temp;
+                    }
+                }
+            }
+        }
         private void PopulateComboBox()
         {
             comboBox1.Items.Add("Sort by Goal Name (A-Z)");
             comboBox1.Items.Add("Sort by Goal Name (Z-A)");
+            comboBox1.Items.Add("Sort by Progress (A-Z)");
+            comboBox1.Items.Add("Sort by Progress (Z-A)");
+            comboBox1.Items.Add("Sort by Difficulty (Easy → Hard)");
+            comboBox1.Items.Add("Sort by Difficulty (Hard → Easy)");
 
             comboBox1.SelectedIndex = 0;
         }
@@ -179,12 +224,25 @@ namespace EnergyUsageTracker
             {
                 BubbleSortGoals(false);
             }
+            else if (selectedOption == "Sort by Progress (A-Z)")
+            {
+                BubbleSortGoalsByProgress(true);
+            }
+            else if (selectedOption == "Sort by Progress (Z-A)")
+            {
+                BubbleSortGoalsByProgress(false);
+            }
+            else if (selectedOption == "Sort by Difficulty (Easy → Hard)")
+            {
+                BubbleSortGoalsByDifficulty(true);
+            }
+            else if (selectedOption == "Sort by Difficulty (Hard → Easy)")
+            {
+                BubbleSortGoalsByDifficulty(false);
+            }
 
             LoadPageData();
         }
-
-
-
         public class GoalEntry
         {
             public int PageNum { get; set; }

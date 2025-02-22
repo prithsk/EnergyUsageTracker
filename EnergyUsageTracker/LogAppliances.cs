@@ -12,7 +12,7 @@ namespace EnergyUsageTracker
     {
         private List<string> applianceHistory = new List<string>();
         private int currentPage = 0;
-        private const int ItemsPerPage = 5;
+        private const int ItemsPerPage = 10;
         private Label lblpanum = new Label(); 
 
         public LogAppliances()
@@ -21,15 +21,7 @@ namespace EnergyUsageTracker
             CenterToScreen();
             LoadHistory();
             InitializePageLabel();
-
-            comboBox1.Items.Add("Sort A → Z");
-            comboBox1.Items.Add("Sort Z → A");
-            comboBox1.Items.Add("Sort by Wattage (Low → High)");
-            comboBox1.Items.Add("Sort by Wattage (High → Low)");
-            comboBox1.Items.Add("Sort by Time (Short → Long)");
-            comboBox1.Items.Add("Sort by Time (Long → Short)");
-
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            PopulateComboBox();
         }
 
         private void InitializePageLabel()
@@ -122,6 +114,17 @@ namespace EnergyUsageTracker
         {
             Application.Run(new EnergyTracker());
         }
+        private void PopulateComboBox()
+        {
+            comboBox1.Items.Add("Sort A → Z");
+            comboBox1.Items.Add("Sort Z → A");
+            comboBox1.Items.Add("Sort by Wattage (Low → High)");
+            comboBox1.Items.Add("Sort by Wattage (High → Low)");
+            comboBox1.Items.Add("Sort by Time (Short → Long)");
+            comboBox1.Items.Add("Sort by Time (Long → Short)");
+
+            comboBox1.SelectedIndex = 0;
+        }
         private void BubbleSortAppliances(bool ascending)
         {
             int n = applianceHistory.Count;
@@ -142,6 +145,7 @@ namespace EnergyUsageTracker
                 }
             }
         }
+
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedItem == null) return;

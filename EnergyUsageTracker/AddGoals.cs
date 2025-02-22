@@ -138,6 +138,26 @@ namespace EnergyUsageTracker
                     "Goal Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+        private void BubbleSortGoals(bool ascending)
+        {
+            int n = goalEntries.Count;
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    bool swapCondition = ascending
+                        ? string.Compare(goalEntries[j].Goal, goalEntries[j + 1].Goal, StringComparison.OrdinalIgnoreCase) > 0
+                        : string.Compare(goalEntries[j].Goal, goalEntries[j + 1].Goal, StringComparison.OrdinalIgnoreCase) < 0;
+
+                    if (swapCondition)
+                    {
+                        var temp = goalEntries[j];
+                        goalEntries[j] = goalEntries[j + 1];
+                        goalEntries[j + 1] = temp;
+                    }
+                }
+            }
+        }
         private void PopulateComboBox()
         {
             comboBox1.Items.Add("Sort by Goal Name (A-Z)");
@@ -153,11 +173,11 @@ namespace EnergyUsageTracker
 
             if (selectedOption == "Sort by Goal Name (A-Z)")
             {
-                goalEntries = goalEntries.OrderBy(g => g.Goal).ToList();
+                BubbleSortGoals(true);
             }
             else if (selectedOption == "Sort by Goal Name (Z-A)")
             {
-                goalEntries = goalEntries.OrderByDescending(g => g.Goal).ToList();
+                BubbleSortGoals(false);
             }
 
             LoadPageData();

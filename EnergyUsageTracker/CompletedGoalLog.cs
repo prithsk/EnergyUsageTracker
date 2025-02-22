@@ -140,32 +140,49 @@ namespace EnergyUsageTracker
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (comboBox1.SelectedItem == null) return;
+
+            string selectedOption = comboBox1.SelectedItem.ToString();
+
+            if (selectedOption == "Sort by Goal Name (A-Z)")
             {
-                if (comboBox1.SelectedItem == null) return;
+                BubbleSortCompletedGoals(true);
+            }
+            else if (selectedOption == "Sort by Goal Name (Z-A)")
+            {
+                BubbleSortCompletedGoals(false);
+            }
+            else if (selectedOption == "Sort by Completion Date (Newest First)")
+            {
+                completedGoals = completedGoals.OrderByDescending(g => g.CompletionDate).ToList();
+            }
+            else if (selectedOption == "Sort by Completion Date (Oldest First)")
+            {
+                completedGoals = completedGoals.OrderBy(g => g.CompletionDate).ToList();
+            }
 
-                string selectedOption = comboBox1.SelectedItem.ToString();
+            DisplayCurrentPage();
+        }
+        private void BubbleSortCompletedGoals(bool ascending)
+        {
+            int n = completedGoals.Count;
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    bool swapCondition = ascending
+                        ? string.Compare(completedGoals[j].Goal, completedGoals[j + 1].Goal, StringComparison.OrdinalIgnoreCase) > 0
+                        : string.Compare(completedGoals[j].Goal, completedGoals[j + 1].Goal, StringComparison.OrdinalIgnoreCase) < 0;
 
-                if (selectedOption == "Sort by Goal Name (A-Z)")
-                {
-                    completedGoals = completedGoals.OrderBy(g => g.Goal).ToList();
+                    if (swapCondition)
+                    {
+                        var temp = completedGoals[j];
+                        completedGoals[j] = completedGoals[j + 1];
+                        completedGoals[j + 1] = temp;
+                    }
                 }
-                else if (selectedOption == "Sort by Goal Name (Z-A)")
-                {
-                    completedGoals = completedGoals.OrderByDescending(g => g.Goal).ToList();
-                }
-                else if (selectedOption == "Sort by Completion Date (Newest First)")
-                {
-                    completedGoals = completedGoals.OrderByDescending(g => g.CompletionDate).ToList();
-                }
-                else if (selectedOption == "Sort by Completion Date (Oldest First)")
-                {
-                    completedGoals = completedGoals.OrderBy(g => g.CompletionDate).ToList();
-                }
-
-                DisplayCurrentPage();
             }
         }
-
         public class CompletedEnergyGoal
         {
             public string Goal { get; set; }

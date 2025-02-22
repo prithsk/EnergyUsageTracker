@@ -193,11 +193,11 @@
             // 
             this.lblEntryCount.AutoSize = true;
             this.lblEntryCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.lblEntryCount.Location = new System.Drawing.Point(378, 59);
+            this.lblEntryCount.Location = new System.Drawing.Point(360, 60);
             this.lblEntryCount.Name = "lblEntryCount";
-            this.lblEntryCount.Size = new System.Drawing.Size(174, 24);
+            this.lblEntryCount.Size = new System.Drawing.Size(225, 24);
             this.lblEntryCount.TabIndex = 45;
-            this.lblEntryCount.Text = "Displaying 5 Entries";
+            this.lblEntryCount.Text = "Displaying Max 10 Entries";
             // 
             // dateTimePicker1
             // 

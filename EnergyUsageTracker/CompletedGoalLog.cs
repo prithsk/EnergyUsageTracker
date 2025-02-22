@@ -42,7 +42,7 @@ namespace EnergyUsageTracker
         private void UpdatePageLabel()
         {
             int totalPages = (int)Math.Ceiling((double)completedGoals.Count / maxEntriesPerPage);
-            lblCurrentPage.Text = $"Page {currentPage + 1} of {totalPages}";
+            lblCurrentPage.Text = $"Displaying max {maxEntriesPerPage} Entries";
         }
 
         private void DisplayCurrentPage()

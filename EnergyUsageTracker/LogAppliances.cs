@@ -122,7 +122,26 @@ namespace EnergyUsageTracker
         {
             Application.Run(new EnergyTracker());
         }
+        private void BubbleSortAppliances(bool ascending)
+        {
+            int n = applianceHistory.Count;
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    bool swapCondition = ascending
+                        ? string.Compare(applianceHistory[j], applianceHistory[j + 1], StringComparison.OrdinalIgnoreCase) > 0
+                        : string.Compare(applianceHistory[j], applianceHistory[j + 1], StringComparison.OrdinalIgnoreCase) < 0;
 
+                    if (swapCondition)
+                    {
+                        string temp = applianceHistory[j];
+                        applianceHistory[j] = applianceHistory[j + 1];
+                        applianceHistory[j + 1] = temp;
+                    }
+                }
+            }
+        }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedItem == null) return;

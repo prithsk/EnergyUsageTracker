@@ -53,7 +53,7 @@
             // 
             this.labelLogAppliances.AutoSize = true;
             this.labelLogAppliances.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.labelLogAppliances.Location = new System.Drawing.Point(323, 9);
+            this.labelLogAppliances.Location = new System.Drawing.Point(339, 9);
             this.labelLogAppliances.Name = "labelLogAppliances";
             this.labelLogAppliances.Size = new System.Drawing.Size(161, 26);
             this.labelLogAppliances.TabIndex = 0;
@@ -61,7 +61,7 @@
             // 
             // txtAppName
             // 
-            this.txtAppName.Location = new System.Drawing.Point(81, 141);
+            this.txtAppName.Location = new System.Drawing.Point(55, 141);
             this.txtAppName.Multiline = true;
             this.txtAppName.Name = "txtAppName";
             this.txtAppName.Size = new System.Drawing.Size(158, 53);
@@ -69,7 +69,7 @@
             // 
             // txtEnergyUse
             // 
-            this.txtEnergyUse.Location = new System.Drawing.Point(81, 347);
+            this.txtEnergyUse.Location = new System.Drawing.Point(59, 347);
             this.txtEnergyUse.Multiline = true;
             this.txtEnergyUse.Name = "txtEnergyUse";
             this.txtEnergyUse.Size = new System.Drawing.Size(213, 79);
@@ -77,7 +77,7 @@
             // 
             // txtUseDur
             // 
-            this.txtUseDur.Location = new System.Drawing.Point(81, 240);
+            this.txtUseDur.Location = new System.Drawing.Point(59, 240);
             this.txtUseDur.Multiline = true;
             this.txtUseDur.Name = "txtUseDur";
             this.txtUseDur.Size = new System.Drawing.Size(158, 57);
@@ -85,7 +85,7 @@
             // 
             // txtHis
             // 
-            this.txtHis.Location = new System.Drawing.Point(544, 138);
+            this.txtHis.Location = new System.Drawing.Point(532, 136);
             this.txtHis.Multiline = true;
             this.txtHis.Name = "txtHis";
             this.txtHis.Size = new System.Drawing.Size(201, 285);
@@ -95,7 +95,7 @@
             // 
             this.labelHist.AutoSize = true;
             this.labelHist.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelHist.Location = new System.Drawing.Point(540, 115);
+            this.labelHist.Location = new System.Drawing.Point(528, 113);
             this.labelHist.Name = "labelHist";
             this.labelHist.Size = new System.Drawing.Size(62, 20);
             this.labelHist.TabIndex = 16;
@@ -105,7 +105,7 @@
             // 
             this.labelEnergyUsageDesc.AutoSize = true;
             this.labelEnergyUsageDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(77, 324);
+            this.labelEnergyUsageDesc.Location = new System.Drawing.Point(55, 324);
             this.labelEnergyUsageDesc.Name = "labelEnergyUsageDesc";
             this.labelEnergyUsageDesc.Size = new System.Drawing.Size(226, 20);
             this.labelEnergyUsageDesc.TabIndex = 15;
@@ -115,7 +115,7 @@
             // 
             this.labelUsageDuration.AutoSize = true;
             this.labelUsageDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelUsageDuration.Location = new System.Drawing.Point(77, 217);
+            this.labelUsageDuration.Location = new System.Drawing.Point(55, 217);
             this.labelUsageDuration.Name = "labelUsageDuration";
             this.labelUsageDuration.Size = new System.Drawing.Size(125, 20);
             this.labelUsageDuration.TabIndex = 14;
@@ -125,7 +125,7 @@
             // 
             this.labelApplianceName.AutoSize = true;
             this.labelApplianceName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelApplianceName.Location = new System.Drawing.Point(77, 118);
+            this.labelApplianceName.Location = new System.Drawing.Point(51, 118);
             this.labelApplianceName.Name = "labelApplianceName";
             this.labelApplianceName.Size = new System.Drawing.Size(129, 20);
             this.labelApplianceName.TabIndex = 13;
@@ -135,7 +135,7 @@
             // 
             this.btnback8.BackColor = System.Drawing.Color.Coral;
             this.btnback8.Image = ((System.Drawing.Image)(resources.GetObject("btnback8.Image")));
-            this.btnback8.Location = new System.Drawing.Point(682, 9);
+            this.btnback8.Location = new System.Drawing.Point(668, 9);
             this.btnback8.Name = "btnback8";
             this.btnback8.Size = new System.Drawing.Size(187, 64);
             this.btnback8.TabIndex = 22;
@@ -146,7 +146,7 @@
             // 
             this.btnback9.BackColor = System.Drawing.Color.Coral;
             this.btnback9.Image = ((System.Drawing.Image)(resources.GetObject("btnback9.Image")));
-            this.btnback9.Location = new System.Drawing.Point(25, 12);
+            this.btnback9.Location = new System.Drawing.Point(19, 12);
             this.btnback9.Name = "btnback9";
             this.btnback9.Size = new System.Drawing.Size(187, 64);
             this.btnback9.TabIndex = 23;
@@ -156,7 +156,7 @@
             // listBoxHistory
             // 
             this.listBoxHistory.FormattingEnabled = true;
-            this.listBoxHistory.Location = new System.Drawing.Point(544, 138);
+            this.listBoxHistory.Location = new System.Drawing.Point(532, 136);
             this.listBoxHistory.Name = "listBoxHistory";
             this.listBoxHistory.Size = new System.Drawing.Size(201, 290);
             this.listBoxHistory.TabIndex = 24;
@@ -165,7 +165,7 @@
             // 
             this.btnAddAppliance.BackColor = System.Drawing.Color.Coral;
             this.btnAddAppliance.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.btnAddAppliance.Location = new System.Drawing.Point(347, 180);
+            this.btnAddAppliance.Location = new System.Drawing.Point(357, 180);
             this.btnAddAppliance.Name = "btnAddAppliance";
             this.btnAddAppliance.Size = new System.Drawing.Size(108, 95);
             this.btnAddAppliance.TabIndex = 25;
@@ -177,7 +177,7 @@
             // 
             this.laEnergyTracker.AutoSize = true;
             this.laEnergyTracker.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.laEnergyTracker.Location = new System.Drawing.Point(77, 79);
+            this.laEnergyTracker.Location = new System.Drawing.Point(51, 79);
             this.laEnergyTracker.Name = "laEnergyTracker";
             this.laEnergyTracker.Size = new System.Drawing.Size(116, 20);
             this.laEnergyTracker.TabIndex = 29;
@@ -187,7 +187,7 @@
             // 
             this.labHome.AutoSize = true;
             this.labHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labHome.Location = new System.Drawing.Point(748, 76);
+            this.labHome.Location = new System.Drawing.Point(733, 76);
             this.labHome.Name = "labHome";
             this.labHome.Size = new System.Drawing.Size(52, 20);
             this.labHome.TabIndex = 28;
@@ -196,7 +196,7 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(328, 78);
+            this.comboBox1.Location = new System.Drawing.Point(337, 78);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(163, 21);
             this.comboBox1.TabIndex = 30;
@@ -206,7 +206,7 @@
             // 
             this.btnPrev.BackColor = System.Drawing.Color.Coral;
             this.btnPrev.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnPrev.Location = new System.Drawing.Point(789, 138);
+            this.btnPrev.Location = new System.Drawing.Point(775, 138);
             this.btnPrev.Name = "btnPrev";
             this.btnPrev.Size = new System.Drawing.Size(80, 56);
             this.btnPrev.TabIndex = 31;
@@ -218,7 +218,7 @@
             // 
             this.btnNext.BackColor = System.Drawing.Color.Coral;
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnNext.Location = new System.Drawing.Point(789, 365);
+            this.btnNext.Location = new System.Drawing.Point(775, 365);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(80, 63);
             this.btnNext.TabIndex = 32;
@@ -231,7 +231,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(881, 450);
+            this.ClientSize = new System.Drawing.Size(867, 450);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrev);
             this.Controls.Add(this.comboBox1);

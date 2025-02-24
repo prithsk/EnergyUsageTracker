@@ -51,11 +51,11 @@
             // btnCompletedGoalLog
             // 
             this.btnCompletedGoalLog.BackColor = System.Drawing.Color.Coral;
-            this.btnCompletedGoalLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnCompletedGoalLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.btnCompletedGoalLog.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnCompletedGoalLog.Location = new System.Drawing.Point(519, 168);
+            this.btnCompletedGoalLog.Location = new System.Drawing.Point(480, 168);
             this.btnCompletedGoalLog.Name = "btnCompletedGoalLog";
-            this.btnCompletedGoalLog.Size = new System.Drawing.Size(174, 52);
+            this.btnCompletedGoalLog.Size = new System.Drawing.Size(213, 85);
             this.btnCompletedGoalLog.TabIndex = 6;
             this.btnCompletedGoalLog.Text = "Completed Goal Log";
             this.btnCompletedGoalLog.UseVisualStyleBackColor = false;
@@ -64,11 +64,11 @@
             // btnAddGoals
             // 
             this.btnAddGoals.BackColor = System.Drawing.Color.Coral;
-            this.btnAddGoals.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnAddGoals.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.btnAddGoals.ForeColor = System.Drawing.SystemColors.MenuText;
             this.btnAddGoals.Location = new System.Drawing.Point(83, 168);
             this.btnAddGoals.Name = "btnAddGoals";
-            this.btnAddGoals.Size = new System.Drawing.Size(174, 52);
+            this.btnAddGoals.Size = new System.Drawing.Size(186, 85);
             this.btnAddGoals.TabIndex = 5;
             this.btnAddGoals.Text = "Add Goals";
             this.btnAddGoals.UseVisualStyleBackColor = false;

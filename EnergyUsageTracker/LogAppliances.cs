@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace EnergyUsageTracker
 {
-   
+   //Store the data in a csv file so every time I run it refers to that csv file
     public partial class LogAppliances : Form
     {
         private List<string> applianceHistory = new List<string>();

@@ -125,16 +125,16 @@
             // 
             // txtDet
             // 
-            this.txtDet.Location = new System.Drawing.Point(32, 244);
+            this.txtDet.Location = new System.Drawing.Point(30, 244);
             this.txtDet.Name = "txtDet";
-            this.txtDet.Size = new System.Drawing.Size(168, 20);
+            this.txtDet.Size = new System.Drawing.Size(154, 20);
             this.txtDet.TabIndex = 40;
             // 
             // txtGoalCompleName
             // 
             this.txtGoalCompleName.Location = new System.Drawing.Point(30, 160);
             this.txtGoalCompleName.Name = "txtGoalCompleName";
-            this.txtGoalCompleName.Size = new System.Drawing.Size(140, 20);
+            this.txtGoalCompleName.Size = new System.Drawing.Size(154, 20);
             this.txtGoalCompleName.TabIndex = 39;
             // 
             // labeldat
@@ -161,7 +161,7 @@
             // 
             this.lblNameCompletedGoal.AutoSize = true;
             this.lblNameCompletedGoal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblNameCompletedGoal.Location = new System.Drawing.Point(8, 117);
+            this.lblNameCompletedGoal.Location = new System.Drawing.Point(20, 117);
             this.lblNameCompletedGoal.Name = "lblNameCompletedGoal";
             this.lblNameCompletedGoal.Size = new System.Drawing.Size(192, 20);
             this.lblNameCompletedGoal.TabIndex = 36;

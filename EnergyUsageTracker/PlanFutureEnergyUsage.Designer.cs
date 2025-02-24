@@ -59,7 +59,7 @@
             // 
             this.labelStrength.AutoSize = true;
             this.labelStrength.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelStrength.Location = new System.Drawing.Point(147, 124);
+            this.labelStrength.Location = new System.Drawing.Point(142, 123);
             this.labelStrength.Name = "labelStrength";
             this.labelStrength.Size = new System.Drawing.Size(118, 20);
             this.labelStrength.TabIndex = 1;
@@ -69,7 +69,7 @@
             // 
             this.labelWeakness.AutoSize = true;
             this.labelWeakness.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelWeakness.Location = new System.Drawing.Point(147, 223);
+            this.labelWeakness.Location = new System.Drawing.Point(142, 222);
             this.labelWeakness.Name = "labelWeakness";
             this.labelWeakness.Size = new System.Drawing.Size(131, 20);
             this.labelWeakness.TabIndex = 2;
@@ -79,7 +79,7 @@
             // 
             this.labelEnergySavingGoal.AutoSize = true;
             this.labelEnergySavingGoal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelEnergySavingGoal.Location = new System.Drawing.Point(147, 330);
+            this.labelEnergySavingGoal.Location = new System.Drawing.Point(142, 329);
             this.labelEnergySavingGoal.Name = "labelEnergySavingGoal";
             this.labelEnergySavingGoal.Size = new System.Drawing.Size(153, 20);
             this.labelEnergySavingGoal.TabIndex = 3;
@@ -89,7 +89,7 @@
             // 
             this.labelRec.AutoSize = true;
             this.labelRec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labelRec.Location = new System.Drawing.Point(520, 124);
+            this.labelRec.Location = new System.Drawing.Point(515, 123);
             this.labelRec.Name = "labelRec";
             this.labelRec.Size = new System.Drawing.Size(147, 20);
             this.labelRec.TabIndex = 4;
@@ -97,7 +97,7 @@
             // 
             // txtRecommendations
             // 
-            this.txtRecommendations.Location = new System.Drawing.Point(524, 147);
+            this.txtRecommendations.Location = new System.Drawing.Point(519, 146);
             this.txtRecommendations.Multiline = true;
             this.txtRecommendations.Name = "txtRecommendations";
             this.txtRecommendations.Size = new System.Drawing.Size(186, 267);
@@ -107,7 +107,7 @@
             // 
             this.btnGenerate.BackColor = System.Drawing.Color.Coral;
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnGenerate.Location = new System.Drawing.Point(359, 203);
+            this.btnGenerate.Location = new System.Drawing.Point(354, 202);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(123, 102);
             this.btnGenerate.TabIndex = 9;
@@ -117,7 +117,7 @@
             // 
             // txtWeakness
             // 
-            this.txtWeakness.Location = new System.Drawing.Point(142, 246);
+            this.txtWeakness.Location = new System.Drawing.Point(137, 245);
             this.txtWeakness.Multiline = true;
             this.txtWeakness.Name = "txtWeakness";
             this.txtWeakness.Size = new System.Drawing.Size(158, 57);
@@ -125,7 +125,7 @@
             // 
             // txtGoal
             // 
-            this.txtGoal.Location = new System.Drawing.Point(142, 353);
+            this.txtGoal.Location = new System.Drawing.Point(137, 352);
             this.txtGoal.Multiline = true;
             this.txtGoal.Name = "txtGoal";
             this.txtGoal.Size = new System.Drawing.Size(158, 61);
@@ -133,7 +133,7 @@
             // 
             // txtStrength
             // 
-            this.txtStrength.Location = new System.Drawing.Point(142, 147);
+            this.txtStrength.Location = new System.Drawing.Point(137, 146);
             this.txtStrength.Multiline = true;
             this.txtStrength.Name = "txtStrength";
             this.txtStrength.Size = new System.Drawing.Size(158, 53);

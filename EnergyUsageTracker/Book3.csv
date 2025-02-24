@@ -1,0 +1,4 @@
+﻿UserID,ApplianceID,UsageDuration (Hours),EnergyUsage (kWh)
+1,1,2,1
+1,2,4,6
+2,3,24,4.8

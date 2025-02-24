@@ -1,0 +1,4 @@
+﻿ApplianceID,UserID,ApplianceName,Wattage (J/second),DefaultDuration (Hours)
+1,1,Washing Machine,500 ,2
+2,1,Air Conditioner,1500 ,4
+3,2,Refrigerator,200 ,24

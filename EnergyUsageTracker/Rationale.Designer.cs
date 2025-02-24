@@ -77,7 +77,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.MediumTurquoise;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(83, 175);
+            this.pictureBox1.Location = new System.Drawing.Point(83, 157);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(678, 284);
             this.pictureBox1.TabIndex = 5;
@@ -109,7 +109,7 @@
             this.btnhi.Image = ((System.Drawing.Image)(resources.GetObject("btnhi.Image")));
             this.btnhi.Location = new System.Drawing.Point(340, 57);
             this.btnhi.Name = "btnhi";
-            this.btnhi.Size = new System.Drawing.Size(187, 83);
+            this.btnhi.Size = new System.Drawing.Size(187, 64);
             this.btnhi.TabIndex = 10;
             this.btnhi.UseVisualStyleBackColor = false;
             this.btnhi.Click += new System.EventHandler(this.btnhi_Click);
@@ -118,7 +118,7 @@
             // 
             this.lhis.AutoSize = true;
             this.lhis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lhis.Location = new System.Drawing.Point(401, 143);
+            this.lhis.Location = new System.Drawing.Point(401, 124);
             this.lhis.Name = "lhis";
             this.lhis.Size = new System.Drawing.Size(58, 20);
             this.lhis.TabIndex = 11;
@@ -129,7 +129,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
-            this.ClientSize = new System.Drawing.Size(865, 496);
+            this.ClientSize = new System.Drawing.Size(865, 462);
             this.Controls.Add(this.lhis);
             this.Controls.Add(this.btnhi);
             this.Controls.Add(this.lAbout);

@@ -55,7 +55,7 @@
             // 
             this.labelAddGoals.AutoSize = true;
             this.labelAddGoals.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.labelAddGoals.Location = new System.Drawing.Point(338, 9);
+            this.labelAddGoals.Location = new System.Drawing.Point(356, 9);
             this.labelAddGoals.Name = "labelAddGoals";
             this.labelAddGoals.Size = new System.Drawing.Size(114, 26);
             this.labelAddGoals.TabIndex = 0;
@@ -76,9 +76,9 @@
             // 
             this.btnback12.BackColor = System.Drawing.Color.Coral;
             this.btnback12.Image = ((System.Drawing.Image)(resources.GetObject("btnback12.Image")));
-            this.btnback12.Location = new System.Drawing.Point(631, 9);
+            this.btnback12.Location = new System.Drawing.Point(643, 9);
             this.btnback12.Name = "btnback12";
-            this.btnback12.Size = new System.Drawing.Size(187, 64);
+            this.btnback12.Size = new System.Drawing.Size(175, 64);
             this.btnback12.TabIndex = 24;
             this.btnback12.UseVisualStyleBackColor = false;
             this.btnback12.Click += new System.EventHandler(this.btnback12_Click);
@@ -87,7 +87,7 @@
             // 
             this.labeHome.AutoSize = true;
             this.labeHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.labeHome.Location = new System.Drawing.Point(699, 76);
+            this.labeHome.Location = new System.Drawing.Point(705, 76);
             this.labeHome.Name = "labeHome";
             this.labeHome.Size = new System.Drawing.Size(52, 20);
             this.labeHome.TabIndex = 26;
@@ -106,7 +106,7 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(197, 109);
+            this.dataGridView1.Location = new System.Drawing.Point(207, 109);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(418, 229);
             this.dataGridView1.TabIndex = 28;
@@ -166,7 +166,7 @@
             // btnAddGoal
             // 
             this.btnAddGoal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnAddGoal.Location = new System.Drawing.Point(39, 304);
+            this.btnAddGoal.Location = new System.Drawing.Point(39, 319);
             this.btnAddGoal.Name = "btnAddGoal";
             this.btnAddGoal.Size = new System.Drawing.Size(95, 34);
             this.btnAddGoal.TabIndex = 35;
@@ -188,7 +188,7 @@
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnNext.Location = new System.Drawing.Point(678, 304);
+            this.btnNext.Location = new System.Drawing.Point(678, 319);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(95, 34);
             this.btnNext.TabIndex = 37;
@@ -200,7 +200,7 @@
             // 
             this.lblEntryCount.AutoSize = true;
             this.lblEntryCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.lblEntryCount.Location = new System.Drawing.Point(313, 51);
+            this.lblEntryCount.Location = new System.Drawing.Point(339, 51);
             this.lblEntryCount.Name = "lblEntryCount";
             this.lblEntryCount.Size = new System.Drawing.Size(169, 22);
             this.lblEntryCount.TabIndex = 38;
@@ -219,9 +219,9 @@
             // 
             this.btnback1212.BackColor = System.Drawing.Color.Coral;
             this.btnback1212.Image = ((System.Drawing.Image)(resources.GetObject("btnback1212.Image")));
-            this.btnback1212.Location = new System.Drawing.Point(631, 170);
+            this.btnback1212.Location = new System.Drawing.Point(643, 170);
             this.btnback1212.Name = "btnback1212";
-            this.btnback1212.Size = new System.Drawing.Size(187, 75);
+            this.btnback1212.Size = new System.Drawing.Size(175, 75);
             this.btnback1212.TabIndex = 40;
             this.btnback1212.UseVisualStyleBackColor = false;
             this.btnback1212.Click += new System.EventHandler(this.btnback1212_Click);
@@ -230,7 +230,7 @@
             // 
             this.lrec.AutoSize = true;
             this.lrec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lrec.Location = new System.Drawing.Point(655, 248);
+            this.lrec.Location = new System.Drawing.Point(661, 246);
             this.lrec.Name = "lrec";
             this.lrec.Size = new System.Drawing.Size(143, 20);
             this.lrec.TabIndex = 41;

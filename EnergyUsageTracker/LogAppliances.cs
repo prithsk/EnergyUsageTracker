@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace EnergyUsageTracker
 {
-    //code the search algorithm for bubble sort in linq
+   
     public partial class LogAppliances : Form
     {
         private List<string> applianceHistory = new List<string>();

@@ -175,3 +175,41 @@ C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\Energ
 C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\EnergyUsag\EnergyU\EnergyUsageTracker\obj\Debug\EnergyUs.48DEA03D.Up2Date
 C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\EnergyUsag\EnergyU\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.exe
 C:\Users\Krishnan\OneDrive\Documents\Visual Studio 2022\EnergyUsageTracker\EnergyUsag\EnergyU\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.pdb
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.csproj.AssemblyReference.cache
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.About.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.AddGoals.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.CompletedGoalLog.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.EnergyTracker.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.History.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.HomePage.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.LogAppliances.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.PlanFutureEnergyUsage.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.Properties.Resources.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.Rationale.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.Recommendations.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.SetGoals.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.Settings.resources
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.csproj.GenerateResource.cache
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.csproj.CoreCompileInputs.cache
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.exe
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUsageTracker.pdb
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\EnergyUsageTracker.exe.config
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\EnergyUsageTracker.exe
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\EnergyUsageTracker.pdb
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\Dapper.dll
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\EntityFramework.dll
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\EntityFramework.SqlServer.dll
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\System.Data.SQLite.dll
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\System.Data.SQLite.EF6.dll
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\System.Data.SQLite.Linq.dll
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\Dapper.xml
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\EntityFramework.xml
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\EntityFramework.SqlServer.xml
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\System.Data.SQLite.xml
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\__Students\Krishnan\EnergyUsageTrack\EnUse\En\EnergyUsageTracker\obj\Debug\EnergyUs.48DEA03D.Up2Date

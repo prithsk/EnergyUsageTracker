@@ -23,7 +23,7 @@ namespace EnergyUsageTracker
 
             public void AddUser()
             {
-                +
+
                 Console.WriteLine($"User {UserName} added.");
             }
 

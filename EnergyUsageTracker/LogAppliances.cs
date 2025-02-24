@@ -195,7 +195,24 @@ namespace EnergyUsageTracker
             double value = double.Parse(match.Groups[1].Value);
             return match.Groups[2].Value == "min" ? value / 60.0 : value;
         }
+        List<Appliance> applianceList = new List<Appliance>();
 
+        public void AddNewAppliance(int userId, string name, float wattage, float usageDuration)
+        {
+            int newApplianceID = applianceList.Count + 1;
+            Appliance newAppliance = new Appliance(newApplianceID, userId, name, wattage, usageDuration);
+            applianceList.Add(newAppliance);
+            newAppliance.AddAppliance();
+        }
+
+        public void ModifyAppliance(int applianceID, float newWattage, float newUsageDuration)
+        {
+            Appliance appliance = applianceList.FirstOrDefault(a => a.ApplianceID == applianceID);
+            if (appliance != null)
+            {
+                appliance.ModifyAppliance(newWattage, newUsageDuration);
+            }
+        }
         private void btnAddAppliance_Click_1(object sender, EventArgs e)
         {
             string applianceName = txtAppName.Text;

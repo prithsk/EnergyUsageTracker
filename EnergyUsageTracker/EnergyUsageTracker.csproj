@@ -89,6 +89,7 @@
     <Compile Include="AddGoals.Designer.cs">
       <DependentUpon>AddGoals.cs</DependentUpon>
     </Compile>
+    <Compile Include="Appliance.cs" />
     <Compile Include="CompletedGoalLog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +153,7 @@
     <Compile Include="Recommendations.Designer.cs">
       <DependentUpon>Recommendations.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>

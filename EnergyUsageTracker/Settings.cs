@@ -35,11 +35,23 @@ namespace EnergyUsageTracker
         private void button1_Click(object sender, EventArgs e)
         {
             this.BackColor = System.Drawing.Color.Cyan;
+            labelSettings.ForeColor = System.Drawing.Color.Black;
+            labelNotifications.ForeColor = System.Drawing.Color.Black;
+            labelTotalEnergyUsageStored.ForeColor = System.Drawing.Color.Black;
+            laellHome.ForeColor = System.Drawing.Color.Black;
+            button1.BackColor = System.Drawing.Color.White;
+            button1.ForeColor = System.Drawing.Color.Black;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.BackColor = System.Drawing.Color.Gray;
+            labelSettings.ForeColor = System.Drawing.Color.White;
+            labelNotifications.ForeColor = System.Drawing.Color.White;
+            labelTotalEnergyUsageStored.ForeColor= System.Drawing.Color.White;
+            laellHome.ForeColor = System.Drawing.Color.White;
+            button1.BackColor = System.Drawing.Color.Black;
+            button1.ForeColor = System.Drawing.Color.White;
         }
     }
 }

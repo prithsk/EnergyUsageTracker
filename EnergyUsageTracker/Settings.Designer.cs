@@ -45,7 +45,7 @@
             this.labelSettings.AutoSize = true;
             this.labelSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.labelSettings.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelSettings.Location = new System.Drawing.Point(330, 9);
+            this.labelSettings.Location = new System.Drawing.Point(367, 9);
             this.labelSettings.Name = "labelSettings";
             this.labelSettings.Size = new System.Drawing.Size(91, 26);
             this.labelSettings.TabIndex = 3;
@@ -84,9 +84,9 @@
             // 
             this.btnback3.BackColor = System.Drawing.Color.Coral;
             this.btnback3.Image = ((System.Drawing.Image)(resources.GetObject("btnback3.Image")));
-            this.btnback3.Location = new System.Drawing.Point(601, 9);
+            this.btnback3.Location = new System.Drawing.Point(629, 9);
             this.btnback3.Name = "btnback3";
-            this.btnback3.Size = new System.Drawing.Size(187, 64);
+            this.btnback3.Size = new System.Drawing.Size(159, 64);
             this.btnback3.TabIndex = 14;
             this.btnback3.UseVisualStyleBackColor = false;
             this.btnback3.Click += new System.EventHandler(this.btnback3_Click);
@@ -104,7 +104,7 @@
             // 
             this.laellHome.AutoSize = true;
             this.laellHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.laellHome.Location = new System.Drawing.Point(668, 76);
+            this.laellHome.Location = new System.Drawing.Point(680, 76);
             this.laellHome.Name = "laellHome";
             this.laellHome.Size = new System.Drawing.Size(52, 20);
             this.laellHome.TabIndex = 17;

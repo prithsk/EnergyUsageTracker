@@ -58,7 +58,7 @@
             this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(54, 156);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(734, 330);
+            this.pictureBox1.Size = new System.Drawing.Size(734, 326);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
@@ -108,7 +108,7 @@
             // 
             this.btnra.BackColor = System.Drawing.Color.Coral;
             this.btnra.Image = ((System.Drawing.Image)(resources.GetObject("btnra.Image")));
-            this.btnra.Location = new System.Drawing.Point(330, 55);
+            this.btnra.Location = new System.Drawing.Point(336, 55);
             this.btnra.Name = "btnra";
             this.btnra.Size = new System.Drawing.Size(187, 64);
             this.btnra.TabIndex = 11;

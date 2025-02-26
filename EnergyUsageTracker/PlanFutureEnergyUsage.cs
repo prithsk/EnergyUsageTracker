@@ -68,5 +68,16 @@ namespace EnergyUsageTracker
                 txtRecommendations.Text = GenerateEnergySavingRoutine(strength, weakness, goal);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Thread t = new Thread(new ThreadStart(Threadbtnback368));
+            t.Start();
+        }
+        private void Threadbtnback368()
+        {
+            Application.Run(new SetGoals());
+        }
     }
 }

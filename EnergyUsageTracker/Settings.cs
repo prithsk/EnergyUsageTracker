@@ -12,7 +12,7 @@ using System.Windows.Forms;
 namespace EnergyUsageTracker
 {
     //see if in the settings for the stored textbox if you can make a database so when everytime the energy is stored in completed goal log, state the amount
-    //dark mode should be enabled so when the user clicks it in vid it just changes the settings page and then I just turn it back off
+
     public partial class Settings : Form
     {
         public Settings()
@@ -41,6 +41,8 @@ namespace EnergyUsageTracker
             laellHome.ForeColor = System.Drawing.Color.Black;
             button1.BackColor = System.Drawing.Color.White;
             button1.ForeColor = System.Drawing.Color.Black;
+            button2.BackColor = System.Drawing.Color.Black;
+            button2.ForeColor = System.Drawing.Color.White;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -52,6 +54,9 @@ namespace EnergyUsageTracker
             laellHome.ForeColor = System.Drawing.Color.White;
             button1.BackColor = System.Drawing.Color.Black;
             button1.ForeColor = System.Drawing.Color.White;
+            button2.BackColor = System.Drawing.Color.White;
+            button2.ForeColor = System.Drawing.Color.Black;
+
         }
     }
 }

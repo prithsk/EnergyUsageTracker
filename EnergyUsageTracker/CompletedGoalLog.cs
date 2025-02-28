@@ -94,7 +94,8 @@ namespace EnergyUsageTracker
             if (e.RowIndex >= 0 && e.RowIndex < completedGoals.Count)
             {
                 var selectedGoal = completedGoals[e.RowIndex];
-                MessageBox.Show($"Goal: {selectedGoal.Goal}\nDetails: {selectedGoal.Details}\nDate: {selectedGoal.CompletionDate.ToShortDateString()}",
+                MessageBox.Show($"Goal: {selectedGoal.Goal}\nDetailSSs:" +
+                    $" {selectedGoal.Details}\nDate: {selectedGoal.CompletionDate.ToShortDateString()}",
                                 "Completed Goal Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }

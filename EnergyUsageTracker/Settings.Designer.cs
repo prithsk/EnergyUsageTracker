@@ -32,7 +32,7 @@
             this.labelSettings = new System.Windows.Forms.Label();
             this.labelNotifications = new System.Windows.Forms.Label();
             this.labelTotalEnergyUsageStored = new System.Windows.Forms.Label();
-            this.txtBoxTotalEnergyUsageStored = new System.Windows.Forms.TextBox();
+            this.txtTotalEnergyStored = new System.Windows.Forms.TextBox();
             this.btnback3 = new System.Windows.Forms.Button();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.laellHome = new System.Windows.Forms.Label();
@@ -73,12 +73,12 @@
             this.labelTotalEnergyUsageStored.TabIndex = 6;
             this.labelTotalEnergyUsageStored.Text = "Total Energy Usage Stored (Joules):";
             // 
-            // txtBoxTotalEnergyUsageStored
+            // txtTotalEnergyStored
             // 
-            this.txtBoxTotalEnergyUsageStored.Location = new System.Drawing.Point(499, 270);
-            this.txtBoxTotalEnergyUsageStored.Name = "txtBoxTotalEnergyUsageStored";
-            this.txtBoxTotalEnergyUsageStored.Size = new System.Drawing.Size(106, 20);
-            this.txtBoxTotalEnergyUsageStored.TabIndex = 9;
+            this.txtTotalEnergyStored.Location = new System.Drawing.Point(499, 270);
+            this.txtTotalEnergyStored.Name = "txtTotalEnergyStored";
+            this.txtTotalEnergyStored.Size = new System.Drawing.Size(106, 20);
+            this.txtTotalEnergyStored.TabIndex = 9;
             // 
             // btnback3
             // 
@@ -143,7 +143,7 @@
             this.Controls.Add(this.laellHome);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.btnback3);
-            this.Controls.Add(this.txtBoxTotalEnergyUsageStored);
+            this.Controls.Add(this.txtTotalEnergyStored);
             this.Controls.Add(this.labelTotalEnergyUsageStored);
             this.Controls.Add(this.labelNotifications);
             this.Controls.Add(this.labelSettings);
@@ -159,7 +159,7 @@
         private System.Windows.Forms.Label labelSettings;
         private System.Windows.Forms.Label labelNotifications;
         private System.Windows.Forms.Label labelTotalEnergyUsageStored;
-        private System.Windows.Forms.TextBox txtBoxTotalEnergyUsageStored;
+        private System.Windows.Forms.TextBox txtTotalEnergyStored;
         private System.Windows.Forms.Button btnback3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.Label laellHome;

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -7,20 +8,20 @@ using System.Windows.Forms;
 
 namespace EnergyUsageTracker
 {
-   //Store the data in a csv file so every time I run it refers to that csv file
     public partial class LogAppliances : Form
     {
         private List<string> applianceHistory = new List<string>();
         private int currentPage = 0;
         private const int ItemsPerPage = 10;
-        private Label lblpanum = new Label(); 
+        private Label lblpanum = new Label();
+        private const string CsvFilePath = "appliance_history.csv"; // CSV file path
 
         public LogAppliances()
         {
             InitializeComponent();
             CenterToScreen();
-            LoadHistory();
             InitializePageLabel();
+            LoadHistory();
             PopulateComboBox();
         }
 
@@ -34,18 +35,33 @@ namespace EnergyUsageTracker
 
         private void LoadHistory()
         {
-            applianceHistory.Add("Fridge - 200W - 5 hrs");
-            applianceHistory.Add("Microwave - 1000W - 10 mins");
-            applianceHistory.Add("Dishwasher - 800W - 1.5 hrs");
-            applianceHistory.Add("Air Conditioner - 2000W - 3 hrs");
-            applianceHistory.Add("Heater - 1500W - 2 hrs");
-            applianceHistory.Add("Oven - 1800W - 45 mins");
-            applianceHistory.Add("Fan - 75W - 6 hrs");
-            applianceHistory.Add("Washing Machine - 500W - 1 hr");
-            applianceHistory.Add("Dryer - 1500W - 50 mins");
-            applianceHistory.Add("Vacuum - 1200W - 30 mins");
-
+            if (File.Exists(CsvFilePath))
+            {
+                applianceHistory = File.ReadAllLines(CsvFilePath).ToList();
+            }
+            else
+            {
+                applianceHistory = new List<string>
+                {
+                    "Fridge - 200W - 5 hrs",
+                    "Microwave - 1000W - 10 mins",
+                    "Dishwasher - 800W - 1.5 hrs",
+                    "Air Conditioner - 2000W - 3 hrs",
+                    "Heater - 1500W - 2 hrs",
+                    "Oven - 1800W - 45 mins",
+                    "Fan - 75W - 6 hrs",
+                    "Washing Machine - 500W - 1 hr",
+                    "Dryer - 1500W - 50 mins",
+                    "Vacuum - 1200W - 30 mins"
+                };
+                SaveHistory(); // Save default entries
+            }
             UpdateHistoryDisplay();
+        }
+
+        private void SaveHistory()
+        {
+            File.WriteAllLines(CsvFilePath, applianceHistory);
         }
 
         private void UpdateHistoryDisplay()
@@ -114,6 +130,7 @@ namespace EnergyUsageTracker
         {
             Application.Run(new EnergyTracker());
         }
+
         private void PopulateComboBox()
         {
             comboBox1.Items.Add("Sort A → Z");
@@ -125,6 +142,7 @@ namespace EnergyUsageTracker
 
             comboBox1.SelectedIndex = 0;
         }
+
         private void BubbleSortAppliances(bool ascending)
         {
             int n = applianceHistory.Count;
@@ -154,11 +172,11 @@ namespace EnergyUsageTracker
 
             if (selectedOption == "Sort A → Z")
             {
-                BubbleSortAppliances(true);  
+                BubbleSortAppliances(true);
             }
             else if (selectedOption == "Sort Z → A")
             {
-                BubbleSortAppliances(false); 
+                BubbleSortAppliances(false);
             }
             else if (selectedOption == "Sort by Wattage (Low → High)")
             {
@@ -177,7 +195,7 @@ namespace EnergyUsageTracker
                 applianceHistory = applianceHistory.OrderByDescending(GetUsageTime).ToList();
             }
 
-            currentPage = 0;  
+            currentPage = 0;
             UpdateHistoryDisplay();
         }
 
@@ -195,6 +213,7 @@ namespace EnergyUsageTracker
             double value = double.Parse(match.Groups[1].Value);
             return match.Groups[2].Value == "min" ? value / 60.0 : value;
         }
+
         List<Appliance> applianceList = new List<Appliance>();
 
         public void AddNewAppliance(int userId, string name, float wattage, float usageDuration)
@@ -213,6 +232,7 @@ namespace EnergyUsageTracker
                 appliance.ModifyAppliance(newWattage, newUsageDuration);
             }
         }
+
         private void btnAddAppliance_Click_1(object sender, EventArgs e)
         {
             string applianceName = txtAppName.Text;
@@ -227,6 +247,7 @@ namespace EnergyUsageTracker
 
             string newEntry = $"{applianceName} - {wattage}W - {usageDuration} hrs";
             applianceHistory.Add(newEntry);
+            SaveHistory();
             currentPage = (applianceHistory.Count - 1) / ItemsPerPage;
             UpdateHistoryDisplay();
         }

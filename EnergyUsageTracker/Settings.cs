@@ -8,17 +8,17 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace EnergyUsageTracker
 {
-    //see if in the settings for the stored textbox if you can make a database so when everytime the energy is stored in completed goal log, state the amount
-
     public partial class Settings : Form
     {
         public Settings()
         {
             InitializeComponent();
             CenterToScreen();
+            LoadTotalEnergyUsage();
         }
 
         private void btnback3_Click(object sender, EventArgs e)
@@ -31,6 +31,34 @@ namespace EnergyUsageTracker
         {
             Application.Run(new HomePage());
         }
+        private void LoadTotalEnergyUsage()
+        {
+            string connectionString = "Your_Connection_String_Here"; // Replace with your actual database connection string
+            string query = "SELECT SUM(EnergyUsage) FROM CompletedGoalLog";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    object result = cmd.ExecuteScalar();
+
+                    if (result != DBNull.Value)
+                    {
+                        txtTotalEnergyStored.Text = result.ToString();
+                    }
+                    else
+                    {
+                        txtTotalEnergyStored.Text = "0";
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error loading energy usage: " + ex.Message);
+                }
+            }
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -41,8 +69,6 @@ namespace EnergyUsageTracker
             laellHome.ForeColor = System.Drawing.Color.Black;
             button1.BackColor = System.Drawing.Color.White;
             button1.ForeColor = System.Drawing.Color.Black;
-            button2.BackColor = System.Drawing.Color.Black;
-            button2.ForeColor = System.Drawing.Color.White;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -50,13 +76,10 @@ namespace EnergyUsageTracker
             this.BackColor = System.Drawing.Color.Gray;
             labelSettings.ForeColor = System.Drawing.Color.White;
             labelNotifications.ForeColor = System.Drawing.Color.White;
-            labelTotalEnergyUsageStored.ForeColor= System.Drawing.Color.White;
+            labelTotalEnergyUsageStored.ForeColor = System.Drawing.Color.White;
             laellHome.ForeColor = System.Drawing.Color.White;
             button1.BackColor = System.Drawing.Color.Black;
             button1.ForeColor = System.Drawing.Color.White;
-            button2.BackColor = System.Drawing.Color.White;
-            button2.ForeColor = System.Drawing.Color.Black;
-
         }
     }
 }

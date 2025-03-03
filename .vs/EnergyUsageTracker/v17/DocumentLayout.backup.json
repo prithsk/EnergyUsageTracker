@@ -1,121 +1,137 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\",
+  "WorkspaceRootPath": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\logappliances.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\logappliances.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\completedgoallog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\completedgoallog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\completedgoallog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\completedgoallog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\completedgoallog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\completedgoallog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|c:\\users\\krishnan\\onedrive\\documents\\visual studio 2022\\energyusagetracker\\energyusag\\energyu\\energyusagetracker\\addgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\addgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\addgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\addgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\addgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\addgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\planfutureenergyusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\planfutureenergyusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\rationale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\rationale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\recommendations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\recommendations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\rationale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\rationale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\setgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\setgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\addgoals.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\addgoals.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:EnergyUsageTracker\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\logappliances.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\logappliances.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\energytracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\energytracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\completedgoallog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\completedgoallog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\energyusagetracker\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\PlanFutureEnergyUsage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:EnergyUsageTracker\\PlanFutureEnergyUsage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\planfutureenergyusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\planfutureenergyusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\SetGoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\logappliances.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\logappliances.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:EnergyUsageTracker\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\recommendations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\recommendations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\rationale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\rationale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\appliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\appliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\energytracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\energytracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\planfutureenergyusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\planfutureenergyusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|c:\\__students\\krishnan\\energyusagetrack\\enuse\\en\\energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\logappliances.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\logappliances.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\setgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\setgoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\rationale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\rationale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\addgoals.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\addgoals.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\logappliances.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\logappliances.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\energyusagetracker\\completedgoallog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\completedgoallog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\SetGoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:EnergyUsageTracker\\SetGoals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Recommendations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Recommendations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:EnergyUsageTracker\\Recommendations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\PlanFutureEnergyUsage.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\PlanFutureEnergyUsage.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:EnergyUsageTracker\\PlanFutureEnergyUsage.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\HomePage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\HomePage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:EnergyUsageTracker\\HomePage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\HomePage.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\HomePage.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:EnergyUsageTracker\\HomePage.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -126,65 +142,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Appliance.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Appliance.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\Appliance.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Appliance.cs",
+              "RelativeToolTip": "EnergyUsageTracker\\Appliance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T04:16:17.549Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "AddGoals.cs [Design]",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\AddGoals.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\AddGoals.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\AddGoals.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\AddGoals.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T01:34:54.404Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Recommendations.cs [Design]",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Recommendations.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\Recommendations.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Recommendations.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\Recommendations.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T02:59:17.088Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogAppliances.cs [Design]",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\LogAppliances.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\LogAppliances.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\LogAppliances.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\LogAppliances.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T04:20:12.606Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rationale.cs [Design]",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Rationale.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\Rationale.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Rationale.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\Rationale.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T01:36:35.915Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Program.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\Program.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Program.cs",
+              "RelativeToolTip": "EnergyUsageTracker\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T03:13:31.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\App.config",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\App.config",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\App.config",
+              "RelativeToolTip": "EnergyUsageTracker\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-02-13T15:20:19.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddGoals.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\AddGoals.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\AddGoals.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\AddGoals.cs",
+              "RelativeToolTip": "EnergyUsageTracker\\AddGoals.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAnwIMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T23:23:21.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CompletedGoalLog.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\CompletedGoalLog.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\CompletedGoalLog.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\CompletedGoalLog.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\CompletedGoalLog.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\CompletedGoalLog.cs",
               "RelativeToolTip": "EnergyUsageTracker\\CompletedGoalLog.cs",
-              "ViewState": "AgIAANMAAAAAAAAAAAAAwN0AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAjwF4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T03:11:57.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlanFutureEnergyUsage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\PlanFutureEnergyUsage.cs [Design]",
-              "RelativeToolTip": "EnergyUsageTracker\\PlanFutureEnergyUsage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T21:25:33.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "History.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\History.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\History.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\History.cs [Design]",
-              "RelativeToolTip": "EnergyUsageTracker\\History.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T01:35:20.326Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "About.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\About.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\About.cs",
-              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\About.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\About.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T02:58:57.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CompletedGoalLog.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\CompletedGoalLog.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\CompletedGoalLog.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\CompletedGoalLog.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\CompletedGoalLog.cs [Design]",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\CompletedGoalLog.cs [Design]",
               "RelativeToolTip": "EnergyUsageTracker\\CompletedGoalLog.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T15:33:13.286Z",
@@ -192,128 +272,121 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "PlanFutureEnergyUsage.cs [Design]",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\PlanFutureEnergyUsage.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\PlanFutureEnergyUsage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:25:33.405Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnergyTracker.cs [Design]",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\EnergyTracker.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\EnergyTracker.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\EnergyTracker.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\EnergyTracker.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T02:59:10.219Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomePage.cs [Design]",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\HomePage.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\HomePage.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\HomePage.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\HomePage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T02:59:11.894Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "History.cs [Design]",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\History.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\History.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\History.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\History.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T01:35:20.326Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlanFutureEnergyUsage.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
+              "RelativeToolTip": "EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAwE4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T02:04:28.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Settings.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\Settings.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Settings.cs",
+              "RelativeToolTip": "EnergyUsageTracker\\Settings.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:01:46.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "LogAppliances.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\LogAppliances.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\LogAppliances.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\LogAppliances.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\LogAppliances.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\LogAppliances.cs",
               "RelativeToolTip": "EnergyUsageTracker\\LogAppliances.cs",
-              "ViewState": "AgIAAL4AAAAAAAAAAAAUwMcAAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T20:36:52.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddGoals.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\AddGoals.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\AddGoals.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\AddGoals.cs [Design]",
-              "RelativeToolTip": "EnergyUsageTracker\\AddGoals.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T01:34:54.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddGoals.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\AddGoals.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\AddGoals.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\AddGoals.cs",
-              "RelativeToolTip": "EnergyUsageTracker\\AddGoals.cs",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAUwKgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T23:23:21.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Settings.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\Settings.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Settings.cs",
-              "RelativeToolTip": "EnergyUsageTracker\\Settings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T16:01:46.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Rationale.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Rationale.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\Rationale.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Rationale.cs",
-              "RelativeToolTip": "EnergyUsageTracker\\Rationale.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAywDIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T16:05:52.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "History.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\History.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\History.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\History.cs",
-              "RelativeToolTip": "EnergyUsageTracker\\History.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAqwDAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T16:10:12.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "SetGoals.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\SetGoals.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\SetGoals.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\SetGoals.cs",
-              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\SetGoals.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\SetGoals.cs [Design]",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\SetGoals.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\SetGoals.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-15T02:59:19.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Recommendations.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Recommendations.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\Recommendations.cs",
-              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\Recommendations.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\Recommendations.cs [Design]",
+              "DocumentIndex": 16,
+              "Title": "Settings.cs [Design]",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Settings.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\Settings.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Settings.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\Settings.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T02:59:17.088Z"
+              "WhenOpened": "2025-02-15T02:59:20.343Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomePage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\HomePage.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\HomePage.cs",
-              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\HomePage.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\HomePage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T02:59:11.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Rationale.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Rationale.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\Rationale.cs",
-              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\Rationale.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\Rationale.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T01:36:35.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\DatabaseHelper.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\DatabaseHelper.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\DatabaseHelper.cs",
               "RelativeToolTip": "EnergyUsageTracker\\DatabaseHelper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -321,80 +394,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Settings.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Settings.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\Settings.cs",
-              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\Settings.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\EnergyUsageTracker\\Settings.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T02:59:20.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AddGoals.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\AddGoals.Designer.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\AddGoals.Designer.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\AddGoals.Designer.cs",
-              "RelativeToolTip": "EnergyUsageTracker\\AddGoals.Designer.cs",
-              "ViewState": "AgIAAM4AAAAAAAAAAAAqwOEAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:54:35.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Program.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\Program.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Program.cs",
-              "RelativeToolTip": "EnergyUsageTracker\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T03:13:31.361Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "LogAppliances.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\LogAppliances.Designer.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\LogAppliances.Designer.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\LogAppliances.Designer.cs",
-              "RelativeToolTip": "EnergyUsageTracker\\LogAppliances.Designer.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T18:55:31.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EnergyTracker.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\EnergyTracker.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\EnergyTracker.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyUsageTracker\\EnergyTracker.cs [Design]",
-              "RelativeToolTip": "..\\EnergyUsageTracker\\EnergyTracker.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T02:59:10.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\App.config",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\App.config",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\App.config",
-              "RelativeToolTip": "EnergyUsageTracker\\App.config",
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\packages.config",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\packages.config",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\packages.config",
+              "RelativeToolTip": "EnergyUsageTracker\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-02-13T15:20:19.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T16:01:44.794Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "About.cs [Design]",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\About.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\About.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\About.cs [Design]",
+              "RelativeToolTip": "EnergyUsageTracker\\About.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T02:58:57.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\User.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\User.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\User.cs",
+              "RelativeToolTip": "EnergyUsageTracker\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T04:15:59.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Rationale.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Rationale.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\Rationale.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Rationale.cs",
+              "RelativeToolTip": "EnergyUsageTracker\\Rationale.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAywDIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:05:52.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "History.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\History.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\History.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\History.cs",
+              "RelativeToolTip": "EnergyUsageTracker\\History.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:10:12.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddGoals.Designer.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\AddGoals.Designer.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\AddGoals.Designer.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\AddGoals.Designer.cs",
+              "RelativeToolTip": "EnergyUsageTracker\\AddGoals.Designer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:54:35.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LogAppliances.Designer.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\LogAppliances.Designer.cs",
+              "RelativeDocumentMoniker": "EnergyUsageTracker\\LogAppliances.Designer.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\LogAppliances.Designer.cs",
+              "RelativeToolTip": "EnergyUsageTracker\\LogAppliances.Designer.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:55:31.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "CompletedGoalLog.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\CompletedGoalLog.Designer.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\CompletedGoalLog.Designer.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\CompletedGoalLog.Designer.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\CompletedGoalLog.Designer.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\CompletedGoalLog.Designer.cs",
               "RelativeToolTip": "EnergyUsageTracker\\CompletedGoalLog.Designer.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T22:49:56.16Z",
@@ -402,69 +490,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PlanFutureEnergyUsage.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
-              "RelativeDocumentMoniker": "EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
-              "RelativeToolTip": "EnergyUsageTracker\\PlanFutureEnergyUsage.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T02:04:28.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "SetGoals.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\SetGoals.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\SetGoals.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\SetGoals.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\SetGoals.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\SetGoals.cs",
               "RelativeToolTip": "EnergyUsageTracker\\SetGoals.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T07:08:13.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Recommendations.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Recommendations.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Recommendations.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\Recommendations.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\Recommendations.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\Recommendations.cs",
               "RelativeToolTip": "EnergyUsageTracker\\Recommendations.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T02:54:26.669Z"
+              "WhenOpened": "2025-02-08T02:54:26.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "PlanFutureEnergyUsage.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\PlanFutureEnergyUsage.Designer.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\PlanFutureEnergyUsage.Designer.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\PlanFutureEnergyUsage.Designer.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\PlanFutureEnergyUsage.Designer.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\PlanFutureEnergyUsage.Designer.cs",
               "RelativeToolTip": "EnergyUsageTracker\\PlanFutureEnergyUsage.Designer.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T02:05:30.635Z"
+              "WhenOpened": "2025-02-09T02:05:30.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "HomePage.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\HomePage.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\HomePage.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\HomePage.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\HomePage.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\HomePage.cs",
               "RelativeToolTip": "EnergyUsageTracker\\HomePage.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T03:26:43.072Z"
+              "WhenOpened": "2025-02-05T03:26:43.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "HomePage.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\HomePage.Designer.cs",
+              "DocumentMoniker": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\HomePage.Designer.cs",
               "RelativeDocumentMoniker": "EnergyUsageTracker\\HomePage.Designer.cs",
-              "ToolTip": "C:\\Users\\Krishnan\\OneDrive\\Documents\\Visual Studio 2022\\EnergyUsageTracker\\EnergyUsag\\EnergyU\\EnergyUsageTracker\\HomePage.Designer.cs",
+              "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnUse\\En\\EnergyUsageTracker\\HomePage.Designer.cs",
               "RelativeToolTip": "EnergyUsageTracker\\HomePage.Designer.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T03:26:21.072Z"
+              "WhenOpened": "2025-02-05T03:26:21.072Z",
+              "EditorCaption": ""
             }
           ]
         }

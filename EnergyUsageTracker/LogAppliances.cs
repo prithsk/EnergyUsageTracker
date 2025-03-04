@@ -14,7 +14,7 @@ namespace EnergyUsageTracker
         private int currentPage = 0;
         private const int ItemsPerPage = 10;
         private Label lblpanum = new Label();
-        private const string CsvFilePath = "appliance_history.csv"; // CSV file path
+        private const string CsvFilePath = "Book2.csv";
 
         public LogAppliances()
         {
@@ -45,13 +45,13 @@ namespace EnergyUsageTracker
                 {
                     "Fridge - 200W - 5 hrs",
                     "Microwave - 1000W - 10 mins",
-                    "Dishwasher - 800W - 1.5 hrs",
+                    "Dishwasher - 900W - 1.5 hrs",
                     "Air Conditioner - 2000W - 3 hrs",
                     "Heater - 1500W - 2 hrs",
                     "Oven - 1800W - 45 mins",
                     "Fan - 75W - 6 hrs",
                     "Washing Machine - 500W - 1 hr",
-                    "Dryer - 1500W - 50 mins",
+                    "Dryer - 1300W - 45 mins",
                     "Vacuum - 1200W - 30 mins"
                 };
                 SaveHistory(); // Save default entries

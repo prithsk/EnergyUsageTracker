@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -23,6 +24,7 @@ namespace EnergyUsageTracker
             InitializePageLabel();
             LoadHistory();
             PopulateComboBox();
+            
         }
 
         private void InitializePageLabel()
@@ -32,7 +34,6 @@ namespace EnergyUsageTracker
             Controls.Add(lblpanum);
             UpdatePageLabel();
         }
-
         private void LoadHistory()
         {
             if (File.Exists(CsvFilePath))

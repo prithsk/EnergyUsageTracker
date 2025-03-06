@@ -33,8 +33,8 @@ namespace EnergyUsageTracker
         }
         private void LoadTotalEnergyUsage()
         {
-            string connectionString = "Your_Connection_String_Here"; // Replace with your actual database connection string
-            string query = "SELECT SUM(EnergyUsage) FROM CompletedGoalLog";
+            string connectionString = "Server=your_server_name;Database=your_database_name;Integrated Security=True;";
+            string query = "SELECT SUM(EnergyUsage) FROM LoggedAppliances"; // Use your actual table name
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -44,7 +44,7 @@ namespace EnergyUsageTracker
                     SqlCommand cmd = new SqlCommand(query, conn);
                     object result = cmd.ExecuteScalar();
 
-                    if (result != DBNull.Value)
+                    if (result != DBNull.Value && result != null)
                     {
                         txtTotalEnergyStored.Text = result.ToString();
                     }
@@ -59,6 +59,7 @@ namespace EnergyUsageTracker
                 }
             }
         }
+   
 
         private void button1_Click(object sender, EventArgs e)
         {

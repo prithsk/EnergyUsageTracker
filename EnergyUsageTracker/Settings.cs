@@ -18,7 +18,7 @@ namespace EnergyUsageTracker
         {
             InitializeComponent();
             CenterToScreen();
-            LoadTotalEnergyUsage();
+            //LoadTotalEnergyUsage();
         }
 
         private void btnback3_Click(object sender, EventArgs e)
@@ -31,9 +31,11 @@ namespace EnergyUsageTracker
         {
             Application.Run(new HomePage());
         }
+        /*
         private void LoadTotalEnergyUsage()
         {
-            string connectionString = "Server=your_server_name;Database=your_database_name;Integrated Security=True;";
+           /*
+            string connectionString = "Server=your_server_name;Database=Book2.csv;Integrated Security=True;";
             string query = "SELECT SUM(EnergyUsage) FROM LoggedAppliances"; // Use your actual table name
 
             using (SqlConnection conn = new SqlConnection(connectionString))
@@ -59,7 +61,7 @@ namespace EnergyUsageTracker
                 }
             }
         }
-   
+   */
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -70,6 +72,9 @@ namespace EnergyUsageTracker
             laellHome.ForeColor = System.Drawing.Color.Black;
             button1.BackColor = System.Drawing.Color.White;
             button1.ForeColor = System.Drawing.Color.Black;
+            button2.BackColor = System.Drawing.Color.Black;
+            button2.ForeColor = System.Drawing.Color.White;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -81,6 +86,8 @@ namespace EnergyUsageTracker
             laellHome.ForeColor = System.Drawing.Color.White;
             button1.BackColor = System.Drawing.Color.Black;
             button1.ForeColor = System.Drawing.Color.White;
+            button2.BackColor = System.Drawing.Color.White;
+            button2.ForeColor = System.Drawing.Color.Black;
         }
     }
 }

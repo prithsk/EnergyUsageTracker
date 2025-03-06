@@ -75,6 +75,7 @@
             // 
             // txtTotalEnergyStored
             // 
+            this.txtTotalEnergyStored.Enabled = false;
             this.txtTotalEnergyStored.Location = new System.Drawing.Point(499, 270);
             this.txtTotalEnergyStored.Name = "txtTotalEnergyStored";
             this.txtTotalEnergyStored.Size = new System.Drawing.Size(106, 20);

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnergyUse\\EUT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnergyUse\\EUT\\energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|c:\\__students\\krishnan\\energyusagetrack\\energyuse\\eut\\energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|c:\\__students\\krishnan\\energyusagetrack\\energyuse\\eut\\energyusagetracker\\logappliances.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnergyUse\\EUT\\energyusagetracker\\logappliances.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C5A08EF-E63C-49A7-AF8F-08086A9FE6D3}|EnergyUsageTracker\\EnergyUsageTracker.csproj|solutionrelative:energyusagetracker\\logappliances.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -167,8 +167,7 @@
               "RelativeToolTip": "EnergyUsageTracker\\LogAppliances.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T20:36:52.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T20:36:52.205Z"
             },
             {
               "$type": "Document",
@@ -239,8 +238,7 @@
               "ToolTip": "C:\\__Students\\Krishnan\\EnergyUsageTrack\\EnergyUse\\EUT\\EnergyUsageTracker\\App.config",
               "RelativeToolTip": "EnergyUsageTracker\\App.config",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-02-13T15:20:19.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T15:20:19.617Z"
             },
             {
               "$type": "Document",

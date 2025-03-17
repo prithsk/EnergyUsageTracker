@@ -3,6 +3,7 @@ using System.Data.SQLite;
 using System.IO;
 using Dapper;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 
 namespace EnergyUsageTracker
 {
@@ -50,6 +51,23 @@ namespace EnergyUsageTracker
         public static SQLiteConnection GetConnection()
         {
             return new SQLiteConnection(connectionString);
+        }
+        //make sure to check the error here
+        public void AddAppliance(string name, decimal power, decimal hours)
+        {
+            string query = "INSERT INTO Appliance (Name, PowerConsumption, UsageHoursPerDay, DateAdded) VALUES (@name, @power, @hours, @date)";
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@name", name);
+                cmd.Parameters.AddWithValue("@power", power);
+                cmd.Parameters.AddWithValue("@hours", hours);
+                cmd.Parameters.AddWithValue("@date", DateTime.Now);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
         }
     }
 }

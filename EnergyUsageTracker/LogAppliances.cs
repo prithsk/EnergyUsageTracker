@@ -22,8 +22,9 @@ namespace EnergyUsageTracker
             InitializeComponent();
             CenterToScreen();
             InitializePageLabel();
-            LoadHistory();
+            LoadsHistory();
             PopulateComboBox();
+            LoadHistory();
             
         }
 
@@ -34,7 +35,41 @@ namespace EnergyUsageTracker
             Controls.Add(lblpanum);
             UpdatePageLabel();
         }
+        private string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Settings.mdf;Integrated Security=True";
+
         private void LoadHistory()
+        {
+            applianceHistory.Clear();
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                string query = "SELECT Name, PowerConsumption, UsageHoursPerDay FROM Appliance";
+                SqlCommand cmd = new SqlCommand(query, conn);
+
+                try
+                {
+                    conn.Open();
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    while (reader.Read())
+                    {
+                        string name = reader["Name"].ToString();
+                        double power = Convert.ToDouble(reader["PowerConsumption"]);
+                        double hours = Convert.ToDouble(reader["UsageHoursPerDay"]);
+
+                        applianceHistory.Add($"{name} - {power}W - {hours} hrs");
+                    }
+                    reader.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error loading appliances: " + ex.Message);
+                }
+            }
+
+            UpdateHistoryDisplay();
+        }
+        private void LoadsHistory()
         {
             if (File.Exists(CsvFilePath))
             {
@@ -233,7 +268,9 @@ namespace EnergyUsageTracker
                 appliance.ModifyAppliance(newWattage, newUsageDuration);
             }
         }
+        
 
+        //check the code to see if there are any changes to this
         private void btnAddAppliance_Click_1(object sender, EventArgs e)
         {
             string applianceName = txtAppName.Text;

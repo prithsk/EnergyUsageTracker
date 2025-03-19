@@ -69,9 +69,9 @@
             this.labelTotalEnergyUsageStored.ForeColor = System.Drawing.SystemColors.Desktop;
             this.labelTotalEnergyUsageStored.Location = new System.Drawing.Point(228, 268);
             this.labelTotalEnergyUsageStored.Name = "labelTotalEnergyUsageStored";
-            this.labelTotalEnergyUsageStored.Size = new System.Drawing.Size(265, 20);
+            this.labelTotalEnergyUsageStored.Size = new System.Drawing.Size(261, 20);
             this.labelTotalEnergyUsageStored.TabIndex = 6;
-            this.labelTotalEnergyUsageStored.Text = "Total Energy Usage Stored (Joules):";
+            this.labelTotalEnergyUsageStored.Text = "Total Energy Usage Stored (Watts):";
             // 
             // txtTotalEnergyStored
             // 
@@ -80,6 +80,7 @@
             this.txtTotalEnergyStored.Name = "txtTotalEnergyStored";
             this.txtTotalEnergyStored.Size = new System.Drawing.Size(106, 20);
             this.txtTotalEnergyStored.TabIndex = 9;
+            this.txtTotalEnergyStored.Text = "7500 Watts";
             // 
             // btnback3
             // 

@@ -51,7 +51,7 @@ namespace EnergyUsageTracker
                 $"If your goal is {goal}, try a program that includes a set time to turn off certain appliances or different ways to time when to turn off all appliances, saving you more energy over time."
             };
 
-            // Randomly select a routine
+            
             Random rand = new Random();
             int index = rand.Next(routines.Count);
             return routines[index];

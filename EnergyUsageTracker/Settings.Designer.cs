@@ -80,7 +80,7 @@
             this.txtTotalEnergyStored.Name = "txtTotalEnergyStored";
             this.txtTotalEnergyStored.Size = new System.Drawing.Size(106, 20);
             this.txtTotalEnergyStored.TabIndex = 9;
-            this.txtTotalEnergyStored.Text = "7500 Watts";
+            this.txtTotalEnergyStored.Text = "8000 Watts";
             // 
             // btnback3
             // 

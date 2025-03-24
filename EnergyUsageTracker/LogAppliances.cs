@@ -55,7 +55,7 @@ namespace EnergyUsageTracker
                     "Dryer - 1300W - 45 mins",
                     "Vacuum - 1200W - 30 mins"
                 };
-                SaveHistory(); // Save default entries
+                SaveHistory(); 
             }
             UpdateHistoryDisplay();
         }
